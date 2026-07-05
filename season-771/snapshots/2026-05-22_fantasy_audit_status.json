@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-05-22T19:46:25+08:00",
+  "season": "771",
+  "day": "4",
+  "schedule_type": "冬季聯賽",
+  "scraped_at": "2026-05-22T19:42:20+08:00",
+  "players": 216,
+  "summary_rows": 202,
+  "players_with_summary": 199,
+  "sourceFreshness": {
+    "status": "fresh_web_scrape",
+    "teisatuFreshSakus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "teisatuCacheSakus": [],
+    "teisatuUnavailableSakus": [],
+    "teisatuFetchCount": 12,
+    "summaryStatus": "fresh_web_scrape",
+    "historyStatus": "fresh_web_scrape",
+    "events": [
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=0",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:41:29+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=1",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:41:33+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=2",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:41:37+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=3",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:41:41+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=4",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:41:44+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=5",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:41:48+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=6",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:41:52+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=7",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:41:56+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=8",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:42:00+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=9",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:42:04+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=10",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:42:08+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=11",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:42:12+08:00"
+      },
+      {
+        "url": "POST kakuninn",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:42:16+08:00"
+      },
+      {
+        "url": "POST kiroku",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-22T19:42:20+08:00"
+      }
+    ]
+  },
+  "playerSnapshot": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\snapshots\\2026-05-22_players.json",
+  "liveRawDir": "C:\\Users\\YOSHI\\Documents\\ore-db\\live-2026-05-22",
+  "fantasyAccess": {
+    "currentRunStatus": "public_outcome_only_complete_crowd_list_blocked_after_stored_credential_attempt",
+    "publicOutcomeSummaryFetched": true,
+    "crowdPicksInspected": false,
+    "usableCompleteListFetched": false,
+    "credentialImported": true,
+    "credentialUsed": true,
+    "authenticatedLoginRequestSucceeded": true,
+    "authenticatedLoginLooksUsable": false,
+    "authenticatedFetchSucceeded": false,
+    "statusPath": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-pages-2026-05-22-193711-auth-forced\\fetch_status.json",
+    "outputDir": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-pages-2026-05-22-193711-auth-forced",
+    "note": "Stored credential imported and used, but authenticated fantasy variants returned login-required or non-list pages; no complete crowd-pick list was fetched."
+  },
+  "publicFantasyOutcomeSummary": {
+    "sourcePath": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-pages-2026-05-22-193711-auth-forced\\public_home.html",
+    "postedAt": "05/15 22:45",
+    "participants": 75,
+    "totalPrize": "7億5000萬",
+    "categoryPrize": "9375萬",
+    "winners": {
+      "三振": "多里斯改",
+      "勝場": "jgd1107",
+      "盜壘": "傑尼斯",
+      "本打": "老子",
+      "打點": "老子",
+      "防率": "eric0214",
+      "打率": "臺灣",
+      "救援": "瑟七拳擊手"
+    },
+    "consolationCount": 39,
+    "consolationNamesSeen": [
+      "0738",
+      "80338",
+      "ARCp8p8p8",
+      "AynMo",
+      "Beagood",
+      "DriverQQ",
+      "GH0822",
+      "HKN81",
+      "JCChou",
+      "Kobegod",
+      "Snow",
+      "a89182",
+      "algop528",
+      "allan5250",
+      "edahnd",
+      "geniusway",
+      "horoach",
+      "hyg0514",
+      "jac1009",
+      "kakuhao",
+      "kanemoto",
+      "kerwin",
+      "kevin8215",
+      "lalabear",
+      "mikan",
+      "pipi258",
+      "porching",
+      "poto8052",
+      "protomodel",
+      "sd91147",
+      "shin55",
+      "wunno",
+      "zero81128",
+      "小辣椒",
+      "兩隻久久",
+      "泡泡",
+      "海馬瀨人",
+      "鬼狼",
+      "龜老大"
+    ]
+  },
+  "codexPickAudit": {
+    "crowdPickComparisonAvailable": false,
+    "usedPriorAuditPath": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-770\\snapshots\\2026-05-15_fantasy_audit_status.json",
+    "obviousCodexPickMisses": [
+      "HR+SV：打者端沒有記錄到明顯漏選；6 個位置第一，9 個打者都在前三。",
+      "HR+SV：CP 實績 20 SV，排名 7/99，沒有追到救援第一名。",
+      "HR+SV：RP 救援貢獻偏低，1 SV(rank 37)、1 SV(rank 35)。",
+      "SB+SV：3B 盜壘選擇明顯失手，實績 0 SB，位置排名 9/11。",
+      "SB+SV：CP 選擇相對成功，實績 30 SV，排名 2/99。",
+      "SB+SV：仍有低救援 RP，1 SV(rank 35)。"
+    ],
+    "note": "Complete crowd-pick list remained blocked; outcome comparison uses the public fantasy result summary plus the latest structured Codex audit."
+  },
+  "updatedFiles": {
+    "players": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\players.json",
+    "meta": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\meta.json",
+    "championship": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\championship.json",
+    "seasonSnapshot": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\season_snapshot.json",
+    "datedPlayersSnapshot": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\snapshots\\2026-05-22_players.json",
+    "datedSeasonSnapshot": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\snapshots\\2026-05-22_season_snapshot.json",
+    "fantasyAuditStatus": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\snapshots\\2026-05-22_fantasy_audit_status.json",
+    "fantasyFetchStatus": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-pages-2026-05-22-193711-auth-forced\\fetch_status.json"
+  }
+}

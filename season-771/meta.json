@@ -1,0 +1,124 @@
+{
+  "season": "771",
+  "day": "7",
+  "schedule_type": "",
+  "scraped_at": "2026-05-24T20:47:21+08:00",
+  "source": {
+    "teisatu": [
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=0",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=1",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=2",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=3",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=4",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=5",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=6",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=7",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=8",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=9",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=10",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=11"
+    ],
+    "kakuninn": "POST kakuninn=陣容介紹",
+    "kiroku": "POST kiroku=歷史記錄"
+  },
+  "sourceFreshness": {
+    "status": "fresh_web_scrape",
+    "teisatuFreshSakus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "teisatuCacheSakus": [],
+    "teisatuUnavailableSakus": [],
+    "teisatuFetchCount": 12,
+    "summaryStatus": "fresh_web_scrape",
+    "historyStatus": "fresh_web_scrape",
+    "events": [
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=0",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:46:32+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=1",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:46:35+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=2",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:46:39+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=3",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:46:43+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=4",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:46:47+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=5",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:46:51+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=6",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:46:54+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=7",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:46:58+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=8",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:47:02+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=9",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:47:06+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=10",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:47:09+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=11",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:47:13+08:00"
+      },
+      {
+        "url": "POST kakuninn",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:47:18+08:00"
+      },
+      {
+        "url": "POST kiroku",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-24T20:47:21+08:00"
+      }
+    ]
+  },
+  "summary_rows": 0,
+  "players_with_summary": 0,
+  "latest_players_file": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\players.json",
+  "latest_championship_file": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\championship.json",
+  "latest_season_snapshot_file": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\season_snapshot.json",
+  "latest_snapshot_file": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\snapshots\\2026-05-24_players.json"
+}

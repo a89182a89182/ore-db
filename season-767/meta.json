@@ -1,0 +1,30 @@
+{
+  "season": "767",
+  "day": "7",
+  "schedule_type": "",
+  "scraped_at": "2026-04-27T10:53:06+08:00",
+  "source": {
+    "teisatu": [
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=0",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=1",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=2",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=3",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=4",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=5",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=6",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=7",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=8",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=9",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=10",
+      "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=11"
+    ],
+    "kakuninn": "POST kakuninn=陣容介紹",
+    "kiroku": "POST kiroku=歷史記錄"
+  },
+  "summary_rows": 0,
+  "players_with_summary": 0,
+  "latest_players_file": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-767\\players.json",
+  "latest_championship_file": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-767\\championship.json",
+  "latest_season_snapshot_file": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-767\\season_snapshot.json",
+  "latest_snapshot_file": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-767\\snapshots\\2026-04-27_players.json"
+}

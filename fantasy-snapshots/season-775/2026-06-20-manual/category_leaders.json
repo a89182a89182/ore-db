@@ -1,0 +1,562 @@
+[
+    {
+        "category":  "\u6253\u7387",
+        "value":  "0.280849",
+        "team":  "\u5e74\u4ee3",
+        "account":  "JCChou",
+        "rawLine":  "0.280849  \u5e74\u4ee3  JCChou"
+    },
+    {
+        "category":  "\u6253\u7387",
+        "value":  "0.280228",
+        "team":  null,
+        "account":  "david32011",
+        "rawLine":  "0.280228 david32011"
+    },
+    {
+        "category":  "\u6253\u7387",
+        "value":  "0.279969",
+        "team":  null,
+        "account":  "zero81128",
+        "rawLine":  "0.279969 zero81128"
+    },
+    {
+        "category":  "\u6253\u7387",
+        "value":  "0.279397",
+        "team":  null,
+        "account":  "kakuhao",
+        "rawLine":  "0.279397 kakuhao"
+    },
+    {
+        "category":  "\u6253\u7387",
+        "value":  "0.278530",
+        "team":  null,
+        "account":  "skill",
+        "rawLine":  "0.278530 skill"
+    },
+    {
+        "category":  "\u6253\u7387",
+        "value":  "0.277378",
+        "team":  null,
+        "account":  "poto8052",
+        "rawLine":  "0.277378 poto8052"
+    },
+    {
+        "category":  "\u6253\u7387",
+        "value":  "0.277237",
+        "team":  null,
+        "account":  "SSRdevil",
+        "rawLine":  "0.277237 SSRdevil"
+    },
+    {
+        "category":  "\u6253\u7387",
+        "value":  "0.277216",
+        "team":  null,
+        "account":  "shin55",
+        "rawLine":  "0.277216 shin55"
+    },
+    {
+        "category":  "\u6253\u7387",
+        "value":  "0.276882",
+        "team":  null,
+        "account":  "jimmy16034",
+        "rawLine":  "0.276882 jimmy16034"
+    },
+    {
+        "category":  "\u6253\u7387",
+        "value":  "0.275976",
+        "team":  null,
+        "account":  "DriverQQ",
+        "rawLine":  "0.275976 DriverQQ"
+    },
+    {
+        "category":  "\u672c\u6253",
+        "value":  "383",
+        "team":  "\u5e74\u4ee3",
+        "account":  "JCChou",
+        "rawLine":  "383  \u5e74\u4ee3  JCChou"
+    },
+    {
+        "category":  "\u672c\u6253",
+        "value":  "381",
+        "team":  null,
+        "account":  "SSRdevil",
+        "rawLine":  "381 SSRdevil"
+    },
+    {
+        "category":  "\u672c\u6253",
+        "value":  "372",
+        "team":  null,
+        "account":  "zero81128",
+        "rawLine":  "372 zero81128"
+    },
+    {
+        "category":  "\u672c\u6253",
+        "value":  "371",
+        "team":  null,
+        "account":  "\u8001\u5b50",
+        "rawLine":  "371 \u8001\u5b50"
+    },
+    {
+        "category":  "\u672c\u6253",
+        "value":  "368",
+        "team":  null,
+        "account":  "shin55",
+        "rawLine":  "368 shin55"
+    },
+    {
+        "category":  "\u672c\u6253",
+        "value":  "368",
+        "team":  null,
+        "account":  "kakuhao",
+        "rawLine":  "368 kakuhao"
+    },
+    {
+        "category":  "\u672c\u6253",
+        "value":  "366",
+        "team":  null,
+        "account":  "poto8052",
+        "rawLine":  "366 poto8052"
+    },
+    {
+        "category":  "\u672c\u6253",
+        "value":  "365",
+        "team":  null,
+        "account":  "\u5169\u96bb\u4e45\u4e45",
+        "rawLine":  "365 \u5169\u96bb\u4e45\u4e45"
+    },
+    {
+        "category":  "\u672c\u6253",
+        "value":  "363",
+        "team":  null,
+        "account":  "\u5357\u72ac",
+        "rawLine":  "363 \u5357\u72ac"
+    },
+    {
+        "category":  "\u672c\u6253",
+        "value":  "360",
+        "team":  null,
+        "account":  "wings",
+        "rawLine":  "360 wings"
+    },
+    {
+        "category":  "\u6253\u9ede",
+        "value":  "939",
+        "team":  "\u5e74\u4ee3",
+        "account":  "JCChou",
+        "rawLine":  "939  \u5e74\u4ee3  JCChou"
+    },
+    {
+        "category":  "\u6253\u9ede",
+        "value":  "934",
+        "team":  null,
+        "account":  "SSRdevil",
+        "rawLine":  "934 SSRdevil"
+    },
+    {
+        "category":  "\u6253\u9ede",
+        "value":  "934",
+        "team":  null,
+        "account":  "\u8001\u5b50",
+        "rawLine":  "934 \u8001\u5b50"
+    },
+    {
+        "category":  "\u6253\u9ede",
+        "value":  "931",
+        "team":  null,
+        "account":  "kakuhao",
+        "rawLine":  "931 kakuhao"
+    },
+    {
+        "category":  "\u6253\u9ede",
+        "value":  "917",
+        "team":  null,
+        "account":  "shin55",
+        "rawLine":  "917 shin55"
+    },
+    {
+        "category":  "\u6253\u9ede",
+        "value":  "915",
+        "team":  null,
+        "account":  "zero81128",
+        "rawLine":  "915 zero81128"
+    },
+    {
+        "category":  "\u6253\u9ede",
+        "value":  "913",
+        "team":  null,
+        "account":  "poto8052",
+        "rawLine":  "913 poto8052"
+    },
+    {
+        "category":  "\u6253\u9ede",
+        "value":  "907",
+        "team":  null,
+        "account":  "skill",
+        "rawLine":  "907 skill"
+    },
+    {
+        "category":  "\u6253\u9ede",
+        "value":  "896",
+        "team":  null,
+        "account":  "\u5169\u96bb\u4e45\u4e45",
+        "rawLine":  "896 \u5169\u96bb\u4e45\u4e45"
+    },
+    {
+        "category":  "\u6253\u9ede",
+        "value":  "895",
+        "team":  null,
+        "account":  "\u5357\u72ac",
+        "rawLine":  "895 \u5357\u72ac"
+    },
+    {
+        "category":  "\u76dc\u58d8",
+        "value":  "116",
+        "team":  "\u8208\u8fb2",
+        "account":  "ARCp8p8p8",
+        "rawLine":  "116  \u8208\u8fb2  ARCp8p8p8"
+    },
+    {
+        "category":  "\u76dc\u58d8",
+        "value":  "113",
+        "team":  null,
+        "account":  "allan5250",
+        "rawLine":  "113 allan5250"
+    },
+    {
+        "category":  "\u76dc\u58d8",
+        "value":  "112",
+        "team":  null,
+        "account":  "mikan",
+        "rawLine":  "112 mikan"
+    },
+    {
+        "category":  "\u76dc\u58d8",
+        "value":  "99",
+        "team":  null,
+        "account":  "sd91147",
+        "rawLine":  "99 sd91147"
+    },
+    {
+        "category":  "\u76dc\u58d8",
+        "value":  "98",
+        "team":  null,
+        "account":  "snake",
+        "rawLine":  "98 snake"
+    },
+    {
+        "category":  "\u76dc\u58d8",
+        "value":  "97",
+        "team":  null,
+        "account":  "6110153",
+        "rawLine":  "97 6110153"
+    },
+    {
+        "category":  "\u76dc\u58d8",
+        "value":  "96",
+        "team":  null,
+        "account":  "\u5c0f\u8fa3\u6912",
+        "rawLine":  "96 \u5c0f\u8fa3\u6912"
+    },
+    {
+        "category":  "\u76dc\u58d8",
+        "value":  "88",
+        "team":  null,
+        "account":  "eric0214",
+        "rawLine":  "88 eric0214"
+    },
+    {
+        "category":  "\u76dc\u58d8",
+        "value":  "72",
+        "team":  null,
+        "account":  "algop528",
+        "rawLine":  "72 algop528"
+    },
+    {
+        "category":  "\u76dc\u58d8",
+        "value":  "72",
+        "team":  null,
+        "account":  "edahnd",
+        "rawLine":  "72 edahnd"
+    },
+    {
+        "category":  "\u9632\u7387",
+        "value":  "1.52950",
+        "team":  "\u6843\u733f",
+        "account":  "eric0214",
+        "rawLine":  "1.52950  \u6843\u733f  eric0214"
+    },
+    {
+        "category":  "\u9632\u7387",
+        "value":  "1.68184",
+        "team":  null,
+        "account":  "\u9ec3\u886b\u963f\u502b",
+        "rawLine":  "1.68184 \u9ec3\u886b\u963f\u502b"
+    },
+    {
+        "category":  "\u9632\u7387",
+        "value":  "1.73613",
+        "team":  null,
+        "account":  "\u591a\u91cc\u65af\u6539",
+        "rawLine":  "1.73613 \u591a\u91cc\u65af\u6539"
+    },
+    {
+        "category":  "\u9632\u7387",
+        "value":  "1.77367",
+        "team":  null,
+        "account":  "JPot8888",
+        "rawLine":  "1.77367 JPot8888"
+    },
+    {
+        "category":  "\u9632\u7387",
+        "value":  "1.81329",
+        "team":  null,
+        "account":  "0738",
+        "rawLine":  "1.81329 0738"
+    },
+    {
+        "category":  "\u9632\u7387",
+        "value":  "1.83358",
+        "team":  null,
+        "account":  "AynMo",
+        "rawLine":  "1.83358 AynMo"
+    },
+    {
+        "category":  "\u9632\u7387",
+        "value":  "1.87536",
+        "team":  null,
+        "account":  "\u6d77\u99ac\u7028\u4eba",
+        "rawLine":  "1.87536 \u6d77\u99ac\u7028\u4eba"
+    },
+    {
+        "category":  "\u9632\u7387",
+        "value":  "1.88398",
+        "team":  null,
+        "account":  "geniusway",
+        "rawLine":  "1.88398 geniusway"
+    },
+    {
+        "category":  "\u9632\u7387",
+        "value":  "1.89679",
+        "team":  null,
+        "account":  "\u9f9c\u8001\u5927",
+        "rawLine":  "1.89679 \u9f9c\u8001\u5927"
+    },
+    {
+        "category":  "\u9632\u7387",
+        "value":  "1.90668",
+        "team":  null,
+        "account":  "louis",
+        "rawLine":  "1.90668 louis"
+    },
+    {
+        "category":  "\u52dd\u5834",
+        "value":  "120",
+        "team":  "\u8208\u8fb2",
+        "account":  "kkbox",
+        "rawLine":  "120  \u8208\u8fb2  kkbox"
+    },
+    {
+        "category":  "\u52dd\u5834",
+        "value":  "119",
+        "team":  null,
+        "account":  "geniusway",
+        "rawLine":  "119 geniusway"
+    },
+    {
+        "category":  "\u52dd\u5834",
+        "value":  "118",
+        "team":  null,
+        "account":  "\u9f9c\u8001\u5927",
+        "rawLine":  "118 \u9f9c\u8001\u5927"
+    },
+    {
+        "category":  "\u52dd\u5834",
+        "value":  "115",
+        "team":  null,
+        "account":  "horoach",
+        "rawLine":  "115 horoach"
+    },
+    {
+        "category":  "\u52dd\u5834",
+        "value":  "115",
+        "team":  null,
+        "account":  "Kobegod",
+        "rawLine":  "115 Kobegod"
+    },
+    {
+        "category":  "\u52dd\u5834",
+        "value":  "115",
+        "team":  null,
+        "account":  "rainwey",
+        "rawLine":  "115 rainwey"
+    },
+    {
+        "category":  "\u52dd\u5834",
+        "value":  "114",
+        "team":  null,
+        "account":  "jac1009",
+        "rawLine":  "114 jac1009"
+    },
+    {
+        "category":  "\u52dd\u5834",
+        "value":  "114",
+        "team":  null,
+        "account":  "\u6d77\u99ac\u7028\u4eba",
+        "rawLine":  "114 \u6d77\u99ac\u7028\u4eba"
+    },
+    {
+        "category":  "\u52dd\u5834",
+        "value":  "114",
+        "team":  null,
+        "account":  "\u9ec3\u886b\u963f\u502b",
+        "rawLine":  "114 \u9ec3\u886b\u963f\u502b"
+    },
+    {
+        "category":  "\u52dd\u5834",
+        "value":  "113",
+        "team":  null,
+        "account":  "algop528",
+        "rawLine":  "113 algop528"
+    },
+    {
+        "category":  "\u6551\u63f4",
+        "value":  "58",
+        "team":  "\u5473\u5168",
+        "account":  "sd91147",
+        "rawLine":  "58  \u5473\u5168  sd91147"
+    },
+    {
+        "category":  "\u6551\u63f4",
+        "value":  "57",
+        "team":  null,
+        "account":  "Snow",
+        "rawLine":  "57 Snow"
+    },
+    {
+        "category":  "\u6551\u63f4",
+        "value":  "57",
+        "team":  null,
+        "account":  "AynMo",
+        "rawLine":  "57 AynMo"
+    },
+    {
+        "category":  "\u6551\u63f4",
+        "value":  "57",
+        "team":  null,
+        "account":  "\u9ec3\u886b\u963f\u502b",
+        "rawLine":  "57 \u9ec3\u886b\u963f\u502b"
+    },
+    {
+        "category":  "\u6551\u63f4",
+        "value":  "56",
+        "team":  null,
+        "account":  "kanemoto",
+        "rawLine":  "56 kanemoto"
+    },
+    {
+        "category":  "\u6551\u63f4",
+        "value":  "54",
+        "team":  null,
+        "account":  "shin55",
+        "rawLine":  "54 shin55"
+    },
+    {
+        "category":  "\u6551\u63f4",
+        "value":  "54",
+        "team":  null,
+        "account":  "ARCp8p8p8",
+        "rawLine":  "54 ARCp8p8p8"
+    },
+    {
+        "category":  "\u6551\u63f4",
+        "value":  "54",
+        "team":  null,
+        "account":  "\u5c0f\u8fa3\u6912",
+        "rawLine":  "54 \u5c0f\u8fa3\u6912"
+    },
+    {
+        "category":  "\u6551\u63f4",
+        "value":  "54",
+        "team":  null,
+        "account":  "AymanHot",
+        "rawLine":  "54 AymanHot"
+    },
+    {
+        "category":  "\u6551\u63f4",
+        "value":  "54",
+        "team":  null,
+        "account":  "allan5250",
+        "rawLine":  "54 allan5250"
+    },
+    {
+        "category":  "\u4e09\u632f",
+        "value":  "1110",
+        "team":  "\u8208\u8fb2",
+        "account":  "rainwey",
+        "rawLine":  "1110  \u8208\u8fb2  rainwey"
+    },
+    {
+        "category":  "\u4e09\u632f",
+        "value":  "1106",
+        "team":  null,
+        "account":  "80338",
+        "rawLine":  "1106 80338"
+    },
+    {
+        "category":  "\u4e09\u632f",
+        "value":  "1104",
+        "team":  null,
+        "account":  "wunno",
+        "rawLine":  "1104 wunno"
+    },
+    {
+        "category":  "\u4e09\u632f",
+        "value":  "1102",
+        "team":  null,
+        "account":  "jac1009",
+        "rawLine":  "1102 jac1009"
+    },
+    {
+        "category":  "\u4e09\u632f",
+        "value":  "1102",
+        "team":  null,
+        "account":  "geniusway",
+        "rawLine":  "1102 geniusway"
+    },
+    {
+        "category":  "\u4e09\u632f",
+        "value":  "1093",
+        "team":  null,
+        "account":  "kkbox",
+        "rawLine":  "1093 kkbox"
+    },
+    {
+        "category":  "\u4e09\u632f",
+        "value":  "1087",
+        "team":  null,
+        "account":  "Kobegod",
+        "rawLine":  "1087 Kobegod"
+    },
+    {
+        "category":  "\u4e09\u632f",
+        "value":  "1086",
+        "team":  null,
+        "account":  "\u9b3c\u72fc",
+        "rawLine":  "1086 \u9b3c\u72fc"
+    },
+    {
+        "category":  "\u4e09\u632f",
+        "value":  "1081",
+        "team":  null,
+        "account":  "porching",
+        "rawLine":  "1081 porching"
+    },
+    {
+        "category":  "\u4e09\u632f",
+        "value":  "1078",
+        "team":  null,
+        "account":  "horoach",
+        "rawLine":  "1078 horoach"
+    }
+]

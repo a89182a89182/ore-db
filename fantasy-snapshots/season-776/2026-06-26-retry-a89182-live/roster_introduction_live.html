@@ -1,0 +1,617 @@
+<html><head>
+<meta http-equiv="Content-type"		content="text/html; charset=big5">
+<meta http-equiv="Pragma"			content="no-cache">
+<meta http-equiv="Cache-Control"	content="no-cache">
+<meta http-equiv="Expires"			content="-1">
+<meta property="og:title" content="菜鳥出頭天">
+<meta property="og:site_name" content="菜鳥出頭天">
+<meta property="og:image" content="http://tinygame.dyndns.org/ore/img/see.gif">
+<meta property="og:type" content="game">
+<meta property="og:url" content="http://tinygame.dyndns.org/ore/ore.cgi">
+<meta property="fb:admins" content="494159037274208"/>
+<meta property="fb:app_id" content="321801321">
+<title>菜鳥出頭天 - 有 12 隻菜鳥正在線上</title>
+<link rel="shortcut icon" href="css/favicon2.ico">
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<STYLE type="text/css">
+input,select	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#000000'; BORDER:'1 SOLID:000000'; background-color:'#D1D1FF'; }
+input.vito		{ font-size:12px; font-weight:BOLD; }
+textarea		{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#000000'; BORDER:'1 SOLID:000000'; background-color:'#D1D1FF'; }
+body			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; }
+tr				{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; }
+tr.head			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; font-weight:BOLD; text-align:CENTER; }
+td,th			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; white-space:nowrap; }
+td.broadcast	{ font-size:12px; white-space:normal; font-family:Tahoma,Verdana,微軟正黑體; }
+td.histitle		{ font-size:20px; font-weight:BOLD; }
+.score			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#D1D1FF'; background-color:'#008800'; }
+td.tq			{ font-family:Verdana; font-weight:BOLD; }
+.tX				{ font-family:Verdana; font-size:9px; font-weight:NORMAL; }
+</STYLE>
+
+<script type="text/javascript" src="include/sorttable.js"></script>
+<!-- script type="text/javascript" src="../jquery.tablesorter/jquery-latest.js"></script -->
+<!-- script type="text/javascript" src="../jquery.tablesorter/jquery.tablesorter.js"></script -->
+
+</head><center>
+<body style="margin-top:12px;">
+<P style="margin-top:28px;"><font style="font-size:40px; font-weight:BOLD; color:#3333DD;">陣容介紹</font></P>
+<STYLE type="text/css">
+td.k1473 { font-size:12px; text-align:LEFT; white-space:nowrap; }
+input.sum11 { font-size:16px; font-weight:BOLD; text-align:center; }
+.ttny { font-family:Arial,Tahoma; font-size:10px; color:#717171; }
+.checkbox { width:4em; height:4em; }
+</STYLE>
+
+<form action=ore.cgi method=POST name=nothing><input type=hidden name=kakuninn value=1>
+<table border=0 cellspacing=0 cellpadding=2><tr><td align=center>
+<input type=submit name=listType style='color:#FFFFFF;background-color:#0000CC;' value='各隊陣容'>
+<input type=submit name=listType style='color:#FFFFFF;background-color:#EC2321;' value='新秀'>
+<input type=submit name=listType style='color:#FFFFFF;background-color:#999999;' value='老將'>
+<input type=submit name=listType style='color:#FFFFFF;background-color:#00B300;' value='電腦'>
+<input type=submit name=listType style='color:#FFFFFF;background-color:#333333;' value='近年加入野手'>
+<input type=submit name=listType style='color:#FFFFFF;background-color:#333333;' value='近年加入投手'>
+<input type=submit name=listType style='color:#FFFFFF;background-color:#FF9900;' value='個人歷年成績'>
+</td></tr></table></form>
+
+
+<table Border=1 width="50%"><tr align=center><td width="14%" bgcolor=B5EBFF>捕手</td><td width="14%" bgcolor=FFFFBF>內野手</td><td width="14%" bgcolor=8CFDC1>外野手</td><td width="14%" bgcolor=CFCFCF>ＤＨ</td><td width="14%" bgcolor=FDD8FE>先發投手</td><td width="14%" bgcolor=FDC4FD>中繼投手</td><td width="14%" bgcolor=FDACFD>救援投手</td></tr></table><br>
+
+<table border=1 cellspacing=0 cellpadding=0 bordercolor=004D11>
+<form action="ore.cgi" method="POST" name="finepix">
+<input type="hidden" name="pickMyTeam" value="1">
+<tr align=center bgcolor='#FFFFFF'><td>球<BR>隊<BR>隊<BR>徽</td>
+<Td WIDTH=85><img src=img/team11.gif></Td><Td WIDTH=85><img src=img/team3.gif></Td><Td WIDTH=85><img src=img/team5.gif></Td><Td WIDTH=85><img src=img/team8.gif></Td><Td WIDTH=85><img src=img/team9.gif></Td><Td WIDTH=85><img src=img/team1.gif></Td><td>球<BR>隊<BR>隊<BR>徽</td>
+<Td WIDTH=85><img src=img/team10.gif></Td><Td WIDTH=85><img src=img/team6.gif></Td><Td WIDTH=85><img src=img/team7.gif></Td><Td WIDTH=85><img src=img/team2.gif></Td><Td WIDTH=85><img src=img/team12.gif></Td><Td WIDTH=85><img src=img/team4.gif></Td><td>球<BR>隊<BR>隊<BR>徽</td></tr>
+<tr align=center bgcolor='#FFFFFF'><td>#</td>
+<Td WIDTH=85 bgcolor=#047D68><a href="ore.cgi?mode=teisatu&saku=4" target=_blank style="text-decoration:none;  color:#E3D246; font-size:16px; font-weight:BOLD;">年代</a></Td><Td WIDTH=85 bgcolor=#6CA96E><a href="ore.cgi?mode=teisatu&saku=2" target=_blank style="text-decoration:none;  color:#CC0000; font-size:16px; font-weight:BOLD;">興農</a></Td><Td WIDTH=85 bgcolor=#FF5A01><a href="ore.cgi?mode=teisatu&saku=3" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">誠泰</a></Td><Td WIDTH=85 bgcolor=#0024D0><a href="ore.cgi?mode=teisatu&saku=1" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">三商</a></Td><Td WIDTH=85 bgcolor=#000000><a href="ore.cgi?mode=teisatu&saku=5" target=_blank style="text-decoration:none;  color:#EE0000; font-size:16px; font-weight:BOLD;">時報</a></Td><Td WIDTH=85 bgcolor=#FFF700><a href="ore.cgi?mode=teisatu&saku=0" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">兄弟</a></Td><td>#</td>
+<Td WIDTH=85 bgcolor=#3A765D><a href="ore.cgi?mode=teisatu&saku=8" target=_blank style="text-decoration:none;  color:#F9E0A5; font-size:16px; font-weight:BOLD;">俊國</a></Td><Td WIDTH=85 bgcolor=#2B4B62><a href="ore.cgi?mode=teisatu&saku=9" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">桃猿</a></Td><Td WIDTH=85 bgcolor=#EE0000><a href="ore.cgi?mode=teisatu&saku=7" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">味全</a></Td><Td WIDTH=85 bgcolor=#009900><a href="ore.cgi?mode=teisatu&saku=6" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">統一</a></Td><Td WIDTH=85 bgcolor=#761189><a href="ore.cgi?mode=teisatu&saku=10" target=_blank style="text-decoration:none;  color:#FFF700; font-size:16px; font-weight:BOLD;">生活</a></Td><Td WIDTH=85 bgcolor=#00919E><a href="ore.cgi?mode=teisatu&saku=11" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">中信</a></Td><td>#</td></tr>
+<tr align=center><td bgcolor="#FFFFFF">1</td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>小梅旻曙</B><BR><font class='ttny'>&nbsp; 年薪: 23,200<BR>&nbsp; AVG: <U>0.262</U><BR>&nbsp; 24本72點2盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>魂環十四</B><BR><font class='ttny'>&nbsp; 年薪: 22,200<BR>&nbsp; AVG: <U>0.242</U><BR>&nbsp; 21本55點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">LF.<B>八寶丹</B><BR><font class='ttny'>&nbsp; 年薪: 14,000<BR>&nbsp; AVG: <U>0.272</U><BR>&nbsp; 38本79點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:B5EBFF;">C.<B>康磊</B><BR><font class='ttny'>&nbsp; 年薪: 14,000<BR>&nbsp; AVG: <U>0.277</U><BR>&nbsp; 14本67點2盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">LF.<B>宋城縣</B><BR><font class='ttny'>&nbsp; 年薪: 2,900<BR>&nbsp; AVG: <U>0.241</U><BR>&nbsp; 2本21點10盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>沙爾斯十四</B><BR><font class='ttny'>&nbsp; 年薪: 5,400<BR>&nbsp; AVG: <U>0.272</U><BR>&nbsp; 2本29點11盜</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>1</B></td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>賈吉豪三</B><BR><font class='ttny'>&nbsp; 年薪: 19,400<BR>&nbsp; AVG: <U>0.288</U><BR>&nbsp; 31本77點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>宮崎和香</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.271</U><BR>&nbsp; 43本123點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>惡來</B><BR><font class='ttny'>&nbsp; 年薪: 21,700<BR>&nbsp; AVG: <U>0.315</U><BR>&nbsp; 1本34點16盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">LF.<B>皮耶爾二</B><BR><font class='ttny'>&nbsp; 年薪: 7,200<BR>&nbsp; AVG: <U>0.242</U><BR>&nbsp; 13本53點6盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:B5EBFF;">C.<B>炙燒鮭魚</B><BR><font class='ttny'>&nbsp; 年薪: 5,500<BR>&nbsp; AVG: <U>0.251</U><BR>&nbsp; 19本45點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>小茜</B><BR><font class='ttny'>&nbsp; 年薪: 17,300<BR>&nbsp; AVG: <U>0.209</U><BR>&nbsp; 15本36點2盜</font>
+</Td>
+<td bgcolor="#FFFFFF">1</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">2</td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>雨後橫虹</B><BR><font class='ttny'>&nbsp; 年薪: 14,800<BR>&nbsp; AVG: <U>0.332</U><BR>&nbsp; 46本115點4盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>三口刀十五</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.311</U><BR>&nbsp; 52本121點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:B5EBFF;">C.<B>金色光芒</B><BR><font class='ttny'>&nbsp; 年薪: 15,900<BR>&nbsp; AVG: <U>0.244</U><BR>&nbsp; 38本75點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>李阿勇</B><BR><font class='ttny'>&nbsp; 年薪: 8,700<BR>&nbsp; AVG: <U>0.247</U><BR>&nbsp; 12本60點8盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>梯歐歪立二</B><BR><font class='ttny'>&nbsp; 年薪: 24,000<BR>&nbsp; AVG: <U>0.274</U><BR>&nbsp; 2本31點14盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">LF.<B>靜靜</B><BR><font class='ttny'>&nbsp; 年薪: 5,100<BR>&nbsp; AVG: <U>0.237</U><BR>&nbsp; 0本18點10盜</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>2</B></td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>浪子十一</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.266</U><BR>&nbsp; 27本84點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>麻糬千層塔</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.275</U><BR>&nbsp; 42本91點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:CFCFCF;">DH.<B>押忍八</B><BR><font class='ttny'>&nbsp; 年薪: 8,500<BR>&nbsp; AVG: <U>0.234</U><BR>&nbsp; 19本67點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>拉芙三特利</B><BR><font class='ttny'>&nbsp; 年薪: 21,900<BR>&nbsp; AVG: <U>0.254</U><BR>&nbsp; 27本66點4盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>哇塞</B><BR><font class='ttny'>&nbsp; 年薪: 21,800<BR>&nbsp; AVG: <U>0.240</U><BR>&nbsp; 30本65點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>村田四</B><BR><font class='ttny'>&nbsp; 年薪: 4,600<BR>&nbsp; AVG: <U>0.256</U><BR>&nbsp; 3本19點18盜</font>
+</Td>
+<td bgcolor="#FFFFFF">2</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">3</td>
+<td class='k1473' style="color:#000000; background-color:CFCFCF;">DH.<B>大丹</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.307</U><BR>&nbsp; 42本119點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>十傑九</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.284</U><BR>&nbsp; 47本104點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>夜夜茫</B><BR><font class='ttny'>&nbsp; 年薪: 28,300<BR>&nbsp; AVG: <U>0.280</U><BR>&nbsp; 37本81點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>滾石</B><BR><font class='ttny'>&nbsp; 年薪: 19,800<BR>&nbsp; AVG: <U>0.277</U><BR>&nbsp; 22本92點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>哈巴零一</B><BR><font class='ttny'>&nbsp; 年薪: 11,800<BR>&nbsp; AVG: <U>0.228</U><BR>&nbsp; 13本39點4盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:B5EBFF;">C.<B>章國珍</B><BR><font class='ttny'>&nbsp; 年薪: 13,800<BR>&nbsp; AVG: <U>0.229</U><BR>&nbsp; 10本44點0盜</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>3</B></td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>獵魔女團</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.293</U><BR>&nbsp; 49本130點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>請假王</B><BR><font class='ttny'>&nbsp; 年薪: 14,400<BR>&nbsp; AVG: <U>0.304</U><BR>&nbsp; 42本98點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">LF.<B>無名改十一</B><BR><font class='ttny'>&nbsp; 年薪: 13,000<BR>&nbsp; AVG: <U>0.279</U><BR>&nbsp; 36本100點4盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>方舟十三</B><BR><font class='ttny'>&nbsp; 年薪: 18,800<BR>&nbsp; AVG: <U>0.246</U><BR>&nbsp; 25本69點10盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>野格九世</B><BR><font class='ttny'>&nbsp; 年薪: 2,200<BR>&nbsp; AVG: <U>0.226</U><BR>&nbsp; 5本25點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>雞排安魂曲</B><BR><font class='ttny'>&nbsp; 年薪: 11,200<BR>&nbsp; AVG: <U>0.263</U><BR>&nbsp; 26本64點2盜</font>
+</Td>
+<td bgcolor="#FFFFFF">3</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">4</td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>丁奉</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.273</U><BR>&nbsp; 36本97點4盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>洛杉磯拉拉</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.279</U><BR>&nbsp; 39本105點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>左三圈</B><BR><font class='ttny'>&nbsp; 年薪: 22,200<BR>&nbsp; AVG: <U>0.239</U><BR>&nbsp; 25本69點0盜</font>
+</Td>
+<td class='k1473' style="color:#EC2321; background-color:8CFDC1;">LF.<B>瓊稻穗宮原</B><BR><font class='ttny'>&nbsp; 年薪: 15,200<BR>&nbsp; AVG: <U>0.269</U><BR>&nbsp; 19本80點0盜</font>
+</Td>
+<td class='k1473' style="color:#00B300; background-color:B5EBFF;">C.<B>★★★★★</B><BR><font class='ttny'>&nbsp; 年薪: 1,900<BR>&nbsp; AVG: <U>0.215</U><BR>&nbsp; 2本28點13盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>娜娜子</B><BR><font class='ttny'>&nbsp; 年薪: 18,500<BR>&nbsp; AVG: <U>0.225</U><BR>&nbsp; 23本56點0盜</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>4</B></td>
+<td class='k1473' style="color:#000000; background-color:B5EBFF;">C.<B>小郭四一代</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.279</U><BR>&nbsp; 43本112點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">LF.<B>金旼炡</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.251</U><BR>&nbsp; 40本93點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>狸想世界</B><BR><font class='ttny'>&nbsp; 年薪: 17,200<BR>&nbsp; AVG: <U>0.282</U><BR>&nbsp; 38本112點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:B5EBFF;">C.<B>亨利三世</B><BR><font class='ttny'>&nbsp; 年薪: 22,000<BR>&nbsp; AVG: <U>0.212</U><BR>&nbsp; 18本59點4盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">LF.<B>波波</B><BR><font class='ttny'>&nbsp; 年薪: 10,000<BR>&nbsp; AVG: <U>0.211</U><BR>&nbsp; 13本36點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>神愛世人六</B><BR><font class='ttny'>&nbsp; 年薪: 8,800<BR>&nbsp; AVG: <U>0.282</U><BR>&nbsp; 14本51點1盜</font>
+</Td>
+<td bgcolor="#FFFFFF">4</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">5</td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">LF.<B>笑面樹生二</B><BR><font class='ttny'>&nbsp; 年薪: 16,900<BR>&nbsp; AVG: <U>0.301</U><BR>&nbsp; 48本116點3盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>楚香帥六</B><BR><font class='ttny'>&nbsp; 年薪: 7,900<BR>&nbsp; AVG: <U>0.274</U><BR>&nbsp; 24本75點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>南貞</B><BR><font class='ttny'>&nbsp; 年薪: 11,400<BR>&nbsp; AVG: <U>0.260</U><BR>&nbsp; 18本71點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>曠野</B><BR><font class='ttny'>&nbsp; 年薪: 15,000<BR>&nbsp; AVG: <U>0.223</U><BR>&nbsp; 16本71點4盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:CFCFCF;">DH.<B>熊抱哥</B><BR><font class='ttny'>&nbsp; 年薪: 2,400<BR>&nbsp; AVG: <U>0.191</U><BR>&nbsp; 7本32點3盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>芙莉蓮</B><BR><font class='ttny'>&nbsp; 年薪: 4,000<BR>&nbsp; AVG: <U>0.232</U><BR>&nbsp; 7本38點1盜</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>5</B></td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>石玖宮分</B><BR><font class='ttny'>&nbsp; 年薪: 14,400<BR>&nbsp; AVG: <U>0.267</U><BR>&nbsp; 15本66點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>天二五天</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; AVG: <U>0.227</U><BR>&nbsp; 32本93點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>花椰菜三六</B><BR><font class='ttny'>&nbsp; 年薪: 24,200<BR>&nbsp; AVG: <U>0.214</U><BR>&nbsp; 20本61點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>栗子一世</B><BR><font class='ttny'>&nbsp; 年薪: 7,800<BR>&nbsp; AVG: <U>0.219</U><BR>&nbsp; 16本46點3盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:CFCFCF;">DH.<B>心月</B><BR><font class='ttny'>&nbsp; 年薪: 5,900<BR>&nbsp; AVG: <U>0.225</U><BR>&nbsp; 12本42點2盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:CFCFCF;">DH.<B>清風二十五</B><BR><font class='ttny'>&nbsp; 年薪: 2,000<BR>&nbsp; AVG: <U>0.212</U><BR>&nbsp; 10本36點0盜</font>
+</Td>
+<td bgcolor="#FFFFFF">5</td><tr>
+<tr align=center bgcolor='#FFFFFF'><td>#</td>
+<Td WIDTH=85 bgcolor=#047D68><a href="ore.cgi?mode=teisatu&saku=4" target=_blank style="text-decoration:none;  color:#E3D246; font-size:16px; font-weight:BOLD;">年代</a></Td><Td WIDTH=85 bgcolor=#6CA96E><a href="ore.cgi?mode=teisatu&saku=2" target=_blank style="text-decoration:none;  color:#CC0000; font-size:16px; font-weight:BOLD;">興農</a></Td><Td WIDTH=85 bgcolor=#FF5A01><a href="ore.cgi?mode=teisatu&saku=3" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">誠泰</a></Td><Td WIDTH=85 bgcolor=#0024D0><a href="ore.cgi?mode=teisatu&saku=1" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">三商</a></Td><Td WIDTH=85 bgcolor=#000000><a href="ore.cgi?mode=teisatu&saku=5" target=_blank style="text-decoration:none;  color:#EE0000; font-size:16px; font-weight:BOLD;">時報</a></Td><Td WIDTH=85 bgcolor=#FFF700><a href="ore.cgi?mode=teisatu&saku=0" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">兄弟</a></Td><td>#</td>
+<Td WIDTH=85 bgcolor=#3A765D><a href="ore.cgi?mode=teisatu&saku=8" target=_blank style="text-decoration:none;  color:#F9E0A5; font-size:16px; font-weight:BOLD;">俊國</a></Td><Td WIDTH=85 bgcolor=#2B4B62><a href="ore.cgi?mode=teisatu&saku=9" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">桃猿</a></Td><Td WIDTH=85 bgcolor=#EE0000><a href="ore.cgi?mode=teisatu&saku=7" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">味全</a></Td><Td WIDTH=85 bgcolor=#009900><a href="ore.cgi?mode=teisatu&saku=6" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">統一</a></Td><Td WIDTH=85 bgcolor=#761189><a href="ore.cgi?mode=teisatu&saku=10" target=_blank style="text-decoration:none;  color:#FFF700; font-size:16px; font-weight:BOLD;">生活</a></Td><Td WIDTH=85 bgcolor=#00919E><a href="ore.cgi?mode=teisatu&saku=11" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">中信</a></Td><td>#</td></tr>
+<tr align=center><td bgcolor="#FFFFFF">6</td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>森亞露露卡</B><BR><font class='ttny'>&nbsp; 年薪: 12,500<BR>&nbsp; AVG: <U>0.307</U><BR>&nbsp; 21本79點2盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">LF.<B>雨男十八</B><BR><font class='ttny'>&nbsp; 年薪: 5,100<BR>&nbsp; AVG: <U>0.241</U><BR>&nbsp; 17本48點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>肯掐娜</B><BR><font class='ttny'>&nbsp; 年薪: 8,600<BR>&nbsp; AVG: <U>0.275</U><BR>&nbsp; 16本64點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>勒邦占士一</B><BR><font class='ttny'>&nbsp; 年薪: 12,900<BR>&nbsp; AVG: <U>0.313</U><BR>&nbsp; 19本72點3盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>又忘了哥</B><BR><font class='ttny'>&nbsp; 年薪: 2,200<BR>&nbsp; AVG: <U>0.226</U><BR>&nbsp; 3本21點2盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:CFCFCF;">DH.<B>烏薩奇三號</B><BR><font class='ttny'>&nbsp; 年薪: 2,500<BR>&nbsp; AVG: <U>0.197</U><BR>&nbsp; 8本33點0盜</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>6</B></td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">LF.<B>台積妮妮</B><BR><font class='ttny'>&nbsp; 年薪: 12,700<BR>&nbsp; AVG: <U>0.288</U><BR>&nbsp; 20本66點2盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>七代超人</B><BR><font class='ttny'>&nbsp; 年薪: 16,700<BR>&nbsp; AVG: <U>0.266</U><BR>&nbsp; 20本62點2盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>佐佐木</B><BR><font class='ttny'>&nbsp; 年薪: 19,900<BR>&nbsp; AVG: <U>0.224</U><BR>&nbsp; 18本50點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>咖哩八世</B><BR><font class='ttny'>&nbsp; 年薪: 18,600<BR>&nbsp; AVG: <U>0.211</U><BR>&nbsp; 10本39點5盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>格雷一世</B><BR><font class='ttny'>&nbsp; 年薪: 9,000<BR>&nbsp; AVG: <U>0.190</U><BR>&nbsp; 9本41點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>賽納</B><BR><font class='ttny'>&nbsp; 年薪: 4,400<BR>&nbsp; AVG: <U>0.183</U><BR>&nbsp; 5本18點4盜</font>
+</Td>
+<td bgcolor="#FFFFFF">6</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">7</td>
+<td class='k1473' style="color:#000000; background-color:B5EBFF;">C.<B>猛象出擊</B><BR><font class='ttny'>&nbsp; 年薪: 6,600<BR>&nbsp; AVG: <U>0.238</U><BR>&nbsp; 14本60點11盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>王風三</B><BR><font class='ttny'>&nbsp; 年薪: 3,500<BR>&nbsp; AVG: <U>0.226</U><BR>&nbsp; 11本51點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>龍仔</B><BR><font class='ttny'>&nbsp; 年薪: 14,300<BR>&nbsp; AVG: <U>0.268</U><BR>&nbsp; 24本71點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>栗原陵矢</B><BR><font class='ttny'>&nbsp; 年薪: 5,700<BR>&nbsp; AVG: <U>0.265</U><BR>&nbsp; 24本74點3盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>五日市牙醫</B><BR><font class='ttny'>&nbsp; 年薪: 6,300<BR>&nbsp; AVG: <U>0.198</U><BR>&nbsp; 3本16點3盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">2B.<B>薩摩耶</B><BR><font class='ttny'>&nbsp; 年薪: 2,400<BR>&nbsp; AVG: <U>0.206</U><BR>&nbsp; 5本28點0盜</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>7</B></td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>老菜頭</B><BR><font class='ttny'>&nbsp; 年薪: 14,400<BR>&nbsp; AVG: <U>0.235</U><BR>&nbsp; 22本53點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:CFCFCF;">DH.<B>滷蛋王</B><BR><font class='ttny'>&nbsp; 年薪: 2,400<BR>&nbsp; AVG: <U>0.227</U><BR>&nbsp; 13本50點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:B5EBFF;">C.<B>小鷗神</B><BR><font class='ttny'>&nbsp; 年薪: 13,300<BR>&nbsp; AVG: <U>0.260</U><BR>&nbsp; 13本51點8盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:CFCFCF;">DH.<B>轟雷市十二</B><BR><font class='ttny'>&nbsp; 年薪: 6,200<BR>&nbsp; AVG: <U>0.240</U><BR>&nbsp; 9本38點11盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>星垠拳擊手</B><BR><font class='ttny'>&nbsp; 年薪: 3,700<BR>&nbsp; AVG: <U>0.214</U><BR>&nbsp; 6本27點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>忍忍</B><BR><font class='ttny'>&nbsp; 年薪: 7,400<BR>&nbsp; AVG: <U>0.222</U><BR>&nbsp; 8本38點3盜</font>
+</Td>
+<td bgcolor="#FFFFFF">7</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">8</td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>魯卡二六六</B><BR><font class='ttny'>&nbsp; 年薪: 5,500<BR>&nbsp; AVG: <U>0.262</U><BR>&nbsp; 22本77點11盜</font>
+</Td>
+<td class='k1473' style="color:#EC2321; background-color:B5EBFF;">C.<B>武庚十八</B><BR><font class='ttny'>&nbsp; 年薪: 2,400<BR>&nbsp; AVG: <U>0.000</U><BR>&nbsp; 0本0點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>胖球毛咪</B><BR><font class='ttny'>&nbsp; 年薪: 3,800<BR>&nbsp; AVG: <U>0.233</U><BR>&nbsp; 12本42點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>李界領</B><BR><font class='ttny'>&nbsp; 年薪: 8,500<BR>&nbsp; AVG: <U>0.244</U><BR>&nbsp; 14本58點5盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>老弱殘兵一</B><BR><font class='ttny'>&nbsp; 年薪: 3,300<BR>&nbsp; AVG: <U>0.183</U><BR>&nbsp; 5本23點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>重力強</B><BR><font class='ttny'>&nbsp; 年薪: 17,600<BR>&nbsp; AVG: <U>0.258</U><BR>&nbsp; 2本27點11盜</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>8</B></td>
+<td class='k1473' style="color:#000000; background-color:CFCFCF;">DH.<B>武安侯</B><BR><font class='ttny'>&nbsp; 年薪: 4,900<BR>&nbsp; AVG: <U>0.240</U><BR>&nbsp; 8本52點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:B5EBFF;">C.<B>八十二</B><BR><font class='ttny'>&nbsp; 年薪: 5,300<BR>&nbsp; AVG: <U>0.237</U><BR>&nbsp; 18本52點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>小物新人</B><BR><font class='ttny'>&nbsp; 年薪: 2,700<BR>&nbsp; AVG: <U>0.261</U><BR>&nbsp; 18本63點2盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>亞特漾漾</B><BR><font class='ttny'>&nbsp; 年薪: 5,100<BR>&nbsp; AVG: <U>0.215</U><BR>&nbsp; 3本33點5盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>艾咪</B><BR><font class='ttny'>&nbsp; 年薪: 6,700<BR>&nbsp; AVG: <U>0.221</U><BR>&nbsp; 8本21點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">LF.<B>批西欸</B><BR><font class='ttny'>&nbsp; 年薪: 2,700<BR>&nbsp; AVG: <U>0.189</U><BR>&nbsp; 4本35點1盜</font>
+</Td>
+<td bgcolor="#FFFFFF">8</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">9</td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">3B.<B>小米周一代</B><BR><font class='ttny'>&nbsp; 年薪: 2,200<BR>&nbsp; AVG: <U>0.211</U><BR>&nbsp; 5本43點1盜</font>
+</Td>
+<td class='k1473' style="color:#EC2321; background-color:CFCFCF;">DH.<B>橙紫辣椒</B><BR><font class='ttny'>&nbsp; 年薪: 2,200<BR>&nbsp; AVG: <U>0.000</U><BR>&nbsp; 0本0點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:CFCFCF;">DH.<B>熊帥三</B><BR><font class='ttny'>&nbsp; 年薪: 3,900<BR>&nbsp; AVG: <U>0.221</U><BR>&nbsp; 12本48點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:CFCFCF;">DH.<B>泡泡堂糖</B><BR><font class='ttny'>&nbsp; 年薪: 4,000<BR>&nbsp; AVG: <U>0.246</U><BR>&nbsp; 19本78點1盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>李孟軒</B><BR><font class='ttny'>&nbsp; 年薪: 3,100<BR>&nbsp; AVG: <U>0.191</U><BR>&nbsp; 3本15點2盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>辣椒熊</B><BR><font class='ttny'>&nbsp; 年薪: 2,800<BR>&nbsp; AVG: <U>0.196</U><BR>&nbsp; 7本29點0盜</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>9</B></td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>一號生筆頭</B><BR><font class='ttny'>&nbsp; 年薪: 5,000<BR>&nbsp; AVG: <U>0.215</U><BR>&nbsp; 11本48點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">1B.<B>悍將五世</B><BR><font class='ttny'>&nbsp; 年薪: 3,400<BR>&nbsp; AVG: <U>0.250</U><BR>&nbsp; 4本37點12盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">RF.<B>丁丁真男人</B><BR><font class='ttny'>&nbsp; 年薪: 4,300<BR>&nbsp; AVG: <U>0.238</U><BR>&nbsp; 11本37點3盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:8CFDC1;">CF.<B>柯比氣氣</B><BR><font class='ttny'>&nbsp; 年薪: 2,300<BR>&nbsp; AVG: <U>0.204</U><BR>&nbsp; 1本24點17盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FFFFBF;">SS.<B>龜兔賽跑二</B><BR><font class='ttny'>&nbsp; 年薪: 14,000<BR>&nbsp; AVG: <U>0.192</U><BR>&nbsp; 13本52點0盜</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:B5EBFF;">C.<B>重來九次</B><BR><font class='ttny'>&nbsp; 年薪: 3,200<BR>&nbsp; AVG: <U>0.141</U><BR>&nbsp; 3本19點0盜</font>
+</Td>
+<td bgcolor="#FFFFFF">9</td><tr>
+<tr align=center bgcolor='#FFFFFF'><td>#</td>
+<Td WIDTH=85 bgcolor=#047D68><a href="ore.cgi?mode=teisatu&saku=4" target=_blank style="text-decoration:none;  color:#E3D246; font-size:16px; font-weight:BOLD;">年代</a></Td><Td WIDTH=85 bgcolor=#6CA96E><a href="ore.cgi?mode=teisatu&saku=2" target=_blank style="text-decoration:none;  color:#CC0000; font-size:16px; font-weight:BOLD;">興農</a></Td><Td WIDTH=85 bgcolor=#FF5A01><a href="ore.cgi?mode=teisatu&saku=3" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">誠泰</a></Td><Td WIDTH=85 bgcolor=#0024D0><a href="ore.cgi?mode=teisatu&saku=1" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">三商</a></Td><Td WIDTH=85 bgcolor=#000000><a href="ore.cgi?mode=teisatu&saku=5" target=_blank style="text-decoration:none;  color:#EE0000; font-size:16px; font-weight:BOLD;">時報</a></Td><Td WIDTH=85 bgcolor=#FFF700><a href="ore.cgi?mode=teisatu&saku=0" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">兄弟</a></Td><td>#</td>
+<Td WIDTH=85 bgcolor=#3A765D><a href="ore.cgi?mode=teisatu&saku=8" target=_blank style="text-decoration:none;  color:#F9E0A5; font-size:16px; font-weight:BOLD;">俊國</a></Td><Td WIDTH=85 bgcolor=#2B4B62><a href="ore.cgi?mode=teisatu&saku=9" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">桃猿</a></Td><Td WIDTH=85 bgcolor=#EE0000><a href="ore.cgi?mode=teisatu&saku=7" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">味全</a></Td><Td WIDTH=85 bgcolor=#009900><a href="ore.cgi?mode=teisatu&saku=6" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">統一</a></Td><Td WIDTH=85 bgcolor=#761189><a href="ore.cgi?mode=teisatu&saku=10" target=_blank style="text-decoration:none;  color:#FFF700; font-size:16px; font-weight:BOLD;">生活</a></Td><Td WIDTH=85 bgcolor=#00919E><a href="ore.cgi?mode=teisatu&saku=11" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">中信</a></Td><td>#</td></tr>
+<tr align=center><td bgcolor="#FFFFFF">10</td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>美好人生</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; ERA: <U>1.39</U><BR>&nbsp; 16勝3敗0救156Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>雀聖十七</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; ERA: <U>1.31</U><BR>&nbsp; 18勝2敗0救158Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>唐門雜魚</B><BR><font class='ttny'>&nbsp; 年薪: 25,200<BR>&nbsp; ERA: <U>1.60</U><BR>&nbsp; 14勝3敗0救126Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>黃大強</B><BR><font class='ttny'>&nbsp; 年薪: 24,000<BR>&nbsp; ERA: <U>1.32</U><BR>&nbsp; 17勝4敗0救115Ｋ</font>
+</Td>
+<td class='k1473' style="color:#EC2321; background-color:#FDD8FE;">SP.<B>蟻人</B><BR><font class='ttny'>&nbsp; 年薪: 2,300<BR>&nbsp; ERA: <U>0.00</U><BR>&nbsp; 0勝0敗0救0Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>凱恩一號</B><BR><font class='ttny'>&nbsp; 年薪: 7,200<BR>&nbsp; ERA: <U>5.74</U><BR>&nbsp; 3勝21敗0救64Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>10</B></td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>億竑六</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; ERA: <U>1.16</U><BR>&nbsp; 24勝2敗0救150Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>隨風三世</B><BR><font class='ttny'>&nbsp; 年薪: 28,800<BR>&nbsp; ERA: <U>3.94</U><BR>&nbsp; 12勝10敗0救103Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>攻城獅</B><BR><font class='ttny'>&nbsp; 年薪: 30,000<BR>&nbsp; ERA: <U>2.13</U><BR>&nbsp; 16勝9敗0救152Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>鮭魚上游</B><BR><font class='ttny'>&nbsp; 年薪: 24,900<BR>&nbsp; ERA: <U>1.02</U><BR>&nbsp; 15勝3敗0救135Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>台鳳</B><BR><font class='ttny'>&nbsp; 年薪: 20,300<BR>&nbsp; ERA: <U>3.89</U><BR>&nbsp; 5勝13敗0救78Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>魔神二十三</B><BR><font class='ttny'>&nbsp; 年薪: 19,500<BR>&nbsp; ERA: <U>2.32</U><BR>&nbsp; 12勝11敗0救110Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF">10</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">11</td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>兩儀式</B><BR><font class='ttny'>&nbsp; 年薪: 23,600<BR>&nbsp; ERA: <U>1.41</U><BR>&nbsp; 18勝2敗0救113Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>阿基拉十二</B><BR><font class='ttny'>&nbsp; 年薪: 21,300<BR>&nbsp; ERA: <U>1.51</U><BR>&nbsp; 20勝7敗0救149Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>鮪魚蛋沙拉</B><BR><font class='ttny'>&nbsp; 年薪: 26,800<BR>&nbsp; ERA: <U>2.52</U><BR>&nbsp; 13勝9敗0救122Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>幸運藍莓</B><BR><font class='ttny'>&nbsp; 年薪: 23,700<BR>&nbsp; ERA: <U>2.53</U><BR>&nbsp; 11勝7敗0救85Ｋ</font>
+</Td>
+<td class='k1473' style="color:#00B300; background-color:#FDD8FE;">SP.<B>★★★★★</B><BR><font class='ttny'>&nbsp; 年薪: 1,600<BR>&nbsp; ERA: <U>4.42</U><BR>&nbsp; 3勝20敗0救74Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>小蛇</B><BR><font class='ttny'>&nbsp; 年薪: 4,100<BR>&nbsp; ERA: <U>5.33</U><BR>&nbsp; 2勝17敗0救102Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>11</B></td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>前健十</B><BR><font class='ttny'>&nbsp; 年薪: 28,700<BR>&nbsp; ERA: <U>0.85</U><BR>&nbsp; 24勝1敗0救113Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>荔枝太郎</B><BR><font class='ttny'>&nbsp; 年薪: 21,900<BR>&nbsp; ERA: <U>1.65</U><BR>&nbsp; 18勝3敗0救127Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>度啊十</B><BR><font class='ttny'>&nbsp; 年薪: 23,000<BR>&nbsp; ERA: <U>2.88</U><BR>&nbsp; 16勝6敗0救119Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>囧囧魚二世</B><BR><font class='ttny'>&nbsp; 年薪: 26,100<BR>&nbsp; ERA: <U>1.73</U><BR>&nbsp; 15勝4敗0救133Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>方便麵二</B><BR><font class='ttny'>&nbsp; 年薪: 19,500<BR>&nbsp; ERA: <U>1.52</U><BR>&nbsp; 16勝7敗0救101Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>李斯特四世</B><BR><font class='ttny'>&nbsp; 年薪: 15,900<BR>&nbsp; ERA: <U>3.74</U><BR>&nbsp; 4勝13敗0救58Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF">11</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">12</td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>熊勇四號</B><BR><font class='ttny'>&nbsp; 年薪: 21,900<BR>&nbsp; ERA: <U>1.71</U><BR>&nbsp; 18勝6敗0救126Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>多里斯改三</B><BR><font class='ttny'>&nbsp; 年薪: 17,500<BR>&nbsp; ERA: <U>2.85</U><BR>&nbsp; 10勝11敗0救120Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>麥克瓦西爾</B><BR><font class='ttny'>&nbsp; 年薪: 19,400<BR>&nbsp; ERA: <U>1.81</U><BR>&nbsp; 14勝6敗0救110Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>佐藤光</B><BR><font class='ttny'>&nbsp; 年薪: 18,200<BR>&nbsp; ERA: <U>2.19</U><BR>&nbsp; 19勝5敗0救118Ｋ</font>
+</Td>
+<td class='k1473' style="color:#00B300; background-color:#FDD8FE;">SP.<B>★★★★★</B><BR><font class='ttny'>&nbsp; 年薪: 1,000<BR>&nbsp; ERA: <U>5.32</U><BR>&nbsp; 4勝18敗0救73Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>襪襪龍</B><BR><font class='ttny'>&nbsp; 年薪: 6,200<BR>&nbsp; ERA: <U>4.21</U><BR>&nbsp; 4勝15敗0救67Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>12</B></td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>黯然銷魂</B><BR><font class='ttny'>&nbsp; 年薪: 21,100<BR>&nbsp; ERA: <U>2.11</U><BR>&nbsp; 16勝7敗0救105Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>一五三</B><BR><font class='ttny'>&nbsp; 年薪: 27,900<BR>&nbsp; ERA: <U>1.84</U><BR>&nbsp; 11勝6敗0救112Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>賈西十一</B><BR><font class='ttny'>&nbsp; 年薪: 9,100<BR>&nbsp; ERA: <U>3.48</U><BR>&nbsp; 10勝9敗0救123Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>千賀滉大七</B><BR><font class='ttny'>&nbsp; 年薪: 17,200<BR>&nbsp; ERA: <U>3.89</U><BR>&nbsp; 5勝15敗0救101Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>魔流劍</B><BR><font class='ttny'>&nbsp; 年薪: 17,500<BR>&nbsp; ERA: <U>1.66</U><BR>&nbsp; 14勝8敗0救146Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>品品七</B><BR><font class='ttny'>&nbsp; 年薪: 17,900<BR>&nbsp; ERA: <U>3.11</U><BR>&nbsp; 3勝16敗0救102Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF">12</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">13</td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>咪咪醬二六</B><BR><font class='ttny'>&nbsp; 年薪: 20,100<BR>&nbsp; ERA: <U>1.87</U><BR>&nbsp; 17勝4敗0救127Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>大魔十七</B><BR><font class='ttny'>&nbsp; 年薪: 16,200<BR>&nbsp; ERA: <U>2.04</U><BR>&nbsp; 15勝6敗0救138Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>多柴多藝</B><BR><font class='ttny'>&nbsp; 年薪: 18,600<BR>&nbsp; ERA: <U>3.70</U><BR>&nbsp; 4勝10敗0救84Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>今井一式</B><BR><font class='ttny'>&nbsp; 年薪: 13,800<BR>&nbsp; ERA: <U>4.24</U><BR>&nbsp; 8勝13敗0救87Ｋ</font>
+</Td>
+<td class='k1473' style="color:#00B300; background-color:#FDD8FE;">SP.<B>★★★★★</B><BR><font class='ttny'>&nbsp; 年薪: 1,000<BR>&nbsp; ERA: <U>5.04</U><BR>&nbsp; 5勝14敗0救72Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>縱貫陸陸</B><BR><font class='ttny'>&nbsp; 年薪: 6,300<BR>&nbsp; ERA: <U>6.42</U><BR>&nbsp; 2勝19敗0救64Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>13</B></td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>賈斯汀五</B><BR><font class='ttny'>&nbsp; 年薪: 18,000<BR>&nbsp; ERA: <U>1.46</U><BR>&nbsp; 20勝5敗0救148Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>石田颯太</B><BR><font class='ttny'>&nbsp; 年薪: 22,100<BR>&nbsp; ERA: <U>2.12</U><BR>&nbsp; 15勝3敗0救114Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>西恩龐克</B><BR><font class='ttny'>&nbsp; 年薪: 6,900<BR>&nbsp; ERA: <U>5.29</U><BR>&nbsp; 5勝16敗0救78Ｋ</font>
+</Td>
+<td class='k1473' style="color:#EC2321; background-color:#FDD8FE;">SP.<B>姆巴佩</B><BR><font class='ttny'>&nbsp; 年薪: 2,100<BR>&nbsp; ERA: <U>0.00</U><BR>&nbsp; 0勝0敗0救0Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>泉伊呂波</B><BR><font class='ttny'>&nbsp; 年薪: 14,500<BR>&nbsp; ERA: <U>4.62</U><BR>&nbsp; 4勝18敗0救118Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>倪仔四</B><BR><font class='ttny'>&nbsp; 年薪: 11,600<BR>&nbsp; ERA: <U>4.97</U><BR>&nbsp; 6勝16敗0救111Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF">13</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">14</td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>伊達牛鋼彈</B><BR><font class='ttny'>&nbsp; 年薪: 11,600<BR>&nbsp; ERA: <U>2.38</U><BR>&nbsp; 18勝4敗0救112Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>三雲十七</B><BR><font class='ttny'>&nbsp; 年薪: 17,000<BR>&nbsp; ERA: <U>3.06</U><BR>&nbsp; 13勝8敗0救126Ｋ</font>
+</Td>
+<td class='k1473' style="color:#00B300; background-color:#FDD8FE;">SP.<B>★★★★★</B><BR><font class='ttny'>&nbsp; 年薪: 1,000<BR>&nbsp; ERA: <U>6.42</U><BR>&nbsp; 3勝9敗0救54Ｋ</font>
+</Td>
+<td class='k1473' style="color:#00B300; background-color:#FDD8FE;">SP.<B>★★★★★</B><BR><font class='ttny'>&nbsp; 年薪: 1,000<BR>&nbsp; ERA: <U>5.03</U><BR>&nbsp; 7勝13敗0救57Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>練習生</B><BR><font class='ttny'>&nbsp; 年薪: 18,600<BR>&nbsp; ERA: <U>2.71</U><BR>&nbsp; 4勝12敗0救81Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>小八貓</B><BR><font class='ttny'>&nbsp; 年薪: 3,400<BR>&nbsp; ERA: <U>5.28</U><BR>&nbsp; 2勝20敗0救76Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>14</B></td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>朗希八神</B><BR><font class='ttny'>&nbsp; 年薪: 13,200<BR>&nbsp; ERA: <U>5.79</U><BR>&nbsp; 9勝15敗0救91Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>龍之子十七</B><BR><font class='ttny'>&nbsp; 年薪: 23,600<BR>&nbsp; ERA: <U>2.79</U><BR>&nbsp; 12勝8敗0救113Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>南至苑</B><BR><font class='ttny'>&nbsp; 年薪: 7,500<BR>&nbsp; ERA: <U>6.48</U><BR>&nbsp; 4勝16敗0救92Ｋ</font>
+</Td>
+<td class='k1473' style="color:#00B300; background-color:#FDD8FE;">SP.<B>★★★★★</B><BR><font class='ttny'>&nbsp; 年薪: 1,000<BR>&nbsp; ERA: <U>5.70</U><BR>&nbsp; 3勝15敗0救65Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>上銀</B><BR><font class='ttny'>&nbsp; 年薪: 6,800<BR>&nbsp; ERA: <U>7.38</U><BR>&nbsp; 2勝19敗0救61Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDD8FE;">SP.<B>抹香鯨</B><BR><font class='ttny'>&nbsp; 年薪: 4,400<BR>&nbsp; ERA: <U>6.92</U><BR>&nbsp; 3勝19敗0救61Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF">14</td><tr>
+<tr align=center bgcolor='#FFFFFF'><td>#</td>
+<Td WIDTH=85 bgcolor=#047D68><a href="ore.cgi?mode=teisatu&saku=4" target=_blank style="text-decoration:none;  color:#E3D246; font-size:16px; font-weight:BOLD;">年代</a></Td><Td WIDTH=85 bgcolor=#6CA96E><a href="ore.cgi?mode=teisatu&saku=2" target=_blank style="text-decoration:none;  color:#CC0000; font-size:16px; font-weight:BOLD;">興農</a></Td><Td WIDTH=85 bgcolor=#FF5A01><a href="ore.cgi?mode=teisatu&saku=3" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">誠泰</a></Td><Td WIDTH=85 bgcolor=#0024D0><a href="ore.cgi?mode=teisatu&saku=1" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">三商</a></Td><Td WIDTH=85 bgcolor=#000000><a href="ore.cgi?mode=teisatu&saku=5" target=_blank style="text-decoration:none;  color:#EE0000; font-size:16px; font-weight:BOLD;">時報</a></Td><Td WIDTH=85 bgcolor=#FFF700><a href="ore.cgi?mode=teisatu&saku=0" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">兄弟</a></Td><td>#</td>
+<Td WIDTH=85 bgcolor=#3A765D><a href="ore.cgi?mode=teisatu&saku=8" target=_blank style="text-decoration:none;  color:#F9E0A5; font-size:16px; font-weight:BOLD;">俊國</a></Td><Td WIDTH=85 bgcolor=#2B4B62><a href="ore.cgi?mode=teisatu&saku=9" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">桃猿</a></Td><Td WIDTH=85 bgcolor=#EE0000><a href="ore.cgi?mode=teisatu&saku=7" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">味全</a></Td><Td WIDTH=85 bgcolor=#009900><a href="ore.cgi?mode=teisatu&saku=6" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">統一</a></Td><Td WIDTH=85 bgcolor=#761189><a href="ore.cgi?mode=teisatu&saku=10" target=_blank style="text-decoration:none;  color:#FFF700; font-size:16px; font-weight:BOLD;">生活</a></Td><Td WIDTH=85 bgcolor=#00919E><a href="ore.cgi?mode=teisatu&saku=11" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">中信</a></Td><td>#</td></tr>
+<tr align=center><td bgcolor="#FFFFFF">15</td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>白日夢三三</B><BR><font class='ttny'>&nbsp; 年薪: 10,800<BR>&nbsp; ERA: <U>2.60</U><BR>&nbsp; 5勝4敗6救53Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>姬蟲百百世</B><BR><font class='ttny'>&nbsp; 年薪: 16,700<BR>&nbsp; ERA: <U>2.81</U><BR>&nbsp; 7勝3敗5救78Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>龜甲斐</B><BR><font class='ttny'>&nbsp; 年薪: 12,500<BR>&nbsp; ERA: <U>4.17</U><BR>&nbsp; 11勝3敗4救118Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>落月民</B><BR><font class='ttny'>&nbsp; 年薪: 9,800<BR>&nbsp; ERA: <U>5.95</U><BR>&nbsp; 6勝8敗2救77Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>卡瑪草蓆爸</B><BR><font class='ttny'>&nbsp; 年薪: 7,800<BR>&nbsp; ERA: <U>3.18</U><BR>&nbsp; 1勝6敗1救134Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>四軍打鐵二</B><BR><font class='ttny'>&nbsp; 年薪: 3,700<BR>&nbsp; ERA: <U>5.24</U><BR>&nbsp; 8勝6敗2救105Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>15</B></td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>烏雞飯</B><BR><font class='ttny'>&nbsp; 年薪: 8,700<BR>&nbsp; ERA: <U>3.81</U><BR>&nbsp; 1勝2敗1救29Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>睦月一世</B><BR><font class='ttny'>&nbsp; 年薪: 13,400<BR>&nbsp; ERA: <U>2.58</U><BR>&nbsp; 8勝4敗2救67Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>貝納頌十九</B><BR><font class='ttny'>&nbsp; 年薪: 4,000<BR>&nbsp; ERA: <U>6.65</U><BR>&nbsp; 3勝5敗0救43Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>蟲蟲十二世</B><BR><font class='ttny'>&nbsp; 年薪: 10,800<BR>&nbsp; ERA: <U>4.66</U><BR>&nbsp; 5勝5敗0救88Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>啾喜陸</B><BR><font class='ttny'>&nbsp; 年薪: 4,800<BR>&nbsp; ERA: <U>5.69</U><BR>&nbsp; 2勝7敗1救45Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>兩津二</B><BR><font class='ttny'>&nbsp; 年薪: 8,300<BR>&nbsp; ERA: <U>5.14</U><BR>&nbsp; 7勝5敗0救84Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF">15</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">16</td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>或躍在淵</B><BR><font class='ttny'>&nbsp; 年薪: 9,900<BR>&nbsp; ERA: <U>3.84</U><BR>&nbsp; 6勝3敗2救54Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>千古一帝</B><BR><font class='ttny'>&nbsp; 年薪: 8,500<BR>&nbsp; ERA: <U>4.53</U><BR>&nbsp; 5勝2敗5救60Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>史萊姆萊</B><BR><font class='ttny'>&nbsp; 年薪: 4,300<BR>&nbsp; ERA: <U>5.71</U><BR>&nbsp; 8勝3敗2救65Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>李多會二</B><BR><font class='ttny'>&nbsp; 年薪: 8,700<BR>&nbsp; ERA: <U>4.03</U><BR>&nbsp; 6勝2敗3救69Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>多芙</B><BR><font class='ttny'>&nbsp; 年薪: 5,600<BR>&nbsp; ERA: <U>5.60</U><BR>&nbsp; 3勝5敗0救86Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>八德一代</B><BR><font class='ttny'>&nbsp; 年薪: 3,900<BR>&nbsp; ERA: <U>7.36</U><BR>&nbsp; 0勝4敗0救87Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>16</B></td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>銀河之晨曦</B><BR><font class='ttny'>&nbsp; 年薪: 14,900<BR>&nbsp; ERA: <U>3.06</U><BR>&nbsp; 2勝0敗7救54Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>細川澄元</B><BR><font class='ttny'>&nbsp; 年薪: 10,900<BR>&nbsp; ERA: <U>4.33</U><BR>&nbsp; 12勝5敗3救60Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>寵兒魔女</B><BR><font class='ttny'>&nbsp; 年薪: 6,700<BR>&nbsp; ERA: <U>3.66</U><BR>&nbsp; 7勝2敗3救107Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>午後拿鐵六</B><BR><font class='ttny'>&nbsp; 年薪: 6,700<BR>&nbsp; ERA: <U>5.54</U><BR>&nbsp; 2勝6敗0救64Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>輝達</B><BR><font class='ttny'>&nbsp; 年薪: 14,500<BR>&nbsp; ERA: <U>5.05</U><BR>&nbsp; 3勝8敗2救89Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>基督是主四</B><BR><font class='ttny'>&nbsp; 年薪: 18,300<BR>&nbsp; ERA: <U>2.77</U><BR>&nbsp; 4勝6敗1救98Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF">16</td><tr>
+<tr align=center><td bgcolor="#FFFFFF">17</td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>跑的慢三九</B><BR><font class='ttny'>&nbsp; 年薪: 5,900<BR>&nbsp; ERA: <U>7.63</U><BR>&nbsp; 4勝1敗2救38Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>龜龜還想打</B><BR><font class='ttny'>&nbsp; 年薪: 3,900<BR>&nbsp; ERA: <U>5.90</U><BR>&nbsp; 1勝4敗0救33Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>許銀川一世</B><BR><font class='ttny'>&nbsp; 年薪: 2,300<BR>&nbsp; ERA: <U>5.83</U><BR>&nbsp; 11勝9敗3救89Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>陳信二</B><BR><font class='ttny'>&nbsp; 年薪: 6,400<BR>&nbsp; ERA: <U>4.24</U><BR>&nbsp; 8勝4敗3救78Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>新手01</B><BR><font class='ttny'>&nbsp; 年薪: 2,400<BR>&nbsp; ERA: <U>5.38</U><BR>&nbsp; 7勝7敗0救80Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>小護士</B><BR><font class='ttny'>&nbsp; 年薪: 2,900<BR>&nbsp; ERA: <U>4.78</U><BR>&nbsp; 6勝7敗1救100Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>17</B></td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>桐生亮太</B><BR><font class='ttny'>&nbsp; 年薪: 2,100<BR>&nbsp; ERA: <U>4.78</U><BR>&nbsp; 2勝2敗0救39Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>必勝十三世</B><BR><font class='ttny'>&nbsp; 年薪: 8,700<BR>&nbsp; ERA: <U>6.79</U><BR>&nbsp; 4勝3敗2救31Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>巨噬細胞</B><BR><font class='ttny'>&nbsp; 年薪: 5,600<BR>&nbsp; ERA: <U>4.21</U><BR>&nbsp; 7勝2敗1救49Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>席朗托羅莫</B><BR><font class='ttny'>&nbsp; 年薪: 3,400<BR>&nbsp; ERA: <U>5.98</U><BR>&nbsp; 8勝11敗0救63Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>王涵</B><BR><font class='ttny'>&nbsp; 年薪: 8,900<BR>&nbsp; ERA: <U>6.30</U><BR>&nbsp; 4勝4敗0救81Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDC4FD;">RP.<B>摸摸二世</B><BR><font class='ttny'>&nbsp; 年薪: 10,800<BR>&nbsp; ERA: <U>4.53</U><BR>&nbsp; 2勝4敗2救74Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF">17</td><tr>
+<tr align=center bgcolor='#FFFFFF'><td>#</td>
+<Td WIDTH=85 bgcolor=#047D68><a href="ore.cgi?mode=teisatu&saku=4" target=_blank style="text-decoration:none;  color:#E3D246; font-size:16px; font-weight:BOLD;">年代</a></Td><Td WIDTH=85 bgcolor=#6CA96E><a href="ore.cgi?mode=teisatu&saku=2" target=_blank style="text-decoration:none;  color:#CC0000; font-size:16px; font-weight:BOLD;">興農</a></Td><Td WIDTH=85 bgcolor=#FF5A01><a href="ore.cgi?mode=teisatu&saku=3" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">誠泰</a></Td><Td WIDTH=85 bgcolor=#0024D0><a href="ore.cgi?mode=teisatu&saku=1" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">三商</a></Td><Td WIDTH=85 bgcolor=#000000><a href="ore.cgi?mode=teisatu&saku=5" target=_blank style="text-decoration:none;  color:#EE0000; font-size:16px; font-weight:BOLD;">時報</a></Td><Td WIDTH=85 bgcolor=#FFF700><a href="ore.cgi?mode=teisatu&saku=0" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">兄弟</a></Td><td>#</td>
+<Td WIDTH=85 bgcolor=#3A765D><a href="ore.cgi?mode=teisatu&saku=8" target=_blank style="text-decoration:none;  color:#F9E0A5; font-size:16px; font-weight:BOLD;">俊國</a></Td><Td WIDTH=85 bgcolor=#2B4B62><a href="ore.cgi?mode=teisatu&saku=9" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">桃猿</a></Td><Td WIDTH=85 bgcolor=#EE0000><a href="ore.cgi?mode=teisatu&saku=7" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">味全</a></Td><Td WIDTH=85 bgcolor=#009900><a href="ore.cgi?mode=teisatu&saku=6" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">統一</a></Td><Td WIDTH=85 bgcolor=#761189><a href="ore.cgi?mode=teisatu&saku=10" target=_blank style="text-decoration:none;  color:#FFF700; font-size:16px; font-weight:BOLD;">生活</a></Td><Td WIDTH=85 bgcolor=#00919E><a href="ore.cgi?mode=teisatu&saku=11" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">中信</a></Td><td>#</td></tr>
+<tr align=center><td bgcolor="#FFFFFF">18</td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>小叡四十</B><BR><font class='ttny'>&nbsp; 年薪: 2,400<BR>&nbsp; ERA: <U>8.57</U><BR>&nbsp; 2勝8敗25救20Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>善心無限</B><BR><font class='ttny'>&nbsp; 年薪: 2,400<BR>&nbsp; ERA: <U>9.18</U><BR>&nbsp; 1勝5敗12救9Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>孫易磊三</B><BR><font class='ttny'>&nbsp; 年薪: 2,000<BR>&nbsp; ERA: <U>4.50</U><BR>&nbsp; 3勝3敗18救18Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>葉修</B><BR><font class='ttny'>&nbsp; 年薪: 2,400<BR>&nbsp; ERA: <U>1.65</U><BR>&nbsp; 0勝0敗13救11Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>小堂棠</B><BR><font class='ttny'>&nbsp; 年薪: 3,100<BR>&nbsp; ERA: <U>7.36</U><BR>&nbsp; 0勝3敗14救11Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>慢投王</B><BR><font class='ttny'>&nbsp; 年薪: 16,100<BR>&nbsp; ERA: <U>2.31</U><BR>&nbsp; 0勝1敗12救12Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF"><B>18</B></td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>業餘球評</B><BR><font class='ttny'>&nbsp; 年薪: 7,700<BR>&nbsp; ERA: <U>8.38</U><BR>&nbsp; 0勝4敗17救7Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>黑子哲也</B><BR><font class='ttny'>&nbsp; 年薪: 4,900<BR>&nbsp; ERA: <U>7.03</U><BR>&nbsp; 1勝1敗18救14Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>酒祭彩葉</B><BR><font class='ttny'>&nbsp; 年薪: 2,100<BR>&nbsp; ERA: <U>7.43</U><BR>&nbsp; 1勝4敗14救12Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>炒蝦十世</B><BR><font class='ttny'>&nbsp; 年薪: 14,700<BR>&nbsp; ERA: <U>7.30</U><BR>&nbsp; 1勝5敗23救21Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>朵拉陸</B><BR><font class='ttny'>&nbsp; 年薪: 2,400<BR>&nbsp; ERA: <U>8.76</U><BR>&nbsp; 1勝3敗7救3Ｋ</font>
+</Td>
+<td class='k1473' style="color:#000000; background-color:#FDACFD;">CP.<B>林恩宇十三</B><BR><font class='ttny'>&nbsp; 年薪: 3,600<BR>&nbsp; ERA: <U>6.75</U><BR>&nbsp; 2勝3敗15救12Ｋ</font>
+</Td>
+<td bgcolor="#FFFFFF">18</td><tr>
+<tr align=center bgcolor='#FFFFFF'><td>#</td>
+<Td WIDTH=85 bgcolor=#047D68><a href="ore.cgi?mode=teisatu&saku=4" target=_blank style="text-decoration:none;  color:#E3D246; font-size:16px; font-weight:BOLD;">年代</a></Td><Td WIDTH=85 bgcolor=#6CA96E><a href="ore.cgi?mode=teisatu&saku=2" target=_blank style="text-decoration:none;  color:#CC0000; font-size:16px; font-weight:BOLD;">興農</a></Td><Td WIDTH=85 bgcolor=#FF5A01><a href="ore.cgi?mode=teisatu&saku=3" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">誠泰</a></Td><Td WIDTH=85 bgcolor=#0024D0><a href="ore.cgi?mode=teisatu&saku=1" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">三商</a></Td><Td WIDTH=85 bgcolor=#000000><a href="ore.cgi?mode=teisatu&saku=5" target=_blank style="text-decoration:none;  color:#EE0000; font-size:16px; font-weight:BOLD;">時報</a></Td><Td WIDTH=85 bgcolor=#FFF700><a href="ore.cgi?mode=teisatu&saku=0" target=_blank style="text-decoration:none;  color:#000000; font-size:16px; font-weight:BOLD;">兄弟</a></Td><td>#</td>
+<Td WIDTH=85 bgcolor=#3A765D><a href="ore.cgi?mode=teisatu&saku=8" target=_blank style="text-decoration:none;  color:#F9E0A5; font-size:16px; font-weight:BOLD;">俊國</a></Td><Td WIDTH=85 bgcolor=#2B4B62><a href="ore.cgi?mode=teisatu&saku=9" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">桃猿</a></Td><Td WIDTH=85 bgcolor=#EE0000><a href="ore.cgi?mode=teisatu&saku=7" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">味全</a></Td><Td WIDTH=85 bgcolor=#009900><a href="ore.cgi?mode=teisatu&saku=6" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">統一</a></Td><Td WIDTH=85 bgcolor=#761189><a href="ore.cgi?mode=teisatu&saku=10" target=_blank style="text-decoration:none;  color:#FFF700; font-size:16px; font-weight:BOLD;">生活</a></Td><Td WIDTH=85 bgcolor=#00919E><a href="ore.cgi?mode=teisatu&saku=11" target=_blank style="text-decoration:none;  color:#FFFFFF; font-size:16px; font-weight:BOLD;">中信</a></Td><td>#</td></tr>
+</table>
+
+<font style='font-size:14px; font-weight:BOLD;'>球員名稱顏色：<font color=#00B300><B>電腦</B>(7)</font>、<font color=#EC2321><B>未強化一次</B>(5)</font>、<font color=#FF33CC><B>未強化二次</B>(0)</font>、<B>其他</B>(204)</font><BR>
+
+<BR>
+</form>
+
+
+
+
+</form><form action="ore.cgi" method="POST">
+<input type=hidden name=hello value=1782479806>
+
+
+<table border="0" cellspacing="1" cellpadding="3" bgcolor="#000000">
+<tr>
+<td bgcolor="#FFFFFF">
+<input class="vito" style="background-color:#000000; color:#FFFFFF;" type="submit" name="tohome"		value="首頁">
+<input class="vito" style="background-color:#9900CC; color:#FFFFFF;" type="submit" name="league_rank"	value="本季排行">
+<input class="vito" style="background-color:#9900CC; color:#FFFFFF;" type="submit" name="kiroku"		value="歷史記錄">
+<input class="vito" style="background-color:#9900CC; color:#FFFFFF;" type="submit" name="kiroky"		value="球員記錄">
+<input class="vito" style="background-color:#9900CC; color:#FFFFFF;" type="submit" name="others"		value="其他記錄">
+
+<input class="vito" style="background-color:#003399; color:#FFFFFF;" type="submit" name="kakunin"		value="戰力分析">
+<input class="vito" style="background-color:#003399; color:#FFFFFF;" type="submit" name="kakuninn"		value="陣容介紹">
+<input class="vito" style="background-color:#FF3399; color:#FFFFFF;" type="submit" name="fantasy"		value="夢幻球隊">
+<input class="vito" style="background-color:#FF6600; color:#FFFFFF;" type="submit" name="lotto"			value="樂透661">
+<input class="vito" style="background-color:#00CC00; color:#FFFFFF;" type="submit" name="ourteam"		value="球團專區">
+
+<input class="vito" style="background-color:#999999; color:#FFFFFF;" type="submit" name="sukinselect"	value="設定">
+<input class="vito" style="background-color:#999999; color:#FFFFFF;" type="submit" name="rule"			value="規則">
+<input class="vito" type="button" name="facebook"		value="ＦＢ" onClick="window.open('https://www.facebook.com/groups/187598557927304');"
+style="font-weight:BOLD; background-color:#3333FF; color:#FFFFFF;" />
+</td></td></tr></table></form>
+</center>
+<div align="center" style="font-size:11px;">
+
+[LD=<B>5</B>,KS=<B>5</B>] 現在時間 <B>06/26 (五) 21:16</B> (<B>1782479806</B>) 來自 <B>1.173.147.121</B> 域名 <B>1-173-147-121.dynamic-ip.hinet.net</B>
+系統 CPU(<B>0.09</B>) = USER(<B>0.08</B>) + SYSTEM(<B>0.01</B>)<BR>
+<a name="PAGEBOTTOM"><a
+href="http://woodman.s31.xrea.com/" target="_blank">原始碼：野球人２ ver 1.75b (Free)</a>／<a
+href="http://osktaka.in.coocan.jp/" target="_blank">改造元：劇空間２ ver 3.00b (Free)</a
+>／中文化：SETTV(2005/07/03)<BR>
+
+
+
+
+
+</div><BR></body></html>

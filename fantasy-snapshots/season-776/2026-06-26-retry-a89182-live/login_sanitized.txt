@@ -1,0 +1,783 @@
+菜鳥出頭天 - 有 12 隻菜鳥正在線上
+input,select	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#000000'; BORDER:'1 SOLID:000000'; background-color:'#D1D1FF'; }
+input.vito	{ font-size:12px; font-weight:BOLD; }
+textarea	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#000000'; BORDER:'1 SOLID:000000'; background-color:'#D1D1FF'; }
+body	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; }
+tr	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; }
+tr.head	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; font-weight:BOLD; text-align:CENTER; }
+td,th	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; white-space:nowrap; }
+td.broadcast	{ font-size:12px; white-space:normal; font-family:Tahoma,Verdana,微軟正黑體; }
+td.histitle	{ font-size:20px; font-weight:BOLD; }
+.score	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#D1D1FF'; background-color:'#008800'; }
+td.tq	{ font-family:Verdana; font-weight:BOLD; }
+.tX	{ font-family:Verdana; font-size:9px; font-weight:NORMAL; }
+function Navi(img) {
+var mousePosX;
+var mousePosY;
+if ( window.Event ) {
+//	mousePosX = event.screenX;
+//	mousePosY = event.screenY;
+} else {
+//	mousePosX = event.x + document.body.scrollLeft;
+//	mousePosY = event.y + document.body.scrollTop;
+//	mousePosX = event.clientX + document.body.scrollLeft;
+//	mousePosY = event.clientY + document.body.scrollTop;
+}
+StyElm = document.getElementById("NaviView");
+StyElm.style.visibility = "visible";
+StyElm.style.marginTop = document.body.scrollTop + 50;
+StyElm.style.marginLeft = document.body.scrollLeft + 50;
+StyElm.style.marginTop = document.body.scrollTop + 20;
+StyElm.style.marginLeft = document.body.scrollLeft + 20;
+//	alert(document.body.clientWidth );
+//	alert(document.body.clientHeight );
+//var e = (e)?e:event;
+//	alert(e.clientY );
+//	alert(e.clientY );
+switch(img){
+case "img/bantbatsu.gif": title = "觸擊Ｘ"; comment = "觸擊能力下降"; break;
+case "img/bantmaru.gif": title = "觸擊○"; comment = "觸擊能力上升"; break;
+case "img/bant5.gif": title = "觸擊◎"; comment = "觸擊能力大幅上升"; break;
+case "img/chancebatsu.gif": title = "得點圈Ｘ"; comment = "得點圈能力下降"; break;
+case "img/chancemaru.gif": title = "得點圈○"; comment = "得點圈能力上升"; break;
+case "img/chance5.gif": title = "得點圈◎"; comment = "得點圈能力大幅上升"; break;
+case "img/hidaritobatsu.gif": title = "對左投Ｘ"; comment = "對左投表現差"; break;
+case "img/hidaritomaru.gif": title = "對左投○"; comment = "對左投表現好"; break;
+case "img/hidarito5.gif": title = "對左投◎"; comment = "對左投表現超好"; break;
+case "img/touruibatsu.gif": title = "盜壘Ｘ"; comment = "盜壘能力下降，次數減少"; break;
+case "img/tourui.gif": title = "盜壘○"; comment = "盜壘能力上升，次數增加"; break;
+case "img/timelyerror.gif": title = "守備能力Ｘ"; comment = "守備能力下降"; break;
+case "img/syubisyokunin.gif": title = "守備能力○"; comment = "守備能力上升"; break;
+case "img/powerh.gif": title = "強力打者"; comment = "長打機會多"; break;
+case "img/averageh.gif": title = "巧打打者"; comment = "安打機會多，長打也會增加"; break;
+case "img/gyakkyo.gif": title = "逆境○"; comment = "七局後，球隊落後能力會上升"; break;
+case "img/manrui.gif": title = "滿壘男"; comment = "滿壘時，能力上升"; break;
+case "img/naiyaanda.gif": title = "內野安打"; comment = "內野安打機會上升"; break;
+case "img/katameuchi.gif": title = "固定打者"; comment = "每場1安打後，能力上升"; break;
+case "img/chance_maker.gif": title = "開路先鋒"; comment = "壘上無人時，能力上升"; break;
+case "img/sayonara.gif": title = "再見男"; comment = "擊出再見安打的機會上升"; break;
+case "img/soukyu.gif": title = "傳球○"; comment = "傳球能力上升"; break;
+case "img/iatsukan.gif": title = "威壓感"; comment = "對手能力下降"; break;
+case "img/anteikan.gif": title = "安定感"; comment = "狀況不好時，能力下降不多"; break;
+case "img/murakke.gif": title = "不安定感"; comment = "狀況大好大壞，起伏不定"; break;
+case "img/ninkimono.gif": title = "人氣者"; comment = "容易入選明星賽"; break;
+case "img/gouriki.gif": title = "豪力"; comment = "長打變得很多"; break;
+case "img/shinsoku.gif": title = "神速"; comment = "盜壘成功機會上升，次數也會增加"; break;
+case "img/touki.gif": title = "鬥氣"; comment = "對方投手能力大幅下降"; break;
+case "img/datsuryoku.gif": title = "奪力"; comment = "對方投手消耗很多的體力"; break;
+case "img/kinbaku.gif": title = "難纏"; comment = "對方投手的變化球能力大幅下降"; break;
+case "img/nobibatsu.gif": title = "直球Ｘ"; comment = "三振能力下降"; break;
+case "img/nobimaru.gif": title = "直球○"; comment = "三振能力上升"; break;
+case "img/kirebatsu.gif": title = "變化Ｘ"; comment = "變化球能力下降"; break;
+case "img/kiremaru.gif": title = "變化○"; comment = "變化球能力上升"; break;
+case "img/pinchibatsu.gif": title = "危機Ｘ"; comment = "危機處理能力下降"; break;
+case "img/pinchimaru.gif": title = "危機○"; comment = "危機處理能力上升"; break;
+case "img/hidaridabatsu.gif": title = "對左打Ｘ"; comment = "對左打者表現差"; break;
+case "img/hidaridamaru.gif": title = "對左打○"; comment = "對左打者表現好"; break;
+case "img/quickbatsu.gif": title = "牽制Ｘ"; comment = "對方跑壘能力上升"; break;
+case "img/quickmaru.gif": title = "牽制○"; comment = "對方跑壘能力下降"; break;
+case "img/makeun.gif": title = "負運"; comment = "影響七局後領先時的能力"; break;
+case "img/kachiun.gif": title = "勝運"; comment = "勝運影響七局後落後時的能力"; break;
+case "img/utareyowai.gif": title = "被連打Ｘ"; comment = "被安打後，體力下降增加"; break;
+case "img/utareduyoi.gif": title = "被連打○"; comment = "被安打後，體力下降減少"; break;
+case "img/ippatsubyo.gif": title = "一發病"; comment = "容易被打全壘打"; break;
+case "img/nigedama.gif": title = "逃球"; comment = "不容易被打全壘打"; break;
+case "img/omoitama.gif": title = "重球"; comment = "對手的力量下降"; break;
+case "img/siriagari.gif": title = "中繼能力○"; comment = "五局後，先發投手能力上升"; break;
+case "img/hannoumaru.gif": title = "投球反應○"; comment = "投手前滾地，容易接到，失誤減少"; break;
+case "img/tetsuwan.gif": title = "鐵腕"; comment = "三振數大幅上升"; break;
+case "img/goukyu.gif": title = "剛球"; comment = "對方打者力量大幅下降"; break;
+case "img/zetsurin.gif": title = "超人"; comment = "體力消耗很少"; break;
+case "img/jubaku.gif": title = "束縛"; comment = "對方打者速度下降"; break;
+case "img/kihaku.gif": title = "氣魄"; comment = "被安打後，體力幾乎沒下降"; break;
+}
+StyElm.innerHTML = "	"+title+"
+"+comment+"
+";
+}
+function NaviClose() {
+StyElm = document.getElementById("NaviView");
+StyElm.style.visibility = "hidden";
+}
+第	776	季  	菜鳥出頭天	 第	5	日 	 	總冠軍賽
+var title1 = document.title;
+function titnimation() {
+now = new Date();
+hours = now.getHours();
+minutes = now.getMinutes();
+seconds = now.getSeconds();
+timeValue = (hours >= 12) ? "下午 " : "上午 ";
+//	timeValue += ((hours > 12) ? hours - 12 : hours) + ":";
+timeValue += ((hours
+[一][二][三][四] 正規季賽 	→
+[五] 總冠軍賽(+球員強化+陣容調整) 	→
+[六] 球隊集訓日(+球員強化+陣容調整) 	→
+[日] 球員強化日(+球員強化+夢幻組隊)
+(每天	20	時更換日程)
+如果你使用任何自動或輔助程式出賽，可能會無法登入
+這是菜鳥正式區！請務必將 	 http://game.tinycafe.com/ore/
+網址加入書籤。
+-->
+網址１ 	/	 網址２ 	]
+-->
+重創時建議使用相同的玩家帳號名稱。	 不定期不預警於每季開季時刪除多帳。
+統一獅隊
+守備
+打擊
+投手
+狀況
+球隊專用球場：	台南市立棒球場（110公尺）
+聯盟冠軍獲勝：	累計 11 次
+總冠軍賽獲勝：	累計 8 次
+觸擊戰術（1：少← 5 →10：多）：	1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+盜壘戰術（1：少← 5 →10：多）：	1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+出賽
+勝率
+勝場
+敗場
+和場
+連勝
+剩餘場次
+5
+.200
+1
+4
+0
+1
+總冠軍賽結束
+打擊率
+防禦率
+得分率
+本打數
+盜壘數
+失誤數
+.198
+5.14
+2.8
+6
+2
+0
+日期時間	對手球隊	比數	連勝/連敗	領軍球員
+3連敗	<>4 - 6<>年代勇士<>雨後橫虹<><><><>
+-->
+06/26 21:09
+年代勇士
+4 - 6	3連敗	雨後橫虹
+2連敗	<>2 - 7<>年代勇士<>雨後橫虹<><><><>
+-->
+06/26 20:47
+年代勇士
+2 - 7	2連敗	雨後橫虹
+1連敗	<>1 - 7<>年代勇士<>雨後橫虹<><><><>
+-->
+06/26 20:24
+年代勇士
+1 - 7	1連敗	雨後橫虹
+1連勝	<>4 - 1<>年代勇士<>轟雷市十二<><><><>
+-->
+06/26 20:22
+年代勇士
+4 - 1	1連勝	轟雷市十二
+1連敗	<>4 - 7<>年代勇士<>小叡四十<><><><>
+-->
+06/26 20:04
+年代勇士
+4 - 7	1連敗	小叡四十
+─ 	 ─ 	 ─ 	 ─ 	 ─
+─ 	 ─ 	 ─ 	 ─ 	 ─
+─ 	 ─ 	 ─ 	 ─ 	 ─
+─ 	 ─ 	 ─ 	 ─ 	 ─
+─ 	 ─ 	 ─ 	 ─ 	 ─
+上方為球員總冠軍賽成績／下方為球員本球季成績／球員名稱顏色：	電腦	、	未強化
+順序&守備	球員&玩家	狀況&打法
+力	巧	速	肩	守
+特能	打率	打數	安打	本打	打點	四死	犧打
+盜壘	失誤	契約	年齡&年資	現金&年薪
+左外
+皮耶爾二	(	pipi258	)
+R	 一般
+234
+6
+6
+7
+11
+.192
+.242
+26
+549
+5
+133
+0
+13
+1
+53
+0
+109
+0
+0
+0
+6
+0
+2
+3
+28	歲	, 7年
+1億0048萬
+7200萬/年
+一壘
+拉芙三特利	(	杜瓦87了	)
+L	 一般
+234
+6
+4
+5
+11
+.318
+.254
+22
+550
+7
+140
+1
+27
+1
+66
+3
+116
+0
+1
+0
+4
+0
+2
+4
+39	歲	, 18年
+4億0500萬
+2億1900萬/年
+右外
+方舟十三	(	lastark	)
+R	 一般
+232
+6
+6
+6
+11
+.250
+.246
+20
+552
+5
+136
+1
+25
+3
+69
+4
+108
+0
+2
+0
+10
+0
+2
+3
+36	歲	, 15年
+1億6700萬
+1億8800萬/年
+捕手
+亨利三世	(	都鐸	)
+R	 一般
+214
+4
+3
+4
+9
+.200
+.212
+20
+564
+4
+120
+1
+18
+2
+59
+3
+72
+0
+1
+0
+4
+0
+1
+2
+41	歲	, 20年
+2億5500萬
+2億2000萬/年
+二壘
+栗子一世	(	maddux3939	)
+L	 一般
+234
+6
+6
+6
+11
+.333
+.219
+18
+541
+6
+119
+1
+16
+4
+46
+5
+70
+0
+1
+0
+3
+0
+19
+2
+27	歲	, 6年
+3億4228萬
+7800萬/年
+三壘
+咖哩八世	(	asdzxc1120	)
+R	 一般
+234
+5
+4
+6
+10
+.200
+.211
+20
+538
+4
+114
+2
+10
+3
+39
+3
+74
+0
+1
+0
+5
+0
+0
+1
+38	歲	, 17年
+7億7400萬
+1億8600萬/年
+ＤＨ
+轟雷市十二	(	polntion	)
+L	 一般
+226
+6
+5
+6
+11
+.150
+.240
+20
+512
+3
+123
+0
+9
+0
+38
+3
+82
+0
+0
+0
+11
+0
+0
+2
+27	歲	, 6年
+4億4478萬
+6200萬/年
+游擊
+亞特漾漾	(	漾漾	)
+R	 一般
+206
+5
+5
+5
+10
+.105
+.215
+19
+511
+2
+110
+0
+3
+1
+33
+3
+66
+0
+0
+0
+5
+0
+0
+1
+25	歲	, 4年
+1280萬
+5100萬/年
+中外
+柯比氣氣	(	kerwin	)
+R	 一般
+119
+5
+11
+4
+9
+.047
+.204
+21
+544
+1
+111
+0
+1
+0
+24
+1
+29
+0
+0
+2
+17
+0
+0
+4
+22	歲	, 	  菜
+3700萬
+2300萬/年
+10～14為先發投手／15～17為中繼投手／18為救援投手
+順序	球員&玩家	狀況&投法
+控球	體力	球速	變化球&特殊能力
+防率	勝場	敗場	救援	局數	三振	保送
+被本	Ｋ率	契約	年齡&年資	現金&年薪
+10
+鮭魚上游	(	edahnd	)
+R	 高壓
+191
+204
+146
+滑球(2) 快速指叉球(2)
+10.13
+1.02
+0
+15
+0
+3
+0
+0
+2 2/3
+221 1/3
+3
+135
+6
+113
+1
+2
+10.13
+5.49
+1
+42	歲	, 21年
+1820萬
+2億4900萬/年
+11
+囧囧魚二世	(	a12457800	)
+R	 一般
+191
+204
+142
+快速伸卡球(6)
+1.59
+1.73
+0
+15
+0
+4
+0
+0
+5 2/3
+202 2/3
+3
+133
+0
+92
+1
+14
+4.76
+5.91
+1
+41	歲	, 20年
+2400萬
+2億6100萬/年
+12
+千賀滉大七	(	千賀滉大七	)
+R	 一般
+237
+247
+156
+快速指叉球(6)
+1.69
+3.89
+0
+5
+1
+15
+0
+0
+5 1/3
+185 0/3
+2
+101
+6
+90
+0
+19
+3.38
+4.91
+3
+32	歲	, 11年
+7億2800萬
+1億7200萬/年
+13
+西鄉波爾波
+L	 1/2
+168
+178
+136
+曲球(4)
+6.75
+4.83
+0
+1
+1
+15
+0
+0
+2 2/3
+126 2/3
+1
+62
+3
+101
+1
+17
+3.38
+4.41
+3
+18	歲	, 	  菜
+0萬
+1000萬/年
+14
+本田速人
+R	 1/2
+170
+175
+136
+快速伸卡球(4)
+5.40
+5.70
+0
+3
+0
+15
+0
+0
+3 1/3
+118 1/3
+3
+65
+1
+71
+2
+24
+8.10
+4.94
+3
+18	歲	, 	  菜
+0萬
+1000萬/年
+席朗托羅莫	(	格利高	)
+R	 一般
+201
+193
+152
+快速指叉球(5)
+5.14
+5.98
+0
+8
+0
+11
+0
+0
+7 0/3
+122 0/3
+6
+63
+2
+75
+3
+27
+7.71
+4.65
+4
+23	歲	, 2年
+6600萬
+3400萬/年
+蟲蟲十二世	(	love90019	)
+L	 一般
+242
+229
+155
+滑球(3) 螺旋球(3)
+11.74
+4.66
+0
+5
+2
+5
+0
+0
+7 2/3
+145 0/3
+6
+88
+10
+77
+2
+22
+7.04
+5.46
+4
+31	歲	, 7年
+1億1900萬
+1億0800萬/年
+17
+午後拿鐵六	(	black9	)
+L	 一般
+234
+219
+154
+曲球(2)
+3.46
+5.54
+1
+2
+0
+6
+0
+0
+13 0/3
+113 2/3
+2
+64
+6
+67
+2
+22
+1.38
+5.07
+3
+26	歲	, 5年
+2億7200萬
+6700萬/年
+18
+炒蝦十世
+R	 高壓
+239
+249
+155
+快速指叉球(6)
+0.00
+7.30
+0
+1
+0
+5
+1
+23
+1 2/3
+37 0/3
+1
+21
+1
+24
+0
+7
+5.40
+5.11
+3
+32	歲	, 11年
+7億5228萬
+1億4700萬/年
+function switchpp()
+{
+var jun14 = document.loginform.jun14.value;
+if ( jun14 != 15 ) jun14 = 16 ;
+document.loginform.jun14.value = 31 - jun14 ;
+document.loginform.jun15.value = jun14 ;
+}
+下次出賽請再等待 	14	 分鐘!
+球隊頻道（其他隊伍無法觀看）
+※※※ 	2023/02/25 01:10	 by 	a89182
+配點模擬網站：http://nisepena.s186.xrea.com/sakuseitest.html
+新創《野手》目標值：力C(191)、巧C(5)、走D(7)、肩F(4)、守D(7)／技能好不好可以詢問
+新創《投手》目標值：球速152+，控195+體180+，若沒達標就重創，請按照公告二創腳色	※※※ 	2024/10/09 13:50	 by 	a89182
+『續約』35歲／15年資→39歲／19年資→再續4年『季訓」勿單項點到頂、避免未退化就達S造成浪費
+請團員務必優先處理掉負面特能(除了牽制X、盜壘X不需要，其他都優先處理)
+投手請先買「威壓」=>『安定感』=>「重球」=>黑特；
+野手請先買威壓>固定/開路>黑特(豪/奪)
+若屬於極度點比賽、重大獎、高獎金高薪水玩家可以直上黑特
+野手【力巧】→魔鬼訓練X12，千球守備X3/【巧速】：打跑練習X9次，短跑練習X3，千球守備X3
+投手【速球】→投球練習X3，實戰先發X8，實戰中繼X2，球種系強化X2(務必採用，否則一律剔除)
+出現能力過低回上一頁再創，可以參考其他球隊的新人角色能力，一定練得出來，只是運氣好不好(通常要50次以上)
+請各位團員們務必配合訓練，感謝各位
+06/22 20:54 	a89182	：桃園留給囧囧
+06/22 20:00 	系統公告	：	教練團成員為 a89182(13票) 、 kerwin(12票) 、 maddux3939(8票) 。
+06/22 20:00 	系統公告	：	釋出 	qwer7745	 的提案總計 12 人投票，共有 12 票贊成。提案結果：通過。
+06/22 11:13 	球隊情報	：	[游擊]	亞特漾漾	（漾漾）購買：[消除:得點圈Ｘ]
+06/22 11:12 	強化事件	：	席朗托羅莫	 集訓期間表現優異，獎金200萬。
+06/22 11:10 	球隊情報	：	[一壘]	拉芙三特利	（杜瓦87了）購買：[消除:對左投Ｘ]
+06/22 08:49 	球隊情報	：	[先發]	鮭魚上游	（edahnd）購買：[安定感]
+06/22 08:10 	強化事件	：	蟲蟲十二世	 入選國家隊贏得奧運銅牌，獎金300萬。
+06/20 03:01 	強化事件	：	轟雷市十二	 集訓期間認真參與，獎金100萬。
+06/20 01:33 	球隊情報	：	[先發]	囧囧魚二世	（a12457800）購買：[對左打○]
+粗體
+[LD=	5	,KS=	5	] 現在時間 	06/26 (五) 21:16	 (	1782479805	) 來自 	1.173.147.121	 域名 	1-173-147-121.dynamic-ip.hinet.net
+系統 CPU(	0.09	) = USER(	0.08	) + SYSTEM(	0.01	)
+原始碼：野球人２ ver 1.75b (Free)	／	改造元：劇空間２ ver 3.00b (Free)	／中文化：SETTV(2005/07/03)

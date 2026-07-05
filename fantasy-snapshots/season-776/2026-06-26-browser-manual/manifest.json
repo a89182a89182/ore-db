@@ -1,0 +1,70 @@
+{
+    "generatedAt":  "2026-06-26T21:35:03.8665266+08:00",
+    "season":  776,
+    "dateLabel":  "2026-06-26-browser",
+    "mode":  "manual",
+    "status":  "BLOCKED",
+    "validation":  {
+                       "status":  "BLOCKED",
+                       "failReasons":  [
+                                           "team rankings expected 12 rows, got 0",
+                                           "team ranking champions expected 2, got 0"
+                                       ],
+                       "warnings":  [
+                                        "category leader raw text was not provided"
+                                    ],
+                       "expectedFantasyRows":  "not fixed",
+                       "fantasyRows":  80,
+                       "fantasyRankSequential":  true,
+                       "fantasyColumnShape":  "25 columns; 18 player picks",
+                       "rosterEntries":  216,
+                       "rosterSalaryLines":  216,
+                       "positionCounts":  {
+                                              "CF":  12,
+                                              "RF":  12,
+                                              "LF":  12,
+                                              "C":  12,
+                                              "2B":  12,
+                                              "3B":  12,
+                                              "1B":  12,
+                                              "SS":  12,
+                                              "DH":  12,
+                                              "SP":  60,
+                                              "RP":  36,
+                                              "CP":  12
+                                          },
+                       "leaderRows":  0,
+                       "leaderCategoryCounts":  {
+
+                                                },
+                       "teamRankingRows":  0,
+                       "teamRankingLeagueCounts":  {
+
+                                                   }
+                   },
+    "access":  {
+                   "mode":  "manual",
+                   "liveAttempted":  false,
+                   "credentialPathPresent":  true,
+                   "credentialImported":  false,
+                   "credentialUsed":  false,
+                   "loginSucceeded":  false,
+                   "helloFound":  false
+               },
+    "sourceFiles":  {
+                        "manualFantasyList":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-manual\\fantasy_full_list_raw.txt",
+                        "manualRoster":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-manual\\roster_introduction_raw.txt",
+                        "manualTeamRankings":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-manual\\team_rankings_raw.tsv"
+                    },
+    "pageFetches":  [
+
+                    ],
+    "outputs":  {
+                    "snapshotDir":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-manual",
+                    "fantasyRows":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-manual\\fantasy_full_list_rows.json",
+                    "rosterEntries":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-manual\\roster_entries.json",
+                    "categoryLeaders":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-manual\\category_leaders.json",
+                    "derivedCategoryLeadersFromFullList":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-manual\\derived_category_leaders_from_full_list.json",
+                    "teamRankings":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-manual\\team_rankings.json"
+                }
+}

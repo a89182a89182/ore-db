@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-06-26T21:36:00+08:00",
+  "sourceSeason": "776",
+  "sourceDay": "5",
+  "sourceFreshness": "fresh_web_scrape",
+  "scrapedAtFirst": "2026-06-26T21:35:49+08:00",
+  "scrapedAtLast": "2026-06-26T21:36:08+08:00",
+  "playerArchive": {
+    "players": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-776\\players.json",
+    "meta": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-776\\meta.json",
+    "seasonSnapshot": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-776\\season_snapshot.json",
+    "datedPlayers": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-776\\snapshots\\2026-06-26_players.json",
+    "datedSeasonSnapshot": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-776\\snapshots\\2026-06-26_season_snapshot.json"
+  },
+  "fantasyArchive": {
+    "browserRawDir": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-live",
+    "fullListManifest": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-full-list-manual\\manifest.json",
+    "fullListRows": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-full-list-manual\\fantasy_full_list_rows.json",
+    "rosterEntries": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-full-list-manual\\roster_entries.json",
+    "teamRankings": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\team_rankings.json",
+    "teamRankingsCopy": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-browser-full-list-manual\\team_rankings_from_live_retry.json"
+  },
+  "validation": {
+    "fantasyRows": 80,
+    "fantasyRankSequential": true,
+    "rosterEntries": 216,
+    "teamRankingRows": 12,
+    "teamRankingLeagueCounts": {
+      "中華聯盟": 6,
+      "台灣聯盟": 6
+    },
+    "championRows": 2,
+    "champions": [
+      {
+        "league": "中華聯盟",
+        "team": "年代勇士",
+        "wins": 104,
+        "losses": 35,
+        "ties": 1
+      },
+      {
+        "league": "台灣聯盟",
+        "team": "俊國熊隊",
+        "wins": 98,
+        "losses": 38,
+        "ties": 4
+      }
+    ],
+    "warnings": [
+      "category leader raw summary was visible in Chrome but not captured into the final manual manifest; derived leaders are available from full list"
+    ]
+  }
+}

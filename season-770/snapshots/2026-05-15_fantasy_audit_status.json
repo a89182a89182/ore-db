@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-05-15T11:41:56.651Z",
+  "season": "770",
+  "day": "4",
+  "schedule_type": "冬季聯賽",
+  "scraped_at": "2026-05-15T19:35:19+08:00",
+  "players": 216,
+  "summary_rows": 201,
+  "players_with_summary": 195,
+  "playerSnapshot": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-770\\snapshots\\2026-05-15_players.json",
+  "liveRawDir": "C:/Users/YOSHI/Documents/ore-db/live-2026-05-15",
+  "fantasyAccess": {
+    "currentRunStatus": "blocked_after_stored_credential_attempt",
+    "credentialImported": true,
+    "credentialUsed": true,
+    "loginHasAccount": false,
+    "loginHasPublicLoginForm": true,
+    "usableCompleteListFetched": false,
+    "statusPath": "C:/Users/YOSHI/Documents/ore-db/fantasy-pages-2026-05-15-193854-auth-browserish/fetch_status.json",
+    "outputDir": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-pages-2026-05-15-193854-auth-browserish"
+  },
+  "codexOutcomes": {
+    "hr": {
+      "generatedAt": "2026-05-10T13:02:16.699Z",
+      "sourceSeasonDir": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-769",
+      "targetTotal": 393,
+      "batterWinners": 6,
+      "batterTop3": 9,
+      "batterMisses": [],
+      "saveLeadersSeenBySelectedPitchers": [
+        {
+          "role": "CP",
+          "team": "中信鯨隊",
+          "name": "摸摸二世",
+          "owner": "louis",
+          "stat": 32
+        },
+        {
+          "role": "CP",
+          "team": "誠泰Cobras",
+          "name": "龜甲斐",
+          "owner": "紅龜",
+          "stat": 30
+        },
+        {
+          "role": "CP",
+          "team": "俊國熊隊",
+          "name": "朗希八神",
+          "owner": "辜辜",
+          "stat": 25
+        }
+      ],
+      "selectedCloser": {
+        "slot": "CP",
+        "category": "pitcher",
+        "team": "三商虎隊",
+        "name": "落月民",
+        "owner": "adam3401",
+        "matched": true,
+        "actual": 20,
+        "rank": 7,
+        "total": 99,
+        "leaders": [
+          {
+            "role": "CP",
+            "team": "中信鯨隊",
+            "name": "摸摸二世",
+            "owner": "louis",
+            "stat": 32
+          },
+          {
+            "role": "CP",
+            "team": "誠泰Cobras",
+            "name": "龜甲斐",
+            "owner": "紅龜",
+            "stat": 30
+          },
+          {
+            "role": "CP",
+            "team": "俊國熊隊",
+            "name": "朗希八神",
+            "owner": "辜辜",
+            "stat": 25
+          }
+        ]
+      },
+      "lowSaveRelievers": [
+        {
+          "slot": "RP",
+          "name": "老弱殘兵",
+          "actualSV": 1,
+          "rank": 37
+        },
+        {
+          "slot": "RP",
+          "name": "台鳳",
+          "actualSV": 1,
+          "rank": 35
+        }
+      ]
+    },
+    "sb": {
+      "generatedAt": "2026-05-10T14:15:01.761Z",
+      "sourceSeasonDir": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-769",
+      "targetTotal": 227,
+      "batterWinners": 5,
+      "batterTop3": 8,
+      "batterMisses": [
+        {
+          "slot": "3B",
+          "category": "batter",
+          "team": "三商虎隊",
+          "name": "勒邦占士一",
+          "owner": "aaa9876543",
+          "matched": true,
+          "actual": 0,
+          "rank": 9,
+          "total": 11,
+          "leaders": [
+            {
+              "role": "三壘",
+              "team": "統一獅隊",
+              "name": "方舟十三",
+              "owner": "lastark",
+              "stat": 12
+            },
+            {
+              "role": "三壘",
+              "team": "兄弟象隊",
+              "name": "章國珍",
+              "owner": "滅神楓",
+              "stat": 11
+            },
+            {
+              "role": "三壘",
+              "team": "味全龍隊",
+              "name": "狸想世界",
+              "owner": "6110153",
+              "stat": 2
+            }
+          ]
+        }
+      ],
+      "saveLeadersSeenBySelectedPitchers": [
+        {
+          "role": "CP",
+          "team": "中信鯨隊",
+          "name": "摸摸二世",
+          "owner": "louis",
+          "stat": 32
+        },
+        {
+          "role": "CP",
+          "team": "誠泰Cobras",
+          "name": "龜甲斐",
+          "owner": "紅龜",
+          "stat": 30
+        },
+        {
+          "role": "CP",
+          "team": "俊國熊隊",
+          "name": "朗希八神",
+          "owner": "辜辜",
+          "stat": 25
+        }
+      ],
+      "selectedCloser": {
+        "slot": "CP",
+        "category": "pitcher",
+        "team": "誠泰Cobras",
+        "name": "龜甲斐",
+        "owner": "紅龜",
+        "matched": true,
+        "actual": 30,
+        "rank": 2,
+        "total": 99,
+        "leaders": [
+          {
+            "role": "CP",
+            "team": "中信鯨隊",
+            "name": "摸摸二世",
+            "owner": "louis",
+            "stat": 32
+          },
+          {
+            "role": "CP",
+            "team": "誠泰Cobras",
+            "name": "龜甲斐",
+            "owner": "紅龜",
+            "stat": 30
+          },
+          {
+            "role": "CP",
+            "team": "俊國熊隊",
+            "name": "朗希八神",
+            "owner": "辜辜",
+            "stat": 25
+          }
+        ]
+      },
+      "lowSaveRelievers": [
+        {
+          "slot": "RP",
+          "name": "台鳳",
+          "actualSV": 1,
+          "rank": 35
+        }
+      ]
+    }
+  }
+}

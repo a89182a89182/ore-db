@@ -1,0 +1,177 @@
+{
+    "generatedAt":  "2026-06-26T21:16:51.1360290+08:00",
+    "season":  776,
+    "dateLabel":  "2026-06-26-retry-a89182",
+    "mode":  "live",
+    "status":  "BLOCKED",
+    "validation":  {
+                       "status":  "BLOCKED",
+                       "failReasons":  [
+                                           "fantasy full list rows were not parsed"
+                                       ],
+                       "warnings":  [
+                                        "category leader raw text was not provided"
+                                    ],
+                       "expectedFantasyRows":  "not fixed",
+                       "fantasyRows":  0,
+                       "fantasyRankSequential":  false,
+                       "fantasyColumnShape":  "25 columns; 18 player picks",
+                       "rosterEntries":  216,
+                       "rosterSalaryLines":  216,
+                       "positionCounts":  {
+                                              "CF":  12,
+                                              "RF":  12,
+                                              "LF":  12,
+                                              "C":  12,
+                                              "2B":  12,
+                                              "3B":  12,
+                                              "1B":  12,
+                                              "SS":  12,
+                                              "DH":  12,
+                                              "SP":  60,
+                                              "RP":  36,
+                                              "CP":  12
+                                          },
+                       "leaderRows":  0,
+                       "leaderCategoryCounts":  {
+
+                                                },
+                       "teamRankingRows":  12,
+                       "teamRankingLeagueCounts":  {
+                                                       "\u4e2d\u83ef\u806f\u76df":  6,
+                                                       "\u53f0\u7063\u806f\u76df":  6
+                                                   }
+                   },
+    "access":  {
+                   "mode":  "live",
+                   "liveAttempted":  true,
+                   "credentialPathPresent":  true,
+                   "credentialImported":  true,
+                   "credentialUsed":  true,
+                   "loginSucceeded":  true,
+                   "helloFound":  true
+               },
+    "sourceFiles":  {
+
+                    },
+    "pageFetches":  [
+                        {
+                            "name":  "login_sanitized",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\login_sanitized.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\login_sanitized.txt",
+                            "length":  57747,
+                            "sha256":  "4b137420aa5169162b56be3ea0834cc995764421f7e98d8e7d5ab56f1988b90b",
+                            "asksLogin":  false,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "roster_introduction_live",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\roster_introduction_live.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\roster_introduction_live.txt",
+                            "length":  61747,
+                            "sha256":  "308847b798c47b6d43f4246eaa422b608f183627bc527212f2a07fb9b1007d58",
+                            "asksLogin":  false,
+                            "fantasyRows":  0,
+                            "rosterEntries":  216
+                        },
+                        {
+                            "name":  "team_rankings_live_chinese",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\team_rankings_live_chinese.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\team_rankings_live_chinese.txt",
+                            "length":  10873,
+                            "sha256":  "32f37577c5df5ed927fd06265546a4e12149e2daf8cb8730ae23156c06ded355",
+                            "asksLogin":  false,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "team_rankings_live_taiwan",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\team_rankings_live_taiwan.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\team_rankings_live_taiwan.txt",
+                            "length":  10873,
+                            "sha256":  "58ace664840767389e5cf2ad58e9e16941fa169840413f6303c6fdfc1fe02bdc",
+                            "asksLogin":  false,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_summary_live",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_summary_live.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_summary_live.txt",
+                            "length":  4713,
+                            "sha256":  "fbdda4991fc88d794f850ee4302f9021200e142064524073f0593390c5171d13",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_01",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_01.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_01.txt",
+                            "length":  4713,
+                            "sha256":  "2d4bc19f9948674e90997e1c3190b14303d2bd9cfcc8f89f25a75fb0a68d0dce",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_02",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_02.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_02.txt",
+                            "length":  4713,
+                            "sha256":  "0b6afcd6d47c49ed53b41bf72a46b102fb914ac34b5221fb97ddb03a64944069",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_03",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_03.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_03.txt",
+                            "length":  4713,
+                            "sha256":  "c6f87694c48c82a11d4a78f02c279403409041c966c58c21a9e6f7361796d99e",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_04",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_04.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_04.txt",
+                            "length":  4713,
+                            "sha256":  "cd5b80fcb7aecd3e24dedc046f57f3e0dd95ac2b991cf1c64d6cec1692a250b7",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_05",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_05.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_05.txt",
+                            "length":  4713,
+                            "sha256":  "2bc2a907b7d71ccbfef2d55201d65550ae60b78a4822f2dd9b5f7040e30daceb",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_06",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_06.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_attempt_06.txt",
+                            "length":  4713,
+                            "sha256":  "cd5b80fcb7aecd3e24dedc046f57f3e0dd95ac2b991cf1c64d6cec1692a250b7",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        }
+                    ],
+    "outputs":  {
+                    "snapshotDir":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live",
+                    "fantasyRows":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\fantasy_full_list_rows.json",
+                    "rosterEntries":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\roster_entries.json",
+                    "categoryLeaders":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\category_leaders.json",
+                    "derivedCategoryLeadersFromFullList":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\derived_category_leaders_from_full_list.json",
+                    "teamRankings":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-776\\2026-06-26-retry-a89182-live\\team_rankings.json"
+                }
+}

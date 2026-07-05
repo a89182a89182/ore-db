@@ -1,0 +1,1087 @@
+{
+  "generatedAt": "2026-06-06T03:58:33+08:00",
+  "recoverySourceThreadId": "019e7f1d-664d-7a11-9cbb-f1d180931bdf",
+  "originalEmptyThreadId": "019e9944-fcb1-7be2-b231-e2350d6f615a",
+  "originalTriggerTimeUtc": "2026-06-05T19:31:35+00:00",
+  "season": "773",
+  "day": "5",
+  "playerCount": 216,
+  "sourceFreshness": {
+    "status": "fresh_web_scrape",
+    "teisatuFreshSakus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "teisatuCacheSakus": [],
+    "teisatuUnavailableSakus": [],
+    "teisatuFetchCount": 12,
+    "summaryStatus": "fresh_web_scrape",
+    "historyStatus": "fresh_web_scrape",
+    "events": [
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=0",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:52:48+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=1",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:52:49+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=2",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:52:51+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=3",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:52:52+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=4",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:52:54+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=5",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:52:55+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=6",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:52:57+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=7",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:52:58+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=8",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:53:00+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=9",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:53:01+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=10",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:53:03+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=11",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:53:04+08:00"
+      },
+      {
+        "url": "POST kakuninn",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:53:06+08:00"
+      },
+      {
+        "url": "POST kiroku",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-06-06T03:53:06+08:00"
+      }
+    ]
+  },
+  "seasonSummaryStats": {
+    "available": false,
+    "summaryRows": 0,
+    "playersWithSummary": 0,
+    "currentNonzeroRows": 0,
+    "status": "fresh_web_scrape",
+    "blocker": "current fresh scrape has zero summary rows and all current player stat rows are zero, so current player-level hit-rate recomputation is blocked"
+  },
+  "files": {
+    "liveDir": "C:\\Users\\a8918\\Documents\\ore-db\\live-2026-06-06",
+    "players": "C:\\Users\\a8918\\Documents\\ore-db\\season-773\\players.json",
+    "meta": "C:\\Users\\a8918\\Documents\\ore-db\\season-773\\meta.json",
+    "datedPlayersSnapshot": "C:\\Users\\a8918\\Documents\\ore-db\\season-773\\snapshots\\2026-06-06_players.json",
+    "datedSeasonSnapshot": "C:\\Users\\a8918\\Documents\\ore-db\\season-773\\snapshots\\2026-06-06_season_snapshot.json",
+    "fantasyFetchStatus": "C:\\Users\\a8918\\Documents\\ore-db\\fantasy-pages-2026-06-06-035437-auth\\fetch_status.json",
+    "priorComputableAudit": "C:\\Users\\a8918\\Documents\\ore-db\\season-773\\snapshots\\2026-06-05_fantasy_accuracy_audit.json",
+    "inboxItem": "C:\\Users\\a8918\\.codex\\automations\\ore-weekly-snapshot\\inbox-2026-06-06.md"
+  },
+  "fantasyAccess": {
+    "publicHomeFetched": true,
+    "publicOutcomeSummaryFetched": true,
+    "latestPublicOutcome": {
+      "sourcePath": "C:\\Users\\a8918\\Documents\\ore-db\\fantasy-pages-2026-06-06-035437-auth\\public_home.html",
+      "participants": "72",
+      "dateTimeText": "06/05 22:48",
+      "winners": {
+        "wins": "algop528",
+        "strikeouts": "geniusway",
+        "battingAverage": "zero81128",
+        "saves": "kevin8215",
+        "era": "pipi258",
+        "rbi": "JCChou",
+        "steals": "mikan",
+        "homeRuns": "kakuhao"
+      }
+    },
+    "completeListFetched": false,
+    "crowdPicksInspected": false,
+    "credentialImported": false,
+    "credentialUsed": false,
+    "credentialImportError": "Key not valid for use in specified state.\r\n",
+    "credentialStatus": "DPAPI Import-Clixml failed; no plaintext password was printed, logged, or saved"
+  },
+  "currentAccuracyAuditStatus": "BLOCKED_CURRENT_STATS_UNAVAILABLE",
+  "currentMetricsComputed": false,
+  "modelQualityFailure": true,
+  "modelQualityFailureBasis": "June 6 fresh scrape cannot recompute current player hit rate, but the latest computable June 5 audit remains poor for K/AVG and stale SB+K, with unresolved complete-list access.",
+  "draftArtifactSummary": {
+    "HR+SV": {
+      "path": "C:\\Users\\a8918\\.openclaw\\workspace\\reports\\ore_draft_hr.json",
+      "exists": true,
+      "mode": "hr",
+      "generatedAt": "2026-05-31T17:47:32.902Z",
+      "sourceSeason": 772,
+      "seasonDir": "C:\\Users\\a8918\\Documents\\ore-db\\season-772",
+      "seasonScrapedAt": "2026-06-01T01:32:44+08:00",
+      "liveSourceType": "live_fetch",
+      "liveSourceTimestamp": "2026-05-31T17:47:32.110Z",
+      "feasible": true,
+      "variantCount": 5,
+      "artifactStatusForSeason773": "target_773_source_772"
+    },
+    "SB+SV": {
+      "path": "C:\\Users\\a8918\\.openclaw\\workspace\\reports\\ore_draft_sb.json",
+      "exists": true,
+      "mode": "sb",
+      "generatedAt": "2026-05-31T17:47:58.220Z",
+      "sourceSeason": 772,
+      "seasonDir": "C:\\Users\\a8918\\Documents\\ore-db\\season-772",
+      "seasonScrapedAt": "2026-06-01T01:32:44+08:00",
+      "liveSourceType": "live_fetch",
+      "liveSourceTimestamp": "2026-05-31T17:47:56.396Z",
+      "feasible": true,
+      "variantCount": 5,
+      "artifactStatusForSeason773": "target_773_source_772"
+    },
+    "SB+K": {
+      "path": "C:\\Users\\a8918\\.openclaw\\workspace\\reports\\ore_draft_sbk.json",
+      "exists": true,
+      "mode": "sbk",
+      "generatedAt": "2026-05-17T14:31:54.334Z",
+      "sourceSeason": 770,
+      "seasonDir": "C:\\Users\\a8918\\Documents\\ore-db\\season-770",
+      "seasonScrapedAt": "2026-05-17T22:30:09+08:00",
+      "liveSourceType": "live_fetch",
+      "liveSourceTimestamp": "2026-05-17T14:31:53.281Z",
+      "feasible": true,
+      "variantCount": 5,
+      "artifactStatusForSeason773": "stale_source_for_773"
+    },
+    "K+AVG": {
+      "path": "C:\\Users\\a8918\\.openclaw\\workspace\\reports\\ore_draft_kavg_redo.json",
+      "exists": true,
+      "mode": "kavg",
+      "generatedAt": "2026-06-01T04:26:27.896Z",
+      "sourceSeason": 772,
+      "seasonDir": "C:\\Users\\a8918\\Documents\\ore-db\\season-772",
+      "seasonScrapedAt": "2026-06-01T12:22:40+08:00",
+      "liveSourceType": "live_fetch",
+      "liveSourceTimestamp": "2026-06-01T04:26:27.487Z",
+      "feasible": true,
+      "variantCount": 5,
+      "artifactStatusForSeason773": "target_773_source_772"
+    },
+    "SV+SB": {
+      "path": "C:\\Users\\a8918\\.openclaw\\workspace\\reports\\ore_draft_svsb_redo.json",
+      "exists": true,
+      "mode": "svsb",
+      "generatedAt": "2026-06-01T04:26:28.288Z",
+      "sourceSeason": 772,
+      "seasonDir": "C:\\Users\\a8918\\Documents\\ore-db\\season-772",
+      "seasonScrapedAt": "2026-06-01T12:22:40+08:00",
+      "liveSourceType": "live_fetch",
+      "liveSourceTimestamp": "2026-06-01T04:26:27.879Z",
+      "feasible": true,
+      "variantCount": 5,
+      "artifactStatusForSeason773": "target_773_source_772"
+    }
+  },
+  "priorComputableAudit": {
+    "path": "C:\\Users\\a8918\\Documents\\ore-db\\season-773\\snapshots\\2026-06-05_fantasy_accuracy_audit.json",
+    "generatedAt": "2026-06-05T19:50:59.891929+08:00",
+    "season": "773",
+    "day": "4",
+    "seasonSummaryStats": {
+      "available": true,
+      "summaryRows": 202,
+      "playersWithSummary": 196,
+      "status": "fresh_web_scrape"
+    },
+    "metricsByObjectiveCategory": {
+      "HR": {
+        "total": 9,
+        "top_scorer": 2,
+        "top_3": 5,
+        "top_5": 1,
+        "useful_not_top": 0,
+        "clear_miss": 1,
+        "top5_rate": 0.889,
+        "non_miss_rate": 0.889
+      },
+      "SV": {
+        "total": 27,
+        "top_scorer": 17,
+        "top_3": 1,
+        "top_5": 1,
+        "useful_not_top": 7,
+        "clear_miss": 1,
+        "top5_rate": 0.704,
+        "non_miss_rate": 0.963
+      },
+      "SB": {
+        "total": 27,
+        "top_scorer": 9,
+        "top_3": 6,
+        "top_5": 6,
+        "useful_not_top": 0,
+        "clear_miss": 6,
+        "top5_rate": 0.778,
+        "non_miss_rate": 0.778
+      },
+      "K": {
+        "total": 18,
+        "top_scorer": 0,
+        "top_3": 4,
+        "top_5": 0,
+        "useful_not_top": 7,
+        "clear_miss": 7,
+        "top5_rate": 0.222,
+        "non_miss_rate": 0.611
+      },
+      "AVG": {
+        "total": 9,
+        "top_scorer": 2,
+        "top_3": 1,
+        "top_5": 0,
+        "useful_not_top": 1,
+        "clear_miss": 5,
+        "top5_rate": 0.333,
+        "non_miss_rate": 0.444
+      }
+    },
+    "modeReports": {
+      "HR+SV": {
+        "artifactStatus": "current_target_773",
+        "sourceSeason": 772,
+        "metricsByCategory": {
+          "HR": {
+            "total": 9,
+            "top_scorer": 2,
+            "top_3": 5,
+            "top_5": 1,
+            "useful_not_top": 0,
+            "clear_miss": 1,
+            "top5_rate": 0.889,
+            "non_miss_rate": 0.889
+          },
+          "SV": {
+            "total": 9,
+            "top_scorer": 5,
+            "top_3": 1,
+            "top_5": 1,
+            "useful_not_top": 2,
+            "clear_miss": 0,
+            "top5_rate": 0.778,
+            "non_miss_rate": 1.0
+          }
+        },
+        "missesByRoleAndCategory": {
+          "DH": {
+            "HR": 1
+          }
+        },
+        "rootCauseCounts": {
+          "solver constraint tradeoff": 17,
+          "plausible variance": 2,
+          "role/position handling": 1
+        },
+        "pickedUnderperformedSample": [
+          {
+            "objectiveCategory": "HR",
+            "role": "DH",
+            "team": "中信鯨隊",
+            "owner": "zxc526291",
+            "actualValue": 34,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "role/position handling",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "SV",
+            "role": "RP",
+            "team": "時報鷹隊",
+            "owner": "csl0422",
+            "actualValue": 1,
+            "rankWithinRole": 24,
+            "bucket": "useful_not_top",
+            "rootCauses": [
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "SV",
+            "role": "CP",
+            "team": "味全龍隊",
+            "owner": "劉劉",
+            "actualValue": 19,
+            "rankWithinRole": 10,
+            "bucket": "useful_not_top",
+            "rootCauses": [
+              "solver constraint tradeoff"
+            ]
+          }
+        ],
+        "missedShouldHavePickedSample": [
+          {
+            "objectiveCategory": "HR",
+            "role": "DH",
+            "selectedOwner": "zxc526291",
+            "selectedValue": 34,
+            "selectedRank": null,
+            "rootCauses": [
+              "role/position handling",
+              "solver constraint tradeoff"
+            ]
+          }
+        ]
+      },
+      "SB+SV": {
+        "artifactStatus": "current_target_773",
+        "sourceSeason": 772,
+        "metricsByCategory": {
+          "SB": {
+            "total": 9,
+            "top_scorer": 4,
+            "top_3": 2,
+            "top_5": 2,
+            "useful_not_top": 0,
+            "clear_miss": 1,
+            "top5_rate": 0.889,
+            "non_miss_rate": 0.889
+          },
+          "SV": {
+            "total": 9,
+            "top_scorer": 6,
+            "top_3": 0,
+            "top_5": 0,
+            "useful_not_top": 2,
+            "clear_miss": 1,
+            "top5_rate": 0.667,
+            "non_miss_rate": 0.889
+          }
+        },
+        "missesByRoleAndCategory": {
+          "DH": {
+            "SB": 1
+          },
+          "RP": {
+            "SV": 1
+          }
+        },
+        "rootCauseCounts": {
+          "same-league opponent environment": 9,
+          "solver constraint tradeoff": 15,
+          "team strategy": 1,
+          "role/position handling": 1
+        },
+        "pickedUnderperformedSample": [
+          {
+            "objectiveCategory": "SB",
+            "role": "DH",
+            "team": "時報鷹隊",
+            "owner": "protomodel",
+            "actualValue": 66,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "role/position handling",
+              "same-league opponent environment"
+            ]
+          },
+          {
+            "objectiveCategory": "SV",
+            "role": "RP",
+            "team": "Lamigo桃猿",
+            "owner": "mikan",
+            "actualValue": 3,
+            "rankWithinRole": 12,
+            "bucket": "useful_not_top",
+            "rootCauses": [
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "SV",
+            "role": "RP",
+            "team": "三商虎隊",
+            "owner": "adam3401",
+            "actualValue": 0,
+            "rankWithinRole": 31,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "SV",
+            "role": "CP",
+            "team": "生活雷公",
+            "owner": "hong",
+            "actualValue": 21,
+            "rankWithinRole": 7,
+            "bucket": "useful_not_top",
+            "rootCauses": []
+          }
+        ],
+        "missedShouldHavePickedSample": [
+          {
+            "objectiveCategory": "SB",
+            "role": "DH",
+            "selectedOwner": "protomodel",
+            "selectedValue": 66,
+            "selectedRank": null,
+            "rootCauses": [
+              "role/position handling",
+              "same-league opponent environment"
+            ]
+          },
+          {
+            "objectiveCategory": "SV",
+            "role": "RP",
+            "selectedOwner": "adam3401",
+            "selectedValue": 0,
+            "selectedRank": 31,
+            "rootCauses": [
+              "solver constraint tradeoff"
+            ]
+          }
+        ]
+      },
+      "SB+K": {
+        "artifactStatus": "stale_source_for_773",
+        "sourceSeason": 770,
+        "metricsByCategory": {
+          "SB": {
+            "total": 9,
+            "top_scorer": 3,
+            "top_3": 1,
+            "top_5": 1,
+            "useful_not_top": 0,
+            "clear_miss": 4,
+            "top5_rate": 0.556,
+            "non_miss_rate": 0.556
+          },
+          "K": {
+            "total": 9,
+            "top_scorer": 0,
+            "top_3": 1,
+            "top_5": 0,
+            "useful_not_top": 1,
+            "clear_miss": 7,
+            "top5_rate": 0.111,
+            "non_miss_rate": 0.222
+          }
+        },
+        "missesByRoleAndCategory": {
+          "C": {
+            "SB": 1
+          },
+          "2B": {
+            "SB": 1
+          },
+          "RF": {
+            "SB": 1
+          },
+          "DH": {
+            "SB": 1
+          },
+          "SP": {
+            "K": 4
+          },
+          "RP": {
+            "K": 2
+          },
+          "CP": {
+            "K": 1
+          }
+        },
+        "rootCauseCounts": {
+          "stale live grid": 18,
+          "role/position handling": 6,
+          "team strategy": 1,
+          "same-league opponent environment": 8,
+          "solver constraint tradeoff": 12,
+          "parser mismatch": 5,
+          "plausible variance": 2,
+          "skill interpretation": 1
+        },
+        "pickedUnderperformedSample": [
+          {
+            "objectiveCategory": "SB",
+            "role": "C",
+            "team": "中信鯨隊",
+            "owner": "Snow",
+            "actualValue": 0,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "stale live grid",
+              "role/position handling",
+              "team strategy",
+              "same-league opponent environment",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "SB",
+            "role": "2B",
+            "team": "兄弟象隊",
+            "owner": "jimmy16034",
+            "actualValue": null,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "stale live grid",
+              "parser mismatch"
+            ]
+          },
+          {
+            "objectiveCategory": "SB",
+            "role": "RF",
+            "team": "時報鷹隊",
+            "owner": "protomodel",
+            "actualValue": 66,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "stale live grid",
+              "role/position handling",
+              "same-league opponent environment",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "SB",
+            "role": "DH",
+            "team": "味全龍隊",
+            "owner": "押忍八",
+            "actualValue": 5,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "stale live grid",
+              "role/position handling",
+              "same-league opponent environment",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "K",
+            "role": "SP",
+            "team": "興農牛隊",
+            "owner": "飛仔",
+            "actualValue": null,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "stale live grid",
+              "parser mismatch"
+            ]
+          },
+          {
+            "objectiveCategory": "K",
+            "role": "SP",
+            "team": "俊國熊隊",
+            "owner": "80338",
+            "actualValue": null,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "stale live grid",
+              "parser mismatch"
+            ]
+          },
+          {
+            "objectiveCategory": "K",
+            "role": "SP",
+            "team": "中信鯨隊",
+            "owner": "replacement rookie",
+            "actualValue": null,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "stale live grid",
+              "parser mismatch"
+            ]
+          },
+          {
+            "objectiveCategory": "K",
+            "role": "SP",
+            "team": "興農牛隊",
+            "owner": "鬼狼",
+            "actualValue": null,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "stale live grid",
+              "parser mismatch"
+            ]
+          }
+        ],
+        "missedShouldHavePickedSample": [
+          {
+            "objectiveCategory": "SB",
+            "role": "C",
+            "selectedOwner": "Snow",
+            "selectedValue": 0,
+            "selectedRank": null,
+            "rootCauses": [
+              "stale live grid",
+              "role/position handling",
+              "team strategy",
+              "same-league opponent environment",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "SB",
+            "role": "2B",
+            "selectedOwner": "jimmy16034",
+            "selectedValue": null,
+            "selectedRank": null,
+            "rootCauses": [
+              "stale live grid",
+              "parser mismatch"
+            ]
+          },
+          {
+            "objectiveCategory": "SB",
+            "role": "RF",
+            "selectedOwner": "protomodel",
+            "selectedValue": 66,
+            "selectedRank": null,
+            "rootCauses": [
+              "stale live grid",
+              "role/position handling",
+              "same-league opponent environment",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "SB",
+            "role": "DH",
+            "selectedOwner": "押忍八",
+            "selectedValue": 5,
+            "selectedRank": null,
+            "rootCauses": [
+              "stale live grid",
+              "role/position handling",
+              "same-league opponent environment",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "K",
+            "role": "SP",
+            "selectedOwner": "飛仔",
+            "selectedValue": null,
+            "selectedRank": null,
+            "rootCauses": [
+              "stale live grid",
+              "parser mismatch"
+            ]
+          },
+          {
+            "objectiveCategory": "K",
+            "role": "SP",
+            "selectedOwner": "80338",
+            "selectedValue": null,
+            "selectedRank": null,
+            "rootCauses": [
+              "stale live grid",
+              "parser mismatch"
+            ]
+          },
+          {
+            "objectiveCategory": "K",
+            "role": "SP",
+            "selectedOwner": "replacement rookie",
+            "selectedValue": null,
+            "selectedRank": null,
+            "rootCauses": [
+              "stale live grid",
+              "parser mismatch"
+            ]
+          },
+          {
+            "objectiveCategory": "K",
+            "role": "SP",
+            "selectedOwner": "鬼狼",
+            "selectedValue": null,
+            "selectedRank": null,
+            "rootCauses": [
+              "stale live grid",
+              "parser mismatch"
+            ]
+          }
+        ]
+      },
+      "K+AVG": {
+        "artifactStatus": "current_target_773",
+        "sourceSeason": 772,
+        "metricsByCategory": {
+          "AVG": {
+            "total": 9,
+            "top_scorer": 2,
+            "top_3": 1,
+            "top_5": 0,
+            "useful_not_top": 1,
+            "clear_miss": 5,
+            "top5_rate": 0.333,
+            "non_miss_rate": 0.444
+          },
+          "K": {
+            "total": 9,
+            "top_scorer": 0,
+            "top_3": 3,
+            "top_5": 0,
+            "useful_not_top": 6,
+            "clear_miss": 0,
+            "top5_rate": 0.333,
+            "non_miss_rate": 1.0
+          }
+        },
+        "missesByRoleAndCategory": {
+          "1B": {
+            "AVG": 1
+          },
+          "3B": {
+            "AVG": 1
+          },
+          "SS": {
+            "AVG": 1
+          },
+          "CF": {
+            "AVG": 1
+          },
+          "DH": {
+            "AVG": 1
+          }
+        },
+        "rootCauseCounts": {
+          "solver constraint tradeoff": 12,
+          "plausible variance": 5,
+          "skill interpretation": 11,
+          "role/position handling": 1
+        },
+        "pickedUnderperformedSample": [
+          {
+            "objectiveCategory": "AVG",
+            "role": "1B",
+            "team": "兄弟象隊",
+            "owner": "david32011",
+            "actualValue": 0.23,
+            "rankWithinRole": 7,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "skill interpretation",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "AVG",
+            "role": "3B",
+            "team": "生活雷公",
+            "owner": "瑟七拳擊手",
+            "actualValue": 0.237,
+            "rankWithinRole": 8,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "skill interpretation"
+            ]
+          },
+          {
+            "objectiveCategory": "AVG",
+            "role": "SS",
+            "team": "俊國熊隊",
+            "owner": "kelven",
+            "actualValue": 0.216,
+            "rankWithinRole": 12,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "skill interpretation",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "AVG",
+            "role": "LF",
+            "team": "三商虎隊",
+            "owner": "aaa9876543",
+            "actualValue": 0.252,
+            "rankWithinRole": 7,
+            "bucket": "useful_not_top",
+            "rootCauses": [
+              "skill interpretation",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "AVG",
+            "role": "CF",
+            "team": "統一獅隊",
+            "owner": "kerwin",
+            "actualValue": 0.258,
+            "rankWithinRole": 6,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "skill interpretation",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "AVG",
+            "role": "DH",
+            "team": "時報鷹隊",
+            "owner": "protomodel",
+            "actualValue": 0.299,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "role/position handling",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "K",
+            "role": "SP",
+            "team": "興農牛隊",
+            "owner": "forbid",
+            "actualValue": 124,
+            "rankWithinRole": 8,
+            "bucket": "useful_not_top",
+            "rootCauses": [
+              "skill interpretation"
+            ]
+          },
+          {
+            "objectiveCategory": "K",
+            "role": "SP",
+            "team": "時報鷹隊",
+            "owner": "DuoMaxwell",
+            "actualValue": 83,
+            "rankWithinRole": 40,
+            "bucket": "useful_not_top",
+            "rootCauses": [
+              "skill interpretation"
+            ]
+          }
+        ],
+        "missedShouldHavePickedSample": [
+          {
+            "objectiveCategory": "AVG",
+            "role": "1B",
+            "selectedOwner": "david32011",
+            "selectedValue": 0.23,
+            "selectedRank": 7,
+            "rootCauses": [
+              "skill interpretation",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "AVG",
+            "role": "3B",
+            "selectedOwner": "瑟七拳擊手",
+            "selectedValue": 0.237,
+            "selectedRank": 8,
+            "rootCauses": [
+              "skill interpretation"
+            ]
+          },
+          {
+            "objectiveCategory": "AVG",
+            "role": "SS",
+            "selectedOwner": "kelven",
+            "selectedValue": 0.216,
+            "selectedRank": 12,
+            "rootCauses": [
+              "skill interpretation",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "AVG",
+            "role": "CF",
+            "selectedOwner": "kerwin",
+            "selectedValue": 0.258,
+            "selectedRank": 6,
+            "rootCauses": [
+              "skill interpretation",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "AVG",
+            "role": "DH",
+            "selectedOwner": "protomodel",
+            "selectedValue": 0.299,
+            "selectedRank": null,
+            "rootCauses": [
+              "role/position handling",
+              "solver constraint tradeoff"
+            ]
+          }
+        ]
+      },
+      "SV+SB": {
+        "artifactStatus": "current_target_773",
+        "sourceSeason": 772,
+        "metricsByCategory": {
+          "SB": {
+            "total": 9,
+            "top_scorer": 2,
+            "top_3": 3,
+            "top_5": 3,
+            "useful_not_top": 0,
+            "clear_miss": 1,
+            "top5_rate": 0.889,
+            "non_miss_rate": 0.889
+          },
+          "SV": {
+            "total": 9,
+            "top_scorer": 6,
+            "top_3": 0,
+            "top_5": 0,
+            "useful_not_top": 3,
+            "clear_miss": 0,
+            "top5_rate": 0.667,
+            "non_miss_rate": 1.0
+          }
+        },
+        "missesByRoleAndCategory": {
+          "DH": {
+            "SB": 1
+          }
+        },
+        "rootCauseCounts": {
+          "same-league opponent environment": 9,
+          "solver constraint tradeoff": 15,
+          "team strategy": 1,
+          "role/position handling": 1
+        },
+        "pickedUnderperformedSample": [
+          {
+            "objectiveCategory": "SB",
+            "role": "DH",
+            "team": "時報鷹隊",
+            "owner": "protomodel",
+            "actualValue": 66,
+            "rankWithinRole": null,
+            "bucket": "clear_miss",
+            "rootCauses": [
+              "role/position handling",
+              "same-league opponent environment",
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "SV",
+            "role": "RP",
+            "team": "Lamigo桃猿",
+            "owner": "mikan",
+            "actualValue": 3,
+            "rankWithinRole": 12,
+            "bucket": "useful_not_top",
+            "rootCauses": []
+          },
+          {
+            "objectiveCategory": "SV",
+            "role": "RP",
+            "team": "時報鷹隊",
+            "owner": "csl0422",
+            "actualValue": 1,
+            "rankWithinRole": 24,
+            "bucket": "useful_not_top",
+            "rootCauses": [
+              "solver constraint tradeoff"
+            ]
+          },
+          {
+            "objectiveCategory": "SV",
+            "role": "CP",
+            "team": "味全龍隊",
+            "owner": "劉劉",
+            "actualValue": 19,
+            "rankWithinRole": 10,
+            "bucket": "useful_not_top",
+            "rootCauses": []
+          }
+        ],
+        "missedShouldHavePickedSample": [
+          {
+            "objectiveCategory": "SB",
+            "role": "DH",
+            "selectedOwner": "protomodel",
+            "selectedValue": 66,
+            "selectedRank": null,
+            "rootCauses": [
+              "role/position handling",
+              "same-league opponent environment",
+              "solver constraint tradeoff"
+            ]
+          }
+        ]
+      }
+    },
+    "modelQualityFailure": true
+  },
+  "rootCauseClassifications": {
+    "currentRunBlockers": [
+      "summary-stat unavailable after rollover/reset",
+      "complete-list access blocked by DPAPI credential import failure"
+    ],
+    "priorAuditRootCauses": [
+      "solver constraint tradeoff",
+      "same-league opponent environment",
+      "stale live grid",
+      "skill interpretation",
+      "role/position handling",
+      "parser mismatch",
+      "team strategy"
+    ]
+  },
+  "modelOrSolverChangesForNextSunday": [
+    "重新產生所有模式的 773 target artifacts，尤其 SB+K；目前 SB+K 最新檔案仍是 season-770 source，不能代表本季。",
+    "把 artifact manifest 加上 targetSeason/sourceSeason 檢查，Friday audit 發現 sourceSeason 不等於 currentSeason-1 時直接標紅。",
+    "HR/SB/AVG batter solver 在每個位置輸出 top actual/projection 差距，強制記錄未選 top-3 的 constraint reason。",
+    "SV/K pitcher solver 將 SP/RP/CP 分角色建模與評分，SV 模式不要讓 5 個必要 SP 以 0 SV 偽裝成可接受；報告要分開 SP legality filler 與 RP/CP save objective。",
+    "修復 fantasy complete-list 登入擷取：credential DPAPI 無法解密時建立明確 reauth/runbook，拿不到 crowd picks 就不能宣稱有 public consensus audit。"
+  ]
+}

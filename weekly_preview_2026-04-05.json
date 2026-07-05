@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "season": "764",
+    "day": "6",
+    "schedule_type": ""
+  },
+  "placeholder_43": [],
+  "league_rankings": {
+    "中華聯盟": [
+      {
+        "rank": 1,
+        "team": "興農牛隊",
+        "score": 20697.5,
+        "breakdown": {
+          "batter_score": 4756.2,
+          "pitcher_score": 17541.3,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      },
+      {
+        "rank": 2,
+        "team": "年代勇士",
+        "score": 20546.0,
+        "breakdown": {
+          "batter_score": 4611.0,
+          "pitcher_score": 17535.0,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      },
+      {
+        "rank": 3,
+        "team": "誠泰Cobras",
+        "score": 20181.0,
+        "breakdown": {
+          "batter_score": 4354.8,
+          "pitcher_score": 17426.2,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      },
+      {
+        "rank": 4,
+        "team": "兄弟象隊",
+        "score": 19941.0,
+        "breakdown": {
+          "batter_score": 4392.6,
+          "pitcher_score": 17148.4,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      },
+      {
+        "rank": 5,
+        "team": "時報鷹隊",
+        "score": 19853.8,
+        "breakdown": {
+          "batter_score": 4581.6,
+          "pitcher_score": 16872.3,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      },
+      {
+        "rank": 6,
+        "team": "三商虎隊",
+        "score": 19476.1,
+        "breakdown": {
+          "batter_score": 4082.6,
+          "pitcher_score": 16993.5,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      }
+    ],
+    "台灣聯盟": [
+      {
+        "rank": 1,
+        "team": "Lamigo桃猿",
+        "score": 20524.2,
+        "breakdown": {
+          "batter_score": 4580.3,
+          "pitcher_score": 17544.0,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      },
+      {
+        "rank": 2,
+        "team": "俊國熊隊",
+        "score": 20350.2,
+        "breakdown": {
+          "batter_score": 4498.1,
+          "pitcher_score": 17452.2,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      },
+      {
+        "rank": 3,
+        "team": "統一獅隊",
+        "score": 20323.5,
+        "breakdown": {
+          "batter_score": 4495.6,
+          "pitcher_score": 17428.0,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      },
+      {
+        "rank": 4,
+        "team": "味全龍隊",
+        "score": 20246.4,
+        "breakdown": {
+          "batter_score": 4442.8,
+          "pitcher_score": 17403.7,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      },
+      {
+        "rank": 5,
+        "team": "生活雷公",
+        "score": 20244.1,
+        "breakdown": {
+          "batter_score": 4476.3,
+          "pitcher_score": 17367.8,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      },
+      {
+        "rank": 6,
+        "team": "中信鯨隊",
+        "score": 20169.6,
+        "breakdown": {
+          "batter_score": 4396.6,
+          "pitcher_score": 17373.1,
+          "penalty": 1600,
+          "placeholder_count": 0
+        }
+      }
+    ]
+  },
+  "predicted_champion": "興農牛隊",
+  "dream_rules": [],
+  "home_run_fantasy": {
+    "batters": [],
+    "sp": [],
+    "rp": [],
+    "cl": []
+  },
+  "save_fantasy": {
+    "batters": [],
+    "sp": [],
+    "rp": [],
+    "cl": []
+  }
+}

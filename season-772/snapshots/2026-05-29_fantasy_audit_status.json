@@ -1,0 +1,1556 @@
+{
+  "generatedAt": "2026-05-29T11:46:42.148Z",
+  "season": "772",
+  "day": "4",
+  "playerCount": 216,
+  "sourceFreshness": {
+    "status": "fresh_web_scrape",
+    "teisatuFreshSakus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "teisatuCacheSakus": [],
+    "teisatuUnavailableSakus": [],
+    "teisatuFetchCount": 12,
+    "summaryStatus": "fresh_web_scrape",
+    "historyStatus": "fresh_web_scrape",
+    "events": [
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=0",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:05+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=1",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:07+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=2",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:08+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=3",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:10+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=4",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:11+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=5",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:12+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=6",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:14+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=7",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:15+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=8",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:17+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=9",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:18+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=10",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:20+08:00"
+      },
+      {
+        "url": "http://game.tinycafe.com/ore/ore.cgi?mode=teisatu&saku=11",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:21+08:00"
+      },
+      {
+        "url": "POST kakuninn",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:22+08:00"
+      },
+      {
+        "url": "POST kiroku",
+        "source": "fresh_web_scrape",
+        "fetched_at": "2026-05-29T19:35:23+08:00"
+      }
+    ]
+  },
+  "seasonSummaryStats": {
+    "available": true,
+    "summaryRows": 202,
+    "playersWithSummary": 195,
+    "status": "fresh_web_scrape"
+  },
+  "files": {
+    "liveDir": "C:/Users/YOSHI/Documents/ore-db/live-2026-05-29",
+    "players": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-772\\players.json",
+    "meta": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-772\\meta.json",
+    "datedPlayersSnapshot": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-772\\snapshots\\2026-05-29_players.json",
+    "datedSeasonSnapshot": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-772\\snapshots\\2026-05-29_season_snapshot.json",
+    "fantasyFetchStatus": "C:/Users/YOSHI/Documents/ore-db/fantasy-pages-2026-05-29-193940-auth-forced/fetch_status.json"
+  },
+  "fantasyAccess": {
+    "publicOutcomeSummaryFetched": true,
+    "latestPublicOutcome": {
+      "sourcePath": "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-pages-2026-05-29-193940-auth-forced\\public_home.html",
+      "fetched": true,
+      "dateTimeText": "05/22 22:12",
+      "participants": "78",
+      "prizeTotal": "7億8000萬",
+      "prizePerCategory": "9750萬",
+      "winners": {
+        "wins": "小辣椒",
+        "strikeouts": "鬼狼",
+        "battingAverage": "Beagood",
+        "saves": "ARCp8p8p8",
+        "era": "geniusway",
+        "rbi": "poto8052",
+        "steals": "mikan",
+        "homeRuns": "shin55"
+      }
+    },
+    "credentialImported": true,
+    "credentialUsed": true,
+    "authenticatedLoginRequestSucceeded": true,
+    "authenticatedLoginLooksUsable": true,
+    "usableCompleteListFetched": false,
+    "crowdPicksInspected": false,
+    "note": "Stored credential imported and used, login page was reachable, but fantasy variants did not expose a usable complete crowd-pick list."
+  },
+  "codexPickAudit": {
+    "hrSv": {
+      "path": "C:/Users/YOSHI/Documents/ore_draft_hr_772_2026-05-24.json",
+      "mode": "hr",
+      "generatedAt": "2026-05-24T12:49:50.273Z",
+      "source": {
+        "seasonDir": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771",
+        "seasonScrapedAt": "2026-05-24T20:47:21+08:00",
+        "liveDir": "C:\\Users\\YOSHI\\Documents\\ore-db\\live-2026-05-24",
+        "liveSourceType": "explicit",
+        "liveSourceTimestamp": "2026-05-24T12:47:18.021Z",
+        "liveFetchAttempted": false,
+        "liveFetchSucceeded": false,
+        "liveFetchError": null,
+        "fallbackReason": null,
+        "players": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\players.json",
+        "seasonSnapshot": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\season_snapshot.json",
+        "kakuninn": "C:\\Users\\YOSHI\\Documents\\ore-db\\live-2026-05-24\\kakuninn.html",
+        "projectionArtifact": "C:\\Users\\YOSHI\\Documents\\ore_projection_snapshot_772_2026-05-24.json",
+        "computerPolicy": "excluded_before_solver"
+      },
+      "feasible": true,
+      "legality": {
+        "total18": true,
+        "nineBatters": true,
+        "ninePitchers": true,
+        "fiveSP": true,
+        "threeRP": true,
+        "oneCP": true,
+        "fullBatterGrid": true,
+        "twelveTeamsCovered": true,
+        "maxTwoPerTeam": true,
+        "noComputerPlayers": true
+      },
+      "totals": {
+        "home_runs": 377,
+        "steals": 1,
+        "saves": 37,
+        "strikeouts": 767
+      },
+      "risks": [
+        {
+          "severity": "risk",
+          "note": "RP 練習生 has 0 saves in available summary",
+          "row": {
+            "category": "pitcher",
+            "role": "RP",
+            "actualRole": "RP",
+            "name": "練習生",
+            "team": "時報鷹隊",
+            "owner": "csl0422",
+            "matched": true,
+            "projected": {
+              "era": 3.97,
+              "wins": 8,
+              "losses": 5,
+              "saves": 3,
+              "strikeouts": 75,
+              "walks": 60,
+              "home_runs_allowed": 18
+            },
+            "actual": {
+              "home_runs": 0,
+              "steals": 0,
+              "saves": 0,
+              "strikeouts": 76,
+              "batting_avg": 0,
+              "era": 5.77
+            },
+            "ranks": {
+              "hrRole": null,
+              "sbRole": null,
+              "savesAll": 67,
+              "savesRole": 31,
+              "strikeoutsRole": 19
+            },
+            "roleCount": 33
+          }
+        },
+        {
+          "severity": "watch",
+          "note": "CP 上銀 has 24 saves, rank 6 among pitchers",
+          "row": {
+            "category": "pitcher",
+            "role": "CP",
+            "actualRole": "CP",
+            "name": "上銀",
+            "team": "生活雷公",
+            "owner": "hong",
+            "matched": true,
+            "projected": {
+              "era": 5.07,
+              "wins": 2,
+              "losses": 4,
+              "saves": 24,
+              "strikeouts": 21,
+              "walks": 24,
+              "home_runs_allowed": 8
+            },
+            "actual": {
+              "home_runs": 0,
+              "steals": 0,
+              "saves": 24,
+              "strikeouts": 20,
+              "batting_avg": 0,
+              "era": 6.68
+            },
+            "ranks": {
+              "hrRole": null,
+              "sbRole": null,
+              "savesAll": 6,
+              "savesRole": 6,
+              "strikeoutsRole": 5
+            },
+            "roleCount": 9
+          }
+        }
+      ],
+      "rows": [
+        {
+          "category": "batter",
+          "role": "C",
+          "actualRole": "C",
+          "name": "猿氣",
+          "team": "俊國熊隊",
+          "owner": "shin55",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.244,
+            "home_runs": 32,
+            "rbi": 59,
+            "steals": 0
+          },
+          "actual": {
+            "home_runs": 45,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.283,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 1,
+            "sbRole": 9,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 11
+        },
+        {
+          "category": "batter",
+          "role": "1B",
+          "actualRole": "1B",
+          "name": "宮崎和香",
+          "team": "Lamigo桃猿",
+          "owner": "wings",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.244,
+            "home_runs": 34,
+            "rbi": 72,
+            "steals": 0
+          },
+          "actual": {
+            "home_runs": 47,
+            "steals": 1,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.288,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 1,
+            "sbRole": 6,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 12
+        },
+        {
+          "category": "batter",
+          "role": "2B",
+          "actualRole": "2B",
+          "name": "熊帥二",
+          "team": "誠泰Cobras",
+          "owner": "老子",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.263,
+            "home_runs": 37,
+            "rbi": 90,
+            "steals": 0
+          },
+          "actual": {
+            "home_runs": 33,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.22,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 4,
+            "sbRole": 8,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 11
+        },
+        {
+          "category": "batter",
+          "role": "3B",
+          "actualRole": "3B",
+          "name": "王風二",
+          "team": "興農牛隊",
+          "owner": "JPot8888",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.259,
+            "home_runs": 35,
+            "rbi": 77,
+            "steals": 0
+          },
+          "actual": {
+            "home_runs": 40,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.259,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 1,
+            "sbRole": 8,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 11
+        },
+        {
+          "category": "batter",
+          "role": "SS",
+          "actualRole": "SS",
+          "name": "小米周拾捌",
+          "team": "年代勇士",
+          "owner": "jgd1107",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.267,
+            "home_runs": 36,
+            "rbi": 80,
+            "steals": 2
+          },
+          "actual": {
+            "home_runs": 49,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.312,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 1,
+            "sbRole": 11,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 11
+        },
+        {
+          "category": "batter",
+          "role": "LF",
+          "actualRole": "左外",
+          "name": "大丹",
+          "team": "年代勇士",
+          "owner": "jac1009",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.24,
+            "home_runs": 31,
+            "rbi": 62,
+            "steals": 0
+          },
+          "actual": {
+            "home_runs": 53,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.311,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 1,
+            "sbRole": 8,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 10
+        },
+        {
+          "category": "batter",
+          "role": "CF",
+          "actualRole": "中外",
+          "name": "夜夜茫",
+          "team": "誠泰Cobras",
+          "owner": "kevin8215",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.261,
+            "home_runs": 33,
+            "rbi": 83,
+            "steals": 0
+          },
+          "actual": {
+            "home_runs": 35,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.258,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 3,
+            "sbRole": 7,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 10
+        },
+        {
+          "category": "batter",
+          "role": "RF",
+          "actualRole": "右外",
+          "name": "金旼炡",
+          "team": "Lamigo桃猿",
+          "owner": "AynMo",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.259,
+            "home_runs": 34,
+            "rbi": 79,
+            "steals": 0
+          },
+          "actual": {
+            "home_runs": 29,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.253,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 3,
+            "sbRole": 10,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 11
+        },
+        {
+          "category": "batter",
+          "role": "DH",
+          "actualRole": "ＤＨ",
+          "name": "雨男十七",
+          "team": "興農牛隊",
+          "owner": "rainwey",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.25,
+            "home_runs": 33,
+            "rbi": 67,
+            "steals": 3
+          },
+          "actual": {
+            "home_runs": 46,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.328,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 1,
+            "sbRole": 7,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 10
+        },
+        {
+          "category": "pitcher",
+          "role": "SP",
+          "actualRole": "SP",
+          "name": "葉秋",
+          "team": "三商虎隊",
+          "owner": "傑尼斯",
+          "matched": true,
+          "projected": {
+            "era": 1.66,
+            "wins": 14,
+            "losses": 5,
+            "saves": 0,
+            "strikeouts": 112,
+            "walks": 93,
+            "home_runs_allowed": 10
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 123,
+            "batting_avg": 0,
+            "era": 0.89
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 42,
+            "savesRole": 6,
+            "strikeoutsRole": 10
+          },
+          "roleCount": 56
+        },
+        {
+          "category": "pitcher",
+          "role": "SP",
+          "actualRole": "SP",
+          "name": "慢投王",
+          "team": "兄弟象隊",
+          "owner": "t20260214",
+          "matched": true,
+          "projected": {
+            "era": 2.14,
+            "wins": 15,
+            "losses": 6,
+            "saves": 0,
+            "strikeouts": 113,
+            "walks": 92,
+            "home_runs_allowed": 12
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 85,
+            "batting_avg": 0,
+            "era": 4.16
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 38,
+            "savesRole": 2,
+            "strikeoutsRole": 37
+          },
+          "roleCount": 56
+        },
+        {
+          "category": "pitcher",
+          "role": "SP",
+          "actualRole": "SP",
+          "name": "度啊十",
+          "team": "味全龍隊",
+          "owner": "willy",
+          "matched": true,
+          "projected": {
+            "era": 2.4,
+            "wins": 11,
+            "losses": 9,
+            "saves": 0,
+            "strikeouts": 114,
+            "walks": 90,
+            "home_runs_allowed": 15
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 81,
+            "batting_avg": 0,
+            "era": 2.12
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 77,
+            "savesRole": 36,
+            "strikeoutsRole": 46
+          },
+          "roleCount": 56
+        },
+        {
+          "category": "pitcher",
+          "role": "SP",
+          "actualRole": "SP",
+          "name": "攻城獅",
+          "team": "味全龍隊",
+          "owner": "lion",
+          "matched": true,
+          "projected": {
+            "era": 3.44,
+            "wins": 12,
+            "losses": 10,
+            "saves": 0,
+            "strikeouts": 129,
+            "walks": 91,
+            "home_runs_allowed": 23
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 122,
+            "batting_avg": 0,
+            "era": 2.88
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 75,
+            "savesRole": 34,
+            "strikeoutsRole": 11
+          },
+          "roleCount": 56
+        },
+        {
+          "category": "pitcher",
+          "role": "SP",
+          "actualRole": "SP",
+          "name": "囧囧魚二世",
+          "team": "統一獅隊",
+          "owner": "a12457800",
+          "matched": true,
+          "projected": {
+            "era": 2.29,
+            "wins": 12,
+            "losses": 9,
+            "saves": 0,
+            "strikeouts": 105,
+            "walks": 89,
+            "home_runs_allowed": 15
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 65,
+            "batting_avg": 0,
+            "era": 3.2
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 71,
+            "savesRole": 31,
+            "strikeoutsRole": 54
+          },
+          "roleCount": 56
+        },
+        {
+          "category": "pitcher",
+          "role": "RP",
+          "actualRole": "RP",
+          "name": "黯然銷魂",
+          "team": "俊國熊隊",
+          "owner": "leo589726",
+          "matched": true,
+          "projected": {
+            "era": 4,
+            "wins": 8,
+            "losses": 5,
+            "saves": 3,
+            "strikeouts": 90,
+            "walks": 73,
+            "home_runs_allowed": 24
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 9,
+            "strikeouts": 87,
+            "batting_avg": 0,
+            "era": 3.98
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 10,
+            "savesRole": 1,
+            "strikeoutsRole": 12
+          },
+          "roleCount": 33
+        },
+        {
+          "category": "pitcher",
+          "role": "RP",
+          "actualRole": "RP",
+          "name": "練習生",
+          "team": "時報鷹隊",
+          "owner": "csl0422",
+          "matched": true,
+          "projected": {
+            "era": 3.97,
+            "wins": 8,
+            "losses": 5,
+            "saves": 3,
+            "strikeouts": 75,
+            "walks": 60,
+            "home_runs_allowed": 18
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 76,
+            "batting_avg": 0,
+            "era": 5.77
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 67,
+            "savesRole": 31,
+            "strikeoutsRole": 19
+          },
+          "roleCount": 33
+        },
+        {
+          "category": "pitcher",
+          "role": "RP",
+          "actualRole": "RP",
+          "name": "基督是主四",
+          "team": "中信鯨隊",
+          "owner": "泡泡",
+          "matched": true,
+          "projected": {
+            "era": 3.89,
+            "wins": 8,
+            "losses": 5,
+            "saves": 2,
+            "strikeouts": 81,
+            "walks": 65,
+            "home_runs_allowed": 21
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 4,
+            "strikeouts": 108,
+            "batting_avg": 0,
+            "era": 5.54
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 21,
+            "savesRole": 12,
+            "strikeoutsRole": 5
+          },
+          "roleCount": 33
+        },
+        {
+          "category": "pitcher",
+          "role": "CP",
+          "actualRole": "CP",
+          "name": "上銀",
+          "team": "生活雷公",
+          "owner": "hong",
+          "matched": true,
+          "projected": {
+            "era": 5.07,
+            "wins": 2,
+            "losses": 4,
+            "saves": 24,
+            "strikeouts": 21,
+            "walks": 24,
+            "home_runs_allowed": 8
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 24,
+            "strikeouts": 20,
+            "batting_avg": 0,
+            "era": 6.68
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 6,
+            "savesRole": 6,
+            "strikeoutsRole": 5
+          },
+          "roleCount": 9
+        }
+      ]
+    },
+    "sbSv": {
+      "path": null,
+      "status": "missing",
+      "note": "No season-772 SB+SV structured artifact was found; not compared."
+    },
+    "sbkAvailableButNotRequestedMode": {
+      "path": "C:/Users/YOSHI/Documents/ore_draft_sbk_772_2026-05-25.json",
+      "mode": "sbk",
+      "generatedAt": "2026-05-24T22:48:26.511Z",
+      "source": {
+        "seasonDir": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771",
+        "seasonScrapedAt": "2026-05-24T20:47:21+08:00",
+        "liveDir": "C:\\Users\\YOSHI\\Documents\\ore-db\\live-2026-05-24",
+        "liveSourceType": "explicit",
+        "liveSourceTimestamp": "2026-05-24T12:47:18.021Z",
+        "liveFetchAttempted": false,
+        "liveFetchSucceeded": false,
+        "liveFetchError": null,
+        "fallbackReason": null,
+        "players": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\players.json",
+        "seasonSnapshot": "C:\\Users\\YOSHI\\Documents\\ore-db\\season-771\\season_snapshot.json",
+        "kakuninn": "C:\\Users\\YOSHI\\Documents\\ore-db\\live-2026-05-24\\kakuninn.html",
+        "projectionArtifact": "C:\\Users\\YOSHI\\Documents\\ore_projection_snapshot_772_sbk_2026-05-25.json",
+        "computerPolicy": "excluded_before_solver"
+      },
+      "feasible": true,
+      "legality": {
+        "total18": true,
+        "nineBatters": true,
+        "ninePitchers": true,
+        "fiveSP": true,
+        "threeRP": true,
+        "oneCP": true,
+        "fullBatterGrid": true,
+        "twelveTeamsCovered": true,
+        "maxTwoPerTeam": true,
+        "noComputerPlayers": true
+      },
+      "totals": {
+        "home_runs": 61,
+        "steals": 136,
+        "saves": 43,
+        "strikeouts": 978
+      },
+      "risks": [
+        {
+          "severity": "risk",
+          "note": "1B 神愛世人六 has 0 SB in available summary",
+          "row": {
+            "category": "batter",
+            "role": "1B",
+            "actualRole": "1B",
+            "name": "神愛世人六",
+            "team": "中信鯨隊",
+            "owner": "臺灣",
+            "matched": true,
+            "projected": {
+              "batting_avg": 0.231,
+              "home_runs": 20,
+              "rbi": 46,
+              "steals": 0
+            },
+            "actual": {
+              "home_runs": 10,
+              "steals": 0,
+              "saves": 0,
+              "strikeouts": 0,
+              "batting_avg": 0.241,
+              "era": 0
+            },
+            "ranks": {
+              "hrRole": 11,
+              "sbRole": 12,
+              "savesAll": null,
+              "savesRole": null,
+              "strikeoutsRole": null
+            },
+            "roleCount": 12
+          }
+        },
+        {
+          "severity": "watch",
+          "note": "CP 朗希八神 has 31 strikeouts in K mode",
+          "row": {
+            "category": "pitcher",
+            "role": "CP",
+            "actualRole": "CP",
+            "name": "朗希八神",
+            "team": "俊國熊隊",
+            "owner": "辜辜",
+            "matched": true,
+            "projected": {
+              "era": 4.38,
+              "wins": 8,
+              "losses": 5,
+              "saves": 14,
+              "strikeouts": 64,
+              "walks": 53,
+              "home_runs_allowed": 15
+            },
+            "actual": {
+              "home_runs": 0,
+              "steals": 0,
+              "saves": 31,
+              "strikeouts": 31,
+              "batting_avg": 0,
+              "era": 5.4
+            },
+            "ranks": {
+              "hrRole": null,
+              "sbRole": null,
+              "savesAll": 2,
+              "savesRole": 2,
+              "strikeoutsRole": 2
+            },
+            "roleCount": 9
+          }
+        }
+      ],
+      "rows": [
+        {
+          "category": "batter",
+          "role": "C",
+          "actualRole": "C",
+          "name": "哇薩比熊",
+          "team": "兄弟象隊",
+          "owner": "37.2",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.24,
+            "home_runs": 15,
+            "rbi": 48,
+            "steals": 2
+          },
+          "actual": {
+            "home_runs": 6,
+            "steals": 4,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.23,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 10,
+            "sbRole": 2,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 11
+        },
+        {
+          "category": "batter",
+          "role": "1B",
+          "actualRole": "1B",
+          "name": "神愛世人六",
+          "team": "中信鯨隊",
+          "owner": "臺灣",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.231,
+            "home_runs": 20,
+            "rbi": 46,
+            "steals": 0
+          },
+          "actual": {
+            "home_runs": 10,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.241,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 11,
+            "sbRole": 12,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 12
+        },
+        {
+          "category": "batter",
+          "role": "2B",
+          "actualRole": "2B",
+          "name": "梯歐歪立二",
+          "team": "時報鷹隊",
+          "owner": "梯歐歪立",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.254,
+            "home_runs": 7,
+            "rbi": 65,
+            "steals": 10
+          },
+          "actual": {
+            "home_runs": 1,
+            "steals": 31,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.246,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 11,
+            "sbRole": 1,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 11
+        },
+        {
+          "category": "batter",
+          "role": "3B",
+          "actualRole": "3B",
+          "name": "章國珍",
+          "team": "兄弟象隊",
+          "owner": "滅神楓",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.241,
+            "home_runs": 14,
+            "rbi": 51,
+            "steals": 2
+          },
+          "actual": {
+            "home_runs": 5,
+            "steals": 4,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.204,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 11,
+            "sbRole": 1,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 11
+        },
+        {
+          "category": "batter",
+          "role": "SS",
+          "actualRole": "SS",
+          "name": "佐佐木",
+          "team": "味全龍隊",
+          "owner": "iceice",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.243,
+            "home_runs": 22,
+            "rbi": 58,
+            "steals": 4
+          },
+          "actual": {
+            "home_runs": 16,
+            "steals": 5,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.241,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 7,
+            "sbRole": 1,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 11
+        },
+        {
+          "category": "batter",
+          "role": "LF",
+          "actualRole": "左外",
+          "name": "咖哩八世",
+          "team": "統一獅隊",
+          "owner": "asdzxc1120",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.231,
+            "home_runs": 22,
+            "rbi": 59,
+            "steals": 2
+          },
+          "actual": {
+            "home_runs": 17,
+            "steals": 4,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.273,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 6,
+            "sbRole": 2,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 10
+        },
+        {
+          "category": "batter",
+          "role": "CF",
+          "actualRole": "中外",
+          "name": "科比陸大",
+          "team": "統一獅隊",
+          "owner": "kerwin",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.261,
+            "home_runs": 6,
+            "rbi": 50,
+            "steals": 17
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 33,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.27,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 9,
+            "sbRole": 1,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 10
+        },
+        {
+          "category": "batter",
+          "role": "RF",
+          "actualRole": "右外",
+          "name": "李餅餡",
+          "team": "時報鷹隊",
+          "owner": "protomodel",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.26,
+            "home_runs": 7,
+            "rbi": 66,
+            "steals": 27
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 47,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.286,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 11,
+            "sbRole": 1,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 11
+        },
+        {
+          "category": "batter",
+          "role": "DH",
+          "actualRole": "ＤＨ",
+          "name": "押忍八",
+          "team": "味全龍隊",
+          "owner": "押忍八",
+          "matched": true,
+          "projected": {
+            "batting_avg": 0.233,
+            "home_runs": 13,
+            "rbi": 46,
+            "steals": 4
+          },
+          "actual": {
+            "home_runs": 6,
+            "steals": 8,
+            "saves": 0,
+            "strikeouts": 0,
+            "batting_avg": 0.237,
+            "era": 0
+          },
+          "ranks": {
+            "hrRole": 8,
+            "sbRole": 3,
+            "savesAll": null,
+            "savesRole": null,
+            "strikeoutsRole": null
+          },
+          "roleCount": 10
+        },
+        {
+          "category": "pitcher",
+          "role": "SP",
+          "actualRole": "SP",
+          "name": "跑的慢三八",
+          "team": "年代勇士",
+          "owner": "porching",
+          "matched": true,
+          "projected": {
+            "era": 1.45,
+            "wins": 18,
+            "losses": 4,
+            "saves": 0,
+            "strikeouts": 142,
+            "walks": 89,
+            "home_runs_allowed": 9
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 160,
+            "batting_avg": 0,
+            "era": 1.1
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 59,
+            "savesRole": 20,
+            "strikeoutsRole": 1
+          },
+          "roleCount": 56
+        },
+        {
+          "category": "pitcher",
+          "role": "SP",
+          "actualRole": "SP",
+          "name": "小叡三九",
+          "team": "年代勇士",
+          "owner": "allan5250",
+          "matched": true,
+          "projected": {
+            "era": 1.57,
+            "wins": 16,
+            "losses": 4,
+            "saves": 0,
+            "strikeouts": 138,
+            "walks": 90,
+            "home_runs_allowed": 10
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 145,
+            "batting_avg": 0,
+            "era": 2.14
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 60,
+            "savesRole": 21,
+            "strikeoutsRole": 4
+          },
+          "roleCount": 56
+        },
+        {
+          "category": "pitcher",
+          "role": "SP",
+          "actualRole": "SP",
+          "name": "生無可戀",
+          "team": "俊國熊隊",
+          "owner": "80338",
+          "matched": true,
+          "projected": {
+            "era": 2.8,
+            "wins": 12,
+            "losses": 8,
+            "saves": 0,
+            "strikeouts": 127,
+            "walks": 84,
+            "home_runs_allowed": 20
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 159,
+            "batting_avg": 0,
+            "era": 1.6
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 83,
+            "savesRole": 42,
+            "strikeoutsRole": 2
+          },
+          "roleCount": 56
+        },
+        {
+          "category": "pitcher",
+          "role": "SP",
+          "actualRole": "SP",
+          "name": "多里斯改三",
+          "team": "興農牛隊",
+          "owner": "多里斯改",
+          "matched": true,
+          "projected": {
+            "era": 2.44,
+            "wins": 12,
+            "losses": 7,
+            "saves": 0,
+            "strikeouts": 115,
+            "walks": 82,
+            "home_runs_allowed": 14
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 118,
+            "batting_avg": 0,
+            "era": 2.82
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 51,
+            "savesRole": 13,
+            "strikeoutsRole": 14
+          },
+          "roleCount": 56
+        },
+        {
+          "category": "pitcher",
+          "role": "SP",
+          "actualRole": "SP",
+          "name": "葉秋",
+          "team": "三商虎隊",
+          "owner": "傑尼斯",
+          "matched": true,
+          "projected": {
+            "era": 1.66,
+            "wins": 14,
+            "losses": 5,
+            "saves": 0,
+            "strikeouts": 112,
+            "walks": 93,
+            "home_runs_allowed": 10
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 0,
+            "strikeouts": 123,
+            "batting_avg": 0,
+            "era": 0.89
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 42,
+            "savesRole": 6,
+            "strikeoutsRole": 10
+          },
+          "roleCount": 56
+        },
+        {
+          "category": "pitcher",
+          "role": "RP",
+          "actualRole": "RP",
+          "name": "荔枝太郎",
+          "team": "Lamigo桃猿",
+          "owner": "mikan",
+          "matched": true,
+          "projected": {
+            "era": 4.32,
+            "wins": 8,
+            "losses": 6,
+            "saves": 3,
+            "strikeouts": 111,
+            "walks": 98,
+            "home_runs_allowed": 27
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 4,
+            "strikeouts": 90,
+            "batting_avg": 0,
+            "era": 2.19
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 18,
+            "savesRole": 9,
+            "strikeoutsRole": 9
+          },
+          "roleCount": 33
+        },
+        {
+          "category": "pitcher",
+          "role": "RP",
+          "actualRole": "RP",
+          "name": "多柴多藝",
+          "team": "誠泰Cobras",
+          "owner": "yayahong",
+          "matched": true,
+          "projected": {
+            "era": 3.59,
+            "wins": 6,
+            "losses": 5,
+            "saves": 2,
+            "strikeouts": 84,
+            "walks": 72,
+            "home_runs_allowed": 18
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 4,
+            "strikeouts": 53,
+            "batting_avg": 0,
+            "era": 2.9
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 15,
+            "savesRole": 6,
+            "strikeoutsRole": 31
+          },
+          "roleCount": 33
+        },
+        {
+          "category": "pitcher",
+          "role": "RP",
+          "actualRole": "RP",
+          "name": "台鳳",
+          "team": "生活雷公",
+          "owner": "野球居特",
+          "matched": true,
+          "projected": {
+            "era": 5.09,
+            "wins": 6,
+            "losses": 6,
+            "saves": 2,
+            "strikeouts": 71,
+            "walks": 68,
+            "home_runs_allowed": 21
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 4,
+            "strikeouts": 99,
+            "batting_avg": 0,
+            "era": 4.07
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 20,
+            "savesRole": 11,
+            "strikeoutsRole": 7
+          },
+          "roleCount": 33
+        },
+        {
+          "category": "pitcher",
+          "role": "CP",
+          "actualRole": "CP",
+          "name": "朗希八神",
+          "team": "俊國熊隊",
+          "owner": "辜辜",
+          "matched": true,
+          "projected": {
+            "era": 4.38,
+            "wins": 8,
+            "losses": 5,
+            "saves": 14,
+            "strikeouts": 64,
+            "walks": 53,
+            "home_runs_allowed": 15
+          },
+          "actual": {
+            "home_runs": 0,
+            "steals": 0,
+            "saves": 31,
+            "strikeouts": 31,
+            "batting_avg": 0,
+            "era": 5.4
+          },
+          "ranks": {
+            "hrRole": null,
+            "sbRole": null,
+            "savesAll": 2,
+            "savesRole": 2,
+            "strikeoutsRole": 2
+          },
+          "roleCount": 9
+        }
+      ]
+    }
+  }
+}

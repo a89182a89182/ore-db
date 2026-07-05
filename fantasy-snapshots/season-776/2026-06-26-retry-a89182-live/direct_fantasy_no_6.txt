@@ -1,0 +1,76 @@
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	菜鳥出頭天 - 有 10 隻菜鳥正在線上	
+	
+	
+	
+input,select	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#000000'; BORDER:'1 SOLID:000000'; background-color:'#D1D1FF'; }
+input.vito		{ font-size:12px; font-weight:BOLD; }
+textarea		{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#000000'; BORDER:'1 SOLID:000000'; background-color:'#D1D1FF'; }
+body			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; }
+tr				{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; }
+tr.head			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; font-weight:BOLD; text-align:CENTER; }
+td,th			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; white-space:nowrap; }
+td.broadcast	{ font-size:12px; white-space:normal; font-family:Tahoma,Verdana,微軟正黑體; }
+td.histitle		{ font-size:20px; font-weight:BOLD; }
+.score			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#D1D1FF'; background-color:'#008800'; }
+td.tq			{ font-family:Verdana; font-weight:BOLD; }
+.tX				{ font-family:Verdana; font-size:9px; font-weight:NORMAL; }
+	
+
+		
+		
+		
+
+		
+	
+		錯誤訊息		
+		請先登入【菜鳥出頭天】				
+
+
+
+		
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+					
+	
+	
+
+[LD=	5	,KS=	5	] 現在時間 	06/26 (五) 21:18	 (	1782479916	) 來自 	1.173.147.121	 域名 	1-173-147-121.dynamic-ip.hinet.net	
+系統 CPU(	0.06	) = USER(	0.05	) + SYSTEM(	0.01	)	
+		原始碼：野球人２ ver 1.75b (Free)	／	改造元：劇空間２ ver 3.00b (Free)	／中文化：SETTV(2005/07/03)	
+
+
+
+
+
+				

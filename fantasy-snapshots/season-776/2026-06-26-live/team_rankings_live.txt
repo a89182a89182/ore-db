@@ -1,0 +1,49 @@
+菜鳥出頭天 - 有 4 隻菜鳥正在線上
+input,select	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#000000'; BORDER:'1 SOLID:000000'; background-color:'#D1D1FF'; }
+input.vito	{ font-size:12px; font-weight:BOLD; }
+textarea	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#000000'; BORDER:'1 SOLID:000000'; background-color:'#D1D1FF'; }
+body	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; }
+tr	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; }
+tr.head	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; font-weight:BOLD; text-align:CENTER; }
+td,th	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; white-space:nowrap; }
+td.broadcast	{ font-size:12px; white-space:normal; font-family:Tahoma,Verdana,微軟正黑體; }
+td.histitle	{ font-size:20px; font-weight:BOLD; }
+.score	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#D1D1FF'; background-color:'#008800'; }
+td.tq	{ font-family:Verdana; font-weight:BOLD; }
+.tX	{ font-family:Verdana; font-size:9px; font-weight:NORMAL; }
+球隊排行榜
+function showRanking(value1) {
+document.form1.no.value=value1;
+document.form1.submit();
+}
+中華聯盟：
+台灣聯盟：
+排名	球隊	上季	已賽	勝場	敗場	和場	連勝	勝率	打率	防率	得率	本打	盜壘	失誤
+1
+年代勇士	2	140	104	35	1	12	0.748	0.278	2.41	5.6	258	38	26
+2
+興農牛隊	1	140	90	48	2	7	0.652	0.259	2.62	4.5	223	5	13
+3
+誠泰Cobras	3	140	81	55	4	7	0.596	0.255	3.75	4.4	220	2	25
+4
+三商虎隊	4	140	82	56	2	8	0.594	0.264	3.40	4.8	159	27	9
+5
+時報鷹隊	5	140	28	108	4	3	0.206	0.217	4.69	1.7	40	52	26
+6
+兄弟象隊	6	140	27	110	3	3	0.197	0.229	5.46	2.2	64	33	39
+各隊對戰成績
+vs 兄弟象隊
+vs 三商虎隊
+vs 興農牛隊
+vs 誠泰Cobras
+vs 年代勇士
+vs 時報鷹隊
+兄弟象隊	27	勝 	110	敗 	3	和	─	5勝23敗0和	3勝25敗0和	4勝23敗1和	4勝23敗1和	11勝16敗1和
+三商虎隊	82	勝 	56	敗 	2	和	23勝5敗0和	─	15勝13敗0和	13勝14敗1和	7勝21敗0和	24勝3敗1和
+興農牛隊	90	勝 	48	敗 	2	和	25勝3敗0和	13勝15敗0和	─	15勝12敗1和	11勝17敗0和	26勝1敗1和
+誠泰Cobras	81	勝 	55	敗 	4	和	23勝4敗1和	14勝13敗1和	12勝15敗1和	─	11勝17敗0和	21勝6敗1和
+年代勇士	104	勝 	35	敗 	1	和	23勝4敗1和	21勝7敗0和	17勝11敗0和	17勝11敗0和	─	26勝2敗0和
+時報鷹隊	28	勝 	108	敗 	4	和	16勝11敗1和	3勝24敗1和	1勝26敗1和	6勝21敗1和	2勝26敗0和	─
+[LD=	4	,KS=	4	] 現在時間 	06/26 (五) 19:35	 (	1782473708	) 來自 	1.173.147.121	 域名 	1-173-147-121.dynamic-ip.hinet.net
+系統 CPU(	0.08	) = USER(	0.06	) + SYSTEM(	0.01	)
+原始碼：野球人２ ver 1.75b (Free)	／	改造元：劇空間２ ver 3.00b (Free)	／中文化：SETTV(2005/07/03)

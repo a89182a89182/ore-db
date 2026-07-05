@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "name": "default-current-k-regularized",
+  "description": "Default ORE fantasy scorer profile matching the current K-regularized draft.js baseline.",
+  "diagnosticOnly": false,
+  "variantCount": 5,
+  "skillWeights": {
+    "useBuiltin": true,
+    "note": "Mojibake skill keys remain in draft.js as builtin fallback; numeric item and calibration weights are profile controlled."
+  },
+  "itemWeights": {
+    "batterCoreRun": {
+      "homeRuns": 0.75,
+      "rbi": 0.25,
+      "hrSkillScore": 0.45,
+      "power": 0.18,
+      "contact": 6,
+      "skillDensity": 2
+    },
+    "avg": {
+      "battingAvg": 100000,
+      "homeRuns": 85,
+      "rbi": 25,
+      "hrSkillScore": 8,
+      "power": 1.2,
+      "contact": 45,
+      "skillDensity": 25
+    },
+    "hr": {
+      "homeRuns": 1000,
+      "hrSkillScore": 0.1,
+      "power": 0.001
+    },
+    "rbi": {
+      "rbi": 0.65,
+      "homeRuns": 0.75,
+      "hrSkillScore": 0.45,
+      "power": 0.18,
+      "contact": 6,
+      "skillDensity": 2,
+      "scale": 1000
+    },
+    "sb": {
+      "steals": 1000,
+      "deniedBase": -1000000,
+      "stealSkillScore": 0.01,
+      "speed": 0.001
+    },
+    "pitcherCoreQuality": {
+      "calibratedK": 0.42,
+      "control": 0.42,
+      "stamina": 0.32,
+      "velocity": 4.8,
+      "skillDensity": 18,
+      "pitchMarks": 48,
+      "eraPenalty": 18,
+      "riskPenalty": 28
+    },
+    "k": {
+      "calibratedStrikeouts": 1000,
+      "strikeoutSkillScore": 0.1,
+      "velocity": 0.001
+    },
+    "era": {
+      "SP": {
+        "calibratedK": 12,
+        "control": 1.8,
+        "stamina": 1.2,
+        "velocity": 24,
+        "skillDensity": 90,
+        "pitchMarks": 170,
+        "walksPenalty": 1.6,
+        "homeRunsAllowedPenalty": 9,
+        "riskPenalty": 110
+      },
+      "RP": {
+        "calibratedK": 15,
+        "control": 2.4,
+        "stamina": 1.5,
+        "velocity": 29,
+        "skillDensity": 105,
+        "pitchMarks": 170,
+        "walksPenalty": 1.6,
+        "homeRunsAllowedPenalty": 9,
+        "riskPenalty": 110
+      },
+      "CP": {
+        "calibratedK": 15,
+        "control": 2.4,
+        "stamina": 1.5,
+        "velocity": 29,
+        "skillDensity": 105,
+        "pitchMarks": 170,
+        "walksPenalty": 1.6,
+        "homeRunsAllowedPenalty": 9,
+        "riskPenalty": 110
+      }
+    },
+    "w": {
+      "SP": {
+        "wins": 70,
+        "calibratedK": 14,
+        "control": 1.2,
+        "stamina": 1.6,
+        "velocity": 16,
+        "skillDensity": 95,
+        "pitchMarks": 150,
+        "riskPenalty": 70
+      },
+      "RP": {
+        "wins": 70,
+        "calibratedK": 14,
+        "control": 1.2,
+        "stamina": 1.6,
+        "velocity": 16,
+        "skillDensity": 95,
+        "pitchMarks": 150,
+        "riskPenalty": 70
+      },
+      "CP": {
+        "wins": 70,
+        "calibratedK": 14,
+        "control": 1.2,
+        "stamina": 1.6,
+        "velocity": 16,
+        "skillDensity": 95,
+        "pitchMarks": 150,
+        "riskPenalty": 70
+      }
+    },
+    "sv": {
+      "RP": {
+        "calibratedSaves": 1000,
+        "calibratedK": 0.4,
+        "control": 0.8,
+        "stamina": 0.5,
+        "velocity": 4,
+        "skillDensity": 20,
+        "pitchMarks": 35,
+        "eraPenalty": 90,
+        "lossesPenalty": 10,
+        "riskPenalty": 50
+      },
+      "CP": {
+        "calibratedSaves": 1000,
+        "calibratedK": 2.5,
+        "control": 0.8,
+        "stamina": 0.5,
+        "velocity": 4,
+        "skillDensity": 35,
+        "pitchMarks": 70,
+        "closerBonus": 2000,
+        "eraPenalty": 20,
+        "lossesPenalty": 10,
+        "riskPenalty": 50
+      }
+    },
+    "composite": {
+      "SP": {
+        "strikeouts": 3.1,
+        "wins": 7,
+        "lossesPenalty": 2.5,
+        "eraPenalty": 45,
+        "walksPenalty": 0.8,
+        "homeRunsAllowedPenalty": 1.5
+      },
+      "RP": {
+        "saves": 22,
+        "strikeouts": 2.6,
+        "wins": 1.5,
+        "lossesPenalty": 1.5,
+        "eraPenalty": 36,
+        "walksPenalty": 0.7,
+        "homeRunsAllowedPenalty": 1.2
+      },
+      "CP": {
+        "saves": 40,
+        "strikeouts": 2.1,
+        "wins": 1,
+        "lossesPenalty": 1.5,
+        "eraPenalty": 34,
+        "walksPenalty": 0.6,
+        "homeRunsAllowedPenalty": 1
+      }
+    }
+  },
+  "calibrationWeights": {
+    "strikeouts": {
+      "SP": {
+        "skillMultiplier": 0.72,
+        "velocityThreshold": 145,
+        "velocityBonus": 0.3,
+        "staminaThreshold": 190,
+        "staminaBonus": 0.04,
+        "controlThreshold": 195,
+        "controlBonus": 0.03,
+        "velocityRiskThreshold": 145,
+        "velocityRiskPenalty": 0.8,
+        "staminaRiskThreshold": 185,
+        "staminaRiskPenalty": 0.12
+      },
+      "RP": {
+        "skillMultiplier": 2.4,
+        "velocityThreshold": 150,
+        "velocityBonus": 0.35,
+        "staminaThreshold": 210,
+        "staminaBonus": 0.16,
+        "controlThreshold": 225,
+        "controlBonus": 0.06,
+        "velocityRiskThreshold": 150,
+        "velocityRiskPenalty": 0.8,
+        "staminaRiskThreshold": 205,
+        "staminaRiskPenalty": 0.35
+      },
+      "CP": {
+        "skillMultiplier": 0.25,
+        "velocityThreshold": 150,
+        "velocityBonus": 0.35,
+        "staminaThreshold": 210,
+        "staminaBonus": 0.08,
+        "controlThreshold": 225,
+        "controlBonus": 0.05,
+        "velocityRiskThreshold": 150,
+        "velocityRiskPenalty": 0.4,
+        "staminaRiskThreshold": 195,
+        "staminaRiskPenalty": 0.12
+      }
+    },
+    "saves": {
+      "CP": {
+        "stabilityRiskBonus": 3,
+        "stabilityBonus": 13,
+        "winsThreshold": 2,
+        "winsBonus": 4,
+        "kThreshold": 30,
+        "kBonus": 0.35,
+        "controlThreshold": 210,
+        "controlBonus": 0.15
+      },
+      "RP": {
+        "stabilityBonus": 2,
+        "winsThreshold": 6,
+        "winsBonus": 0.15,
+        "kThreshold": 70,
+        "kBonus": 0.005,
+        "controlThreshold": 225,
+        "controlBonus": 0.04
+      }
+    }
+  },
+  "diagnostic": {
+    "enabled": false,
+    "actualStatsPath": null,
+    "item": null,
+    "scoreScale": 1000000
+  }
+}

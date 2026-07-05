@@ -1,0 +1,177 @@
+{
+    "generatedAt":  "2026-07-03T19:33:59.3064745+08:00",
+    "season":  777,
+    "dateLabel":  "2026-07-03",
+    "mode":  "live",
+    "status":  "BLOCKED",
+    "validation":  {
+                       "status":  "BLOCKED",
+                       "failReasons":  [
+                                           "fantasy full list rows were not parsed"
+                                       ],
+                       "warnings":  [
+                                        "category leader raw text was not provided"
+                                    ],
+                       "expectedFantasyRows":  "not fixed",
+                       "fantasyRows":  0,
+                       "fantasyRankSequential":  false,
+                       "fantasyColumnShape":  "25 columns; 18 player picks",
+                       "rosterEntries":  216,
+                       "rosterSalaryLines":  216,
+                       "positionCounts":  {
+                                              "LF":  12,
+                                              "C":  12,
+                                              "RF":  12,
+                                              "CF":  12,
+                                              "SS":  12,
+                                              "DH":  12,
+                                              "2B":  12,
+                                              "1B":  12,
+                                              "3B":  12,
+                                              "SP":  60,
+                                              "RP":  36,
+                                              "CP":  12
+                                          },
+                       "leaderRows":  0,
+                       "leaderCategoryCounts":  {
+
+                                                },
+                       "teamRankingRows":  12,
+                       "teamRankingLeagueCounts":  {
+                                                       "\u4e2d\u83ef\u806f\u76df":  6,
+                                                       "\u53f0\u7063\u806f\u76df":  6
+                                                   }
+                   },
+    "access":  {
+                   "mode":  "live",
+                   "liveAttempted":  true,
+                   "credentialPathPresent":  true,
+                   "credentialImported":  true,
+                   "credentialUsed":  true,
+                   "loginSucceeded":  true,
+                   "helloFound":  true
+               },
+    "sourceFiles":  {
+
+                    },
+    "pageFetches":  [
+                        {
+                            "name":  "login_sanitized",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\login_sanitized.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\login_sanitized.txt",
+                            "length":  58483,
+                            "sha256":  "941c632e1e6952a65e1ea117b083568797467d9af53584077d1f7fd709915afa",
+                            "asksLogin":  false,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "roster_introduction_live",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\roster_introduction_live.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\roster_introduction_live.txt",
+                            "length":  61749,
+                            "sha256":  "403fb5525506a89dc87b6ac3ad31c23e4e181a739910da9d7cbc391fcd22e368",
+                            "asksLogin":  false,
+                            "fantasyRows":  0,
+                            "rosterEntries":  216
+                        },
+                        {
+                            "name":  "team_rankings_live_chinese",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\team_rankings_live_chinese.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\team_rankings_live_chinese.txt",
+                            "length":  10868,
+                            "sha256":  "cdebde273f165dfaa58cfe8b8f1ad2064a7e3f7c607823d4ee8eb45da42e550c",
+                            "asksLogin":  false,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "team_rankings_live_taiwan",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\team_rankings_live_taiwan.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\team_rankings_live_taiwan.txt",
+                            "length":  10866,
+                            "sha256":  "3d488448ee6cfb3f067dfa05b584bbe05dd2c6ff046c6c27cf0a5a7c3746318f",
+                            "asksLogin":  false,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_summary_live",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_summary_live.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_summary_live.txt",
+                            "length":  4710,
+                            "sha256":  "07be5a37d36e3d35a0916e2852d8ee93143904fcde12d10c5b71d9d5d55d77a0",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_01",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_01.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_01.txt",
+                            "length":  4710,
+                            "sha256":  "07be5a37d36e3d35a0916e2852d8ee93143904fcde12d10c5b71d9d5d55d77a0",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_02",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_02.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_02.txt",
+                            "length":  4710,
+                            "sha256":  "ed1e52707b200b21785f092dfa1cfaf5e18892b1b9dd82f0143edd5c5449d74a",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_03",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_03.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_03.txt",
+                            "length":  4710,
+                            "sha256":  "b1a63c792be9a737dce336559d70262841fa58922f79e6d29bf0a1c2afc6c265",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_04",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_04.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_04.txt",
+                            "length":  4710,
+                            "sha256":  "c15d05452d47d82e8007494eec954f2e2f589dc786ccc7922fa87c39d742830e",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_05",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_05.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_05.txt",
+                            "length":  4710,
+                            "sha256":  "106b07dfe7e2fd346fef7172eac0e8d81684e032440c9bb44cef6ecb6156fb35",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        },
+                        {
+                            "name":  "fantasy_full_list_attempt_06",
+                            "htmlPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_06.html",
+                            "textPath":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_attempt_06.txt",
+                            "length":  4710,
+                            "sha256":  "106b07dfe7e2fd346fef7172eac0e8d81684e032440c9bb44cef6ecb6156fb35",
+                            "asksLogin":  true,
+                            "fantasyRows":  0,
+                            "rosterEntries":  0
+                        }
+                    ],
+    "outputs":  {
+                    "snapshotDir":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live",
+                    "fantasyRows":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\fantasy_full_list_rows.json",
+                    "rosterEntries":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\roster_entries.json",
+                    "categoryLeaders":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\category_leaders.json",
+                    "derivedCategoryLeadersFromFullList":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\derived_category_leaders_from_full_list.json",
+                    "teamRankings":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-777\\2026-07-03-live\\team_rankings.json"
+                }
+}

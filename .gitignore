@@ -1,0 +1,10 @@
+# Codex 舊報告與大量原始 HTML 快取 (369MB, 不進版控)
+reports/
+live-*/
+fantasy-pages-*/
+tmp/
+tmp_user_pages/
+__pycache__/
+node_modules/
+debug_*.html
+*.pyc

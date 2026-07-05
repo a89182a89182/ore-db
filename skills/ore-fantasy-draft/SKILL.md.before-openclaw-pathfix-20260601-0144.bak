@@ -1,0 +1,93 @@
+# ORE Fantasy Draft Skill
+
+Use this skill for:
+
+- ORE fantasy lineup generation
+- HR-mode lineup selection
+- SB-mode lineup selection
+- ORE lineup legality checking
+
+## Required Reads
+
+Before using this skill:
+
+1. Read `C:\Users\YOSHI\.codex\automations\ore-sunday-preview\openclaw-handoff.md`
+2. Read `C:\Users\YOSHI\.openclaw\workspace\ore-openclaw-handoff.md`
+3. Read `C:\Users\YOSHI\.openclaw\workspace\ore-fantasy-workflow.md`
+
+## Canonical Solver
+
+The canonical solver is:
+
+- `C:\Users\YOSHI\.openclaw\workspace\skills\ore-fantasy-draft\draft.js`
+- `C:\Users\YOSHI\.openclaw\workspace\skills\ore-fantasy-draft\projection.js`
+
+Do not base new ORE fantasy decisions on old archive-parsing utilities or exploratory scripts.
+
+## Inputs
+
+The solver should use:
+
+- live ORE first when available
+- newest local `C:\Users\YOSHI\Documents\ore-db\live-*` fallback if live fails
+- current season local files under `C:\Users\YOSHI\Documents\ore-db\season-*`
+- historical season files as model-training input only
+- `C:\Users\YOSHI\.openclaw\workspace\reports\ore_projection_snapshot.json` as the standings / forecast artifact
+
+## Hard Rules
+
+- Same-player direct history carry-forward weight is `0`
+- Historical results train the projection model only; never add team-name, championship, or prior-rank bonuses
+- Age-43 non-retired veterans are placeholder-level and should be downweighted hard
+- `盜壘戰術 = 1` is a hard no-run gate for SB reasoning
+- Illegal lineups must not be returned
+- Pitchers fill legality after the batter core is chosen
+
+## Legality Checklist
+
+Every final lineup must pass:
+
+- 18 total
+- 9 batters
+- 9 pitchers
+- 5 SP
+- 3 RP
+- 1 CP
+- full batter grid
+- all 12 teams represented
+- max 2 players per team
+
+## Commands
+
+Refresh the projection artifact:
+
+```powershell
+node C:\Users\YOSHI\.openclaw\workspace\skills\ore-fantasy-draft\projection.js
+```
+
+HR mode:
+
+```powershell
+node C:\Users\YOSHI\.openclaw\workspace\skills\ore-fantasy-draft\draft.js hr
+```
+
+SB mode:
+
+```powershell
+node C:\Users\YOSHI\.openclaw\workspace\skills\ore-fantasy-draft\draft.js sb
+```
+
+Optional output path:
+
+```powershell
+node C:\Users\YOSHI\.openclaw\workspace\skills\ore-fantasy-draft\draft.js hr --out C:\path\to\report.json
+```
+
+## Expected Behavior
+
+- Refresh or reuse a current `ore_projection_snapshot.json` before ranking teams or selecting players
+- Standings logic should come from projected player stats aggregated into team offense / pitching scores
+- If live fetch succeeds, use live data and record that source
+- If live fetch fails, use the newest valid local fallback and record that source
+- If no legal lineup exists, fail explicitly
+- Never output a fake or incomplete “best effort” lineup as if it were legal

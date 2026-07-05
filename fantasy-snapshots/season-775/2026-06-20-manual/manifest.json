@@ -1,0 +1,78 @@
+{
+    "generatedAt":  "2026-06-20T00:38:29.5069555+08:00",
+    "season":  775,
+    "dateLabel":  "2026-06-20",
+    "mode":  "manual",
+    "status":  "PASS",
+    "validation":  {
+                       "status":  "PASS",
+                       "failReasons":  [
+
+                                       ],
+                       "warnings":  [
+
+                                    ],
+                       "expectedFantasyRows":  80,
+                       "fantasyRows":  80,
+                       "fantasyRankSequential":  true,
+                       "fantasyColumnShape":  "25 columns; 18 player picks",
+                       "rosterEntries":  216,
+                       "rosterSalaryLines":  216,
+                       "positionCounts":  {
+                                              "LF":  12,
+                                              "CF":  12,
+                                              "C":  12,
+                                              "3B":  12,
+                                              "RF":  12,
+                                              "SS":  12,
+                                              "DH":  12,
+                                              "1B":  12,
+                                              "2B":  12,
+                                              "SP":  60,
+                                              "RP":  36,
+                                              "CP":  12
+                                          },
+                       "leaderRows":  80,
+                       "leaderCategoryCounts":  {
+                                                    "\u6253\u7387":  10,
+                                                    "\u672c\u6253":  10,
+                                                    "\u6253\u9ede":  10,
+                                                    "\u76dc\u58d8":  10,
+                                                    "\u9632\u7387":  10,
+                                                    "\u52dd\u5834":  10,
+                                                    "\u6551\u63f4":  10,
+                                                    "\u4e09\u632f":  10
+                                                },
+                       "teamRankingRows":  12,
+                       "teamRankingLeagueCounts":  {
+                                                       "\u4e2d\u83ef\u806f\u76df":  6,
+                                                       "\u53f0\u7063\u806f\u76df":  6
+                                                   }
+                   },
+    "access":  {
+                   "mode":  "manual",
+                   "liveAttempted":  false,
+                   "credentialPathPresent":  true,
+                   "credentialImported":  false,
+                   "credentialUsed":  false,
+                   "loginSucceeded":  false,
+                   "helloFound":  false
+               },
+    "sourceFiles":  {
+                        "manualFantasyList":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-775\\2026-06-20-manual\\fantasy_full_list_raw.txt",
+                        "manualRoster":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-775\\2026-06-20-manual\\roster_introduction_raw.txt",
+                        "manualLeaders":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-775\\2026-06-20-manual\\fantasy_category_leaders_raw.md",
+                        "manualTeamRankings":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-775\\2026-06-20-manual\\team_rankings_raw.tsv"
+                    },
+    "pageFetches":  [
+
+                    ],
+    "outputs":  {
+                    "snapshotDir":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-775\\2026-06-20-manual",
+                    "fantasyRows":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-775\\2026-06-20-manual\\fantasy_full_list_rows.json",
+                    "rosterEntries":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-775\\2026-06-20-manual\\roster_entries.json",
+                    "categoryLeaders":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-775\\2026-06-20-manual\\category_leaders.json",
+                    "derivedCategoryLeadersFromFullList":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-775\\2026-06-20-manual\\derived_category_leaders_from_full_list.json",
+                    "teamRankings":  "C:\\Users\\YOSHI\\Documents\\ore-db\\fantasy-snapshots\\season-775\\2026-06-20-manual\\team_rankings.json"
+                }
+}

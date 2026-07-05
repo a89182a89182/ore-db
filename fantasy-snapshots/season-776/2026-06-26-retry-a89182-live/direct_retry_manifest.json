@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-06-26T21:18:37+0800",
+  "helloFound": true,
+  "cookieCount": 0,
+  "results": [
+    {
+      "name": "login_a89182",
+      "length": 4718,
+      "sha256": "a98962daedb12b4dc585df8c2e23cc7a8ef21a1dbfb0820ad25589e65a625005",
+      "pleaseLogin": true,
+      "fantasyRows": 0,
+      "hasFantasy": true,
+      "hasFull": true
+    },
+    {
+      "name": "fantasy_hello_value",
+      "length": 4713,
+      "sha256": "f19df47cc54fa181ba68bc79ed3c61b678ce2531cf28d4deea2f698340b98863",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_all_hidden",
+      "length": 4713,
+      "sha256": "38ec028968535537be446948d150144334b5d5d35fc9389977eccaa90f50b009",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_all_hidden_mode",
+      "length": 4713,
+      "sha256": "30604b12326217e4e3a08dbda02a628a087c1ef5b2fdcc4a85b9564f4bbcddf0",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_menu_all",
+      "length": 4713,
+      "sha256": "8f6c08775a95fc72908276aa25eeeb2e149a14c5c2ea3dd8c8d276fa84e13f8f",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_finepix_all",
+      "length": 4713,
+      "sha256": "dd6a5738611491fa38d39c2f9e7dfe77cf060ed17cf63a4de1ce1b850e9db176",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_list_all",
+      "length": 4713,
+      "sha256": "dd6a5738611491fa38d39c2f9e7dfe77cf060ed17cf63a4de1ce1b850e9db176",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_listType_all",
+      "length": 4713,
+      "sha256": "b3533c56dababbc9105d667da999ec4ca836cb9d3660ed6c9c482f7cd376f91b",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_all_all",
+      "length": 4713,
+      "sha256": "31b6f9b2e07ed4a345b18734d90ad898e08bca03ef13b6b22f2387b57ba7d3bd",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_pickMyTeam_all",
+      "length": 4710,
+      "sha256": "c539788af2b39290ad9280b803039b89b4d05102db5414ca19959fe26945b9ee",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_rank_all",
+      "length": 4713,
+      "sha256": "6ccd3d3a239b6fbdf45160876bfc73a5d672af7f85d8ab6a2fd5c8248d445463",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_no_all",
+      "length": 4713,
+      "sha256": "f8876dab8cdd3db2efc4823834fbb3980dce6111453b91d62b52a1dd3060ac99",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_no_0",
+      "length": 4713,
+      "sha256": "8c0fe3f436626a6005a703155cafb96101f36442107199d6e5af442c90ebefa5",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_no_1",
+      "length": 4713,
+      "sha256": "17ed3b1b98f5017c540c09b84271a7ed625d0d74b36e4ec725de527e4901f11d",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_no_2",
+      "length": 4713,
+      "sha256": "fdc21220aa40d8ad7ca78c6916f59c746ef997f467938d776ffafbb3fe2e741a",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_no_3",
+      "length": 4713,
+      "sha256": "54cb9dfced5296014656a5ab488409c2493375fc1e8273e18828472f5cdc84c1",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_no_4",
+      "length": 4713,
+      "sha256": "851d63548f3d33515657f48fced2300d1b7d420d23e4badaf0bacff340502dc8",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_no_5",
+      "length": 4713,
+      "sha256": "851d63548f3d33515657f48fced2300d1b7d420d23e4badaf0bacff340502dc8",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_no_6",
+      "length": 4713,
+      "sha256": "6a02f16366e4cc5ad80075015191a17bfa8193264ae5f7c229f0bd0010dca1a5",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_no_7",
+      "length": 4713,
+      "sha256": "8ad4ec4262f972737d819600ae486bbf896bbd380c0ac72a051fb6c4337254fb",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_no_8",
+      "length": 4713,
+      "sha256": "ab01381bb8f04ca1acd8b32e47a398ee07950da23b8e99df09987758bdca8f17",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    },
+    {
+      "name": "fantasy_no_9",
+      "length": 4713,
+      "sha256": "25ff20d747222fc2656d9c057a6d70bf2c12884b02c591a3ae0533fa0729a152",
+      "pleaseLogin": false,
+      "fantasyRows": 0,
+      "hasFantasy": false,
+      "hasFull": false
+    }
+  ]
+}

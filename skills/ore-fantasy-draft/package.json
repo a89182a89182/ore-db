@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "iconv-lite": "^0.7.2",
+    "javascript-lp-solver": "^1.0.3"
+  }
+}

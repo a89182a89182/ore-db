@@ -1,0 +1,130 @@
+<html><head>
+<meta http-equiv="Content-type"		content="text/html; charset=big5">
+<meta http-equiv="Pragma"			content="no-cache">
+<meta http-equiv="Cache-Control"	content="no-cache">
+<meta http-equiv="Expires"			content="-1">
+<meta property="og:title" content="菜鳥出頭天">
+<meta property="og:site_name" content="菜鳥出頭天">
+<meta property="og:image" content="http://tinygame.dyndns.org/ore/img/see.gif">
+<meta property="og:type" content="game">
+<meta property="og:url" content="http://tinygame.dyndns.org/ore/ore.cgi">
+<meta property="fb:admins" content="494159037274208"/>
+<meta property="fb:app_id" content="321801321">
+<title>菜鳥出頭天 - 有 4 隻菜鳥正在線上</title>
+<link rel="shortcut icon" href="css/favicon2.ico">
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<STYLE type="text/css">
+input,select	{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#000000'; BORDER:'1 SOLID:000000'; background-color:'#D1D1FF'; }
+input.vito		{ font-size:12px; font-weight:BOLD; }
+textarea		{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#000000'; BORDER:'1 SOLID:000000'; background-color:'#D1D1FF'; }
+body			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; }
+tr				{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; }
+tr.head			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; font-weight:BOLD; text-align:CENTER; }
+td,th			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; white-space:nowrap; }
+td.broadcast	{ font-size:12px; white-space:normal; font-family:Tahoma,Verdana,微軟正黑體; }
+td.histitle		{ font-size:20px; font-weight:BOLD; }
+.score			{ font-family:Tahoma,Verdana,Calibri,微軟正黑體; font-size:14px; color:'#D1D1FF'; background-color:'#008800'; }
+td.tq			{ font-family:Verdana; font-weight:BOLD; }
+.tX				{ font-family:Verdana; font-size:9px; font-weight:NORMAL; }
+</STYLE>
+
+<script type="text/javascript" src="include/sorttable.js"></script>
+<!-- script type="text/javascript" src="../jquery.tablesorter/jquery-latest.js"></script -->
+<!-- script type="text/javascript" src="../jquery.tablesorter/jquery.tablesorter.js"></script -->
+
+</head><center>
+<body style="margin-top:12px;">
+<P style="margin-top:28px;"><font style="font-size:40px; font-weight:BOLD; color:#3333DD;">球隊排行榜</font></P>
+<script language="JavaScript">
+function showRanking(value1) {
+	document.form1.no.value=value1;
+	document.form1.submit();
+}
+</script>
+<!-- FORM -->
+<form name='form1' action="ore.cgi" method="POST">
+<input type='hidden' name='league_rank' value='查詢資料'>
+<input type='hidden' name='no' value='0'>
+中華聯盟：
+<input type='button' class='vito' name='button' onClick="showRanking(0);" value='球隊排行榜'>
+<input type='button' class='vito' name='button' onClick="showRanking(1);" value='野手排行榜'>
+<input type='button' class='vito' name='button' onClick="showRanking(2);" value='投手排行榜'><BR>
+台灣聯盟：
+<input type='button' class='vito' name='button' onClick="showRanking(3);" value='球隊排行榜'>
+<input type='button' class='vito' name='button' onClick="showRanking(4);" value='野手排行榜'>
+<input type='button' class='vito' name='button' onClick="showRanking(5);" value='投手排行榜'><BR>
+</form>
+<table border=1 cellspacing=0 cellpadding=2 width="1000" bgcolor='#FFFFFF'>
+<tr align="center" bgcolor='#99CCFF'><td width=5%>排名</td><td width=15%>球隊</td><td>上季</td><td>已賽</td><td>勝場</td><td>敗場</td><td>和場</td><td>連勝</td><td>勝率</td><td>打率</td><td>防率</td><td>得率</td><td>本打</td><td>盜壘</td><td>失誤</td>
+</tr>
+<tr align="center" style="font-size:18px;"><td>1</td>
+<td style="color:#E3D246;background:#047D68;">年代勇士</td><td>2</td><td><font color="FF0000"><b>140</b></font></td><td>104</td><td>35</td><td>1</td><td>12</td><td>0.748</td><td>0.278</td><td>2.41</td><td>5.6</td><td>258</td><td>38</td><td>26</td></tr>
+<tr align="center" style="font-size:18px;"><td>2</td>
+<td style="color:#CC0000;background:#6CA96E;">興農牛隊</td><td><b><font color="FD57BF">1</font></b></td><td><font color="FF0000"><b>140</b></font></td><td>90</td><td>48</td><td>2</td><td>7</td><td>0.652</td><td>0.259</td><td>2.62</td><td>4.5</td><td>223</td><td>5</td><td>13</td></tr>
+<tr align="center" style="font-size:18px;"><td>3</td>
+<td style="color:#000000;background:#FF5A01;">誠泰Cobras</td><td>3</td><td><font color="FF0000"><b>140</b></font></td><td>81</td><td>55</td><td>4</td><td>7</td><td>0.596</td><td>0.255</td><td>3.75</td><td>4.4</td><td>220</td><td>2</td><td>25</td></tr>
+<tr align="center" style="font-size:18px;"><td>4</td>
+<td style="color:#FFFFFF;background:#0024D0;">三商虎隊</td><td>4</td><td><font color="FF0000"><b>140</b></font></td><td>82</td><td>56</td><td>2</td><td>8</td><td>0.594</td><td>0.264</td><td>3.40</td><td>4.8</td><td>159</td><td>27</td><td>9</td></tr>
+<tr align="center" style="font-size:18px;"><td>5</td>
+<td style="color:#EE0000;background:#000000;">時報鷹隊</td><td>5</td><td><font color="FF0000"><b>140</b></font></td><td>28</td><td>108</td><td>4</td><td>3</td><td>0.206</td><td>0.217</td><td>4.69</td><td>1.7</td><td>40</td><td>52</td><td>26</td></tr>
+<tr align="center" style="font-size:18px;"><td>6</td>
+<td style="color:#000000;background:#FFF700;">兄弟象隊</td><td>6</td><td><font color="FF0000"><b>140</b></font></td><td>27</td><td>110</td><td>3</td><td>3</td><td>0.197</td><td>0.229</td><td>5.46</td><td>2.2</td><td>64</td><td>33</td><td>39</td></tr>
+</table><br>
+<table border="1" align="center" cellspacing=0 cellpadding=2 width='1000'>
+<Tr><td Align=center colspan=2>各隊對戰成績</Td>
+<Td Align="center" width=13% style="color:#000000;background:#FFF700;">vs 兄弟象隊</Td>
+<Td Align="center" width=13% style="color:#FFFFFF;background:#0024D0;">vs 三商虎隊</Td>
+<Td Align="center" width=13% style="color:#CC0000;background:#6CA96E;">vs 興農牛隊</Td>
+<Td Align="center" width=13% style="color:#000000;background:#FF5A01;">vs 誠泰Cobras</Td>
+<Td Align="center" width=13% style="color:#E3D246;background:#047D68;">vs 年代勇士</Td>
+<Td Align="center" width=13% style="color:#EE0000;background:#000000;">vs 時報鷹隊</Td></Tr>
+<Tr><Td Align="center" style="color:#000000;background:#FFF700;">兄弟象隊</Td><Td Align="center" bgcolor='#FFFFCC'><!--兄弟象隊--><B>27</B>勝 <B>110</B>敗 <B>3</B>和</Td><Td Align="center">─</Td><Td Align="center" BgColor=CCFFCC>5勝23敗0和</Td><Td Align="center" BgColor=CCFFCC>3勝25敗0和</Td><Td Align="center" BgColor=CCFFCC>4勝23敗1和</Td><Td Align="center" BgColor=CCFFCC>4勝23敗1和</Td><Td Align="center" BgColor=CCFFCC>11勝16敗1和</Td></Tr>
+<Tr><Td Align="center" style="color:#FFFFFF;background:#0024D0;">三商虎隊</Td><Td Align="center" bgcolor='#FFFFCC'><!--三商虎隊--><B>82</B>勝 <B>56</B>敗 <B>2</B>和</Td><Td Align="center" BgColor=FFCCCC>23勝5敗0和</Td><Td Align="center">─</Td><Td Align="center" BgColor=FFCCCC>15勝13敗0和</Td><Td Align="center" BgColor=CCFFCC>13勝14敗1和</Td><Td Align="center" BgColor=CCFFCC>7勝21敗0和</Td><Td Align="center" BgColor=FFCCCC>24勝3敗1和</Td></Tr>
+<Tr><Td Align="center" style="color:#CC0000;background:#6CA96E;">興農牛隊</Td><Td Align="center" bgcolor='#FFFFCC'><!--興農牛隊--><B>90</B>勝 <B>48</B>敗 <B>2</B>和</Td><Td Align="center" BgColor=FFCCCC>25勝3敗0和</Td><Td Align="center" BgColor=CCFFCC>13勝15敗0和</Td><Td Align="center">─</Td><Td Align="center" BgColor=FFCCCC>15勝12敗1和</Td><Td Align="center" BgColor=CCFFCC>11勝17敗0和</Td><Td Align="center" BgColor=FFCCCC>26勝1敗1和</Td></Tr>
+<Tr><Td Align="center" style="color:#000000;background:#FF5A01;">誠泰Cobras</Td><Td Align="center" bgcolor='#FFFFCC'><!--誠泰Cobras--><B>81</B>勝 <B>55</B>敗 <B>4</B>和</Td><Td Align="center" BgColor=FFCCCC>23勝4敗1和</Td><Td Align="center" BgColor=FFCCCC>14勝13敗1和</Td><Td Align="center" BgColor=CCFFCC>12勝15敗1和</Td><Td Align="center">─</Td><Td Align="center" BgColor=CCFFCC>11勝17敗0和</Td><Td Align="center" BgColor=FFCCCC>21勝6敗1和</Td></Tr>
+<Tr><Td Align="center" style="color:#E3D246;background:#047D68;">年代勇士</Td><Td Align="center" bgcolor='#FFFFCC'><!--年代勇士--><B>104</B>勝 <B>35</B>敗 <B>1</B>和</Td><Td Align="center" BgColor=FFCCCC>23勝4敗1和</Td><Td Align="center" BgColor=FFCCCC>21勝7敗0和</Td><Td Align="center" BgColor=FFCCCC>17勝11敗0和</Td><Td Align="center" BgColor=FFCCCC>17勝11敗0和</Td><Td Align="center">─</Td><Td Align="center" BgColor=FFCCCC>26勝2敗0和</Td></Tr>
+<Tr><Td Align="center" style="color:#EE0000;background:#000000;">時報鷹隊</Td><Td Align="center" bgcolor='#FFFFCC'><!--時報鷹隊--><B>28</B>勝 <B>108</B>敗 <B>4</B>和</Td><Td Align="center" BgColor=FFCCCC>16勝11敗1和</Td><Td Align="center" BgColor=CCFFCC>3勝24敗1和</Td><Td Align="center" BgColor=CCFFCC>1勝26敗1和</Td><Td Align="center" BgColor=CCFFCC>6勝21敗1和</Td><Td Align="center" BgColor=CCFFCC>2勝26敗0和</Td><Td Align="center">─</Td></Tr>
+</Table>
+<BR><BR>
+
+
+
+</form><form action="ore.cgi" method="POST">
+<input type=hidden name=hello value=1782473708>
+
+
+<table border="0" cellspacing="1" cellpadding="3" bgcolor="#000000">
+<tr>
+<td bgcolor="#FFFFFF">
+<input class="vito" style="background-color:#000000; color:#FFFFFF;" type="submit" name="tohome"		value="首頁">
+<input class="vito" style="background-color:#9900CC; color:#FFFFFF;" type="submit" name="league_rank"	value="本季排行">
+<input class="vito" style="background-color:#9900CC; color:#FFFFFF;" type="submit" name="kiroku"		value="歷史記錄">
+<input class="vito" style="background-color:#9900CC; color:#FFFFFF;" type="submit" name="kiroky"		value="球員記錄">
+<input class="vito" style="background-color:#9900CC; color:#FFFFFF;" type="submit" name="others"		value="其他記錄">
+
+<input class="vito" style="background-color:#003399; color:#FFFFFF;" type="submit" name="kakunin"		value="戰力分析">
+<input class="vito" style="background-color:#003399; color:#FFFFFF;" type="submit" name="kakuninn"		value="陣容介紹">
+<input class="vito" style="background-color:#FF3399; color:#FFFFFF;" type="submit" name="fantasy"		value="夢幻球隊">
+<input class="vito" style="background-color:#FF6600; color:#FFFFFF;" type="submit" name="lotto"			value="樂透661">
+<input class="vito" style="background-color:#00CC00; color:#FFFFFF;" type="submit" name="ourteam"		value="球團專區">
+
+<input class="vito" style="background-color:#999999; color:#FFFFFF;" type="submit" name="sukinselect"	value="設定">
+<input class="vito" style="background-color:#999999; color:#FFFFFF;" type="submit" name="rule"			value="規則">
+<input class="vito" type="button" name="facebook"		value="ＦＢ" onClick="window.open('https://www.facebook.com/groups/187598557927304');"
+style="font-weight:BOLD; background-color:#3333FF; color:#FFFFFF;" />
+</td></td></tr></table></form>
+</center>
+<div align="center" style="font-size:11px;">
+
+[LD=<B>4</B>,KS=<B>4</B>] 現在時間 <B>06/26 (五) 19:35</B> (<B>1782473708</B>) 來自 <B>1.173.147.121</B> 域名 <B>1-173-147-121.dynamic-ip.hinet.net</B>
+系統 CPU(<B>0.08</B>) = USER(<B>0.06</B>) + SYSTEM(<B>0.01</B>)<BR>
+<a name="PAGEBOTTOM"><a
+href="http://woodman.s31.xrea.com/" target="_blank">原始碼：野球人２ ver 1.75b (Free)</a>／<a
+href="http://osktaka.in.coocan.jp/" target="_blank">改造元：劇空間２ ver 3.00b (Free)</a
+>／中文化：SETTV(2005/07/03)<BR>
+
+
+
+
+
+</div><BR></body></html>
